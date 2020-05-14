@@ -10,11 +10,12 @@ def dnanaareiwit():
 
     :return: Webpagina van dnanaareiwit.html weergeven
     """
-    seq = request.args.get("seq",'')
+    seq = request.args.get("seq", '')
     # seq.lower, zodat de sequentie zowel groot als klein ingevoerd kan worden
     eiwit = eiwitje(seq.lower())
 
     return render_template("dnanaareiwit.html", seq=eiwit)
+
 
 def eiwitje(seq):
     """
@@ -40,6 +41,7 @@ def eiwitje(seq):
             'gta': 'V', 'gca': 'A', 'gaa': 'E', 'gga': 'G',
             'gtg': 'V', 'gcg': 'A', 'gag': 'E', 'ggg': 'G'
             }
+    
     try:
         if len(seq)==0:
             eiwit = "Geef goede sequentie"
