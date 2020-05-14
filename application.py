@@ -1,22 +1,26 @@
+#!/usr/bin/env python3
+# coding=utf-8
+"""TODO: fil this in
+"""
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
 
 @app.route('/')
-def dnanaareiwit():
-
+def dna_naar_eiwit():
     """
 
     :return: Webpagina van dnanaareiwit.html weergeven
     """
-    seq = request.args.get("seq",'')
+    seq = request.args.get("seq", '')
     # seq.lower, zodat de sequentie zowel groot als klein ingevoerd kan worden
     eiwit = eiwitje(seq.lower())
 
     return render_template("dnanaareiwit.html", seq=eiwit)
 
-def eiwitje(seq):
+
+def eiwitje(seq: str) -> str:
     """
 
     :param seq: De ingevoerde string van de webpagina
@@ -40,22 +44,22 @@ def eiwitje(seq):
             'gta': 'V', 'gca': 'A', 'gaa': 'E', 'gga': 'G',
             'gtg': 'V', 'gcg': 'A', 'gag': 'E', 'ggg': 'G'
             }
+    eiwit = ''
     try:
-        if len(seq)==0:
+        if len(seq) == 0:
             eiwit = "Geef goede sequentie"
 
         elif len(seq)/3 != float(len(seq)/3):
             eiwit = "Lengte sequentie is niet deelbaar door 3"
         else:
             dna = True
-            for s in seq:
-                if s not in ["a","t","g","c"]:
+            for s in seq.lower():
+                if s not in ["a", "t", "g", "c"]:
                     dna = False
                     eiwit = "sequentie bestaat niet uit a, g, c of t"
 
             if dna:
                 try:
-                    eiwit = ""
                     for i in range(0, len(seq), 3):
                         eiwit += (code[seq[i:(i + 3)]])
                 except IndexError:

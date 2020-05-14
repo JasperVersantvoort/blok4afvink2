@@ -16,11 +16,11 @@ from Bio.Blast.NCBIWWW import qblast
 def data_printer(blast_record, e_value_thresh=0.04, line_len=80) -> str:
     # noinspection SpellCheckingInspection
     """prints the results.
-            :param line_len: The max length of the sequence lines. (Min 4)
-            :param blast_record: NCBIXML.parse(result_handle).
-            :param e_value_thresh: Treshold of e_value above which the results are not printed.
-            :return: str - A textblock
-            """
+    :param line_len: The max length of the sequence lines. (Min 4)
+    :param blast_record: NCBIXML.parse(result_handle).
+    :param e_value_thresh: Treshold of e_value above which the results are not printed.
+    :return: str - A textblock
+    """
     alignments = ''
     if line_len > 3:
         line_len -= 3
@@ -47,7 +47,7 @@ def data_printer(blast_record, e_value_thresh=0.04, line_len=80) -> str:
 def bio_blaster(
         input_file: str, file_format: str, output_file: str, index: str = None,
         program='blastn', database='nt', gi_format=True, size=10
-):
+) -> str:
     """Blasting sort of automated.
     :param input_file: The file path which file contains a/the sequence that is to be blasted.
     :param file_format: The format of the input_file.
@@ -59,27 +59,34 @@ def bio_blaster(
     :param size: The amount of results to request.
     :return: 'result_handle_bak', not sure if this data can be used.
     """
+    from time import sleep
     record_dict = SeqIO.index(input_file, format=file_format)
     if index is not None:
-        record = record_dict[index]
+        record = [record_dict[index].format("fasta")]
     else:
-        record = record_dict
+        record = []
+        for seq in record_dict:
+            record.append(record_dict[seq].format("fasta"))
     del record_dict
-    if program == 'blastn':
-        result_handle = qblast(     # blastn has the option 'megablast' which the others do not.
-            program='blastn', database=database, sequence=record.format("fasta"),
-            ncbi_gi=gi_format, hitlist_size=size, megablast=False
-        )
-    else:
-        result_handle = qblast(     # The actual blasting
-            program=program, database=database, sequence=record.format("fasta"),
-            ncbi_gi=gi_format, hitlist_size=size
-        )
-    result_handle_bak = result_handle   # Backup, may not be usefull
-    with open(output_file, "w") as out_handle:  # Saving the results
-        out_handle.write(result_handle.read())
+    result_handle_store = ''
+    for req in record:
+        if index is None:
+            sleep(0.4)
+        if program == 'blastn':
+            result_handle = qblast(     # blastn has the option 'megablast' which the others do not.
+                program='blastn', database=database, sequence=req,
+                ncbi_gi=gi_format, hitlist_size=size, megablast=False
+            )
+        else:
+            result_handle = qblast(     # The actual blasting
+                program=program, database=database, sequence=req,
+                ncbi_gi=gi_format, hitlist_size=size
+            )
+        result_handle_store += result_handle.read()
         result_handle.close()   # The result handle is like an open file and must be closed.
-    return result_handle_bak
+    with open(output_file + '.xml', "w") as out_handle:  # Saving the results
+        out_handle.write(result_handle_store)
+    return result_handle_store
 
 
 def biopython_use(
