@@ -13,34 +13,35 @@ from Bio.Blast.NCBIWWW import qblast
 # print(help(qblast))
 
 
-def data_printer(blast_record, e_value_thresh=0.04, line_len=80):
+def data_printer(blast_record, e_value_thresh=0.04, line_len=80) -> str:
     # noinspection SpellCheckingInspection
-    """
+    """prints the results.
             :param line_len: The max length of the sequence lines. (Min 4)
             :param blast_record: NCBIXML.parse(result_handle).
             :param e_value_thresh: Treshold of e_value above which the results are not printed.
-            :return: None.
+            :return: str - A textblock
             """
+    alignments = ''
     if line_len > 3:
         line_len -= 3
     else:
-        print("Error in 'data_printer()': param 'line_len' is too low. (min 4)")
-        return
-    for record in blast_record:
-        for alignment in record.alignments:
-            for hsp in alignment.hsps:
+        alignments = "Error in 'data_printer()': param 'line_len' is too low. (min 4)"
+        return alignments
+    for record in blast_record:     # All 1 records
+        for alignment in record.alignments:     # Each alignment
+            for hsp in alignment.hsps:  # hsp = ???
                 if hsp.expect < e_value_thresh:
-                    print("****Alignment****")
-                    print("sequence:", alignment.title)
-                    print("length:", alignment.length)
-                    print("e value:", hsp.expect)
+                    alignments += '****Alignment****\n'
+                    alignments += "sequence: " + alignment.title + '\n'
+                    alignments += "length: " + alignment.length + '\n'
+                    alignments += "e value: " + hsp.expect + '\n'
                     if len(hsp.query) > line_len:
-                        print(hsp.query[0:line_len] + "...")
-                        print(hsp.match[0:line_len] + "...")
-                        print(hsp.sbjct[0:line_len] + "...\n")
+                        alignments += hsp.query[0:line_len] + "...\n"
+                        alignments += hsp.match[0:line_len] + "...\n"
+                        alignments += hsp.sbjct[0:line_len] + "...\n\n"
                     else:
-                        print(f'{hsp.query}\n{hsp.match}\n{hsp.sbjct}\n')
-    return
+                        alignments += f'{hsp.query}\n{hsp.match}\n{hsp.sbjct}\n\n'
+    return alignments
 
 
 def bio_blaster(
@@ -65,26 +66,26 @@ def bio_blaster(
         record = record_dict
     del record_dict
     if program == 'blastn':
-        result_handle = qblast(
+        result_handle = qblast(     # blastn has the option 'megablast' which the others do not.
             program='blastn', database=database, sequence=record.format("fasta"),
             ncbi_gi=gi_format, hitlist_size=size, megablast=False
         )
     else:
-        result_handle = qblast(
+        result_handle = qblast(     # The actual blasting
             program=program, database=database, sequence=record.format("fasta"),
             ncbi_gi=gi_format, hitlist_size=size
         )
-    result_handle_bak = result_handle
-    with open(output_file, "w") as out_handle:
+    result_handle_bak = result_handle   # Backup, may not be usefull
+    with open(output_file, "w") as out_handle:  # Saving the results
         out_handle.write(result_handle.read())
-        result_handle.close()
+        result_handle.close()   # The result handle is like an open file and must be closed.
     return result_handle_bak
 
 
 def biopython_use(
         result_loc: str, get_data=False, large_job=True, input_file: str = None, file_format: str = None,
         index: str = None, print_results=False, e_value_thresh=0.04
-):
+) -> None:
     """Getting and/or printing results.
     :param result_loc: Where to store/get the results.
     :param get_data: Whether to blast or not.
@@ -116,8 +117,8 @@ def biopython_use(
                 output_file=result_loc,
                 index=index
             )
-    results = open(result_loc)
-    blast_records = NCBIXML.parse(results)
     if print_results:
-        data_printer(blast_record=blast_records, e_value_thresh=e_value_thresh)
+        results = open(result_loc)  # reopening the results for reading.
+        blast_records = NCBIXML.parse(results)
+        print(data_printer(blast_record=blast_records, e_value_thresh=e_value_thresh))
     return
