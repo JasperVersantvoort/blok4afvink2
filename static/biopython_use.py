@@ -1,52 +1,49 @@
 #!/usr/bin/env python3
 # coding=utf-8
-"""
-For doing blasting.
-"""
-# Bio = Biopython but Pycharm doesn't know.
-# noinspection PyPackageRequirements
+# noinspection SpellCheckingInspection
+"""For doing blasting.
 from Bio import SeqIO
-# noinspection PyPackageRequirements
 from Bio.Blast import NCBIXML
-# noinspection PyPackageRequirements
 from Bio.Blast.NCBIWWW import qblast
-# print(help(qblast))
+from time import time, sleep, gmtime
+"""
+from typing import Generator, Union
 
 
-def data_printer(blast_record, e_value_thresh=0.04, line_len=80) -> str:
+def data_printer(blast_record: Generator, e_value_thresh: Union[float, int] = 0.04, line_len: int = 80) -> str:
     # noinspection SpellCheckingInspection
     """prints the results.
     :param line_len: The max length of the sequence lines. (Min 4)
-    :param blast_record: NCBIXML.parse(result_handle).
+    :param blast_record: Generator = NCBIXML.parse(results)
     :param e_value_thresh: Treshold of e_value above which the results are not printed.
     :return: str - A textblock
     """
+    assert line_len > 3
     alignments = ''
-    if line_len > 3:
-        line_len -= 3
-    else:
-        alignments = "Error in 'data_printer()': param 'line_len' is too low. (min 4)"
-        return alignments
-    for record in blast_record:     # All 1 records
-        for alignment in record.alignments:     # Each alignment
-            for hsp in alignment.hsps:  # hsp = ???
-                if hsp.expect < e_value_thresh:
-                    alignments += '****Alignment****\n'
-                    alignments += "sequence: " + alignment.title + '\n'
-                    alignments += "length: " + alignment.length + '\n'
-                    alignments += "e value: " + hsp.expect + '\n'
-                    if len(hsp.query) > line_len:
-                        alignments += hsp.query[0:line_len] + "...\n"
-                        alignments += hsp.match[0:line_len] + "...\n"
-                        alignments += hsp.sbjct[0:line_len] + "...\n\n"
-                    else:
-                        alignments += f'{hsp.query}\n{hsp.match}\n{hsp.sbjct}\n\n'
+    line_len -= 3
+    try:
+        for record in blast_record:     # All 1 records
+            for alignment in record.alignments:     # Each alignment
+                for hsp in alignment.hsps:  # hsp = ???
+                    if hsp.expect < e_value_thresh:
+                        alignments += '****Alignment****\n'
+                        alignments += "sequence: " + alignment.title + '\n'
+                        alignments += "length: " + alignment.length + '\n'
+                        alignments += "e value: " + hsp.expect + '\n'
+                        if len(hsp.query) > line_len:
+                            alignments += hsp.query[0:line_len] + "...\n"
+                            alignments += hsp.match[0:line_len] + "...\n"
+                            alignments += hsp.sbjct[0:line_len] + "...\n\n"
+                        else:
+                            alignments += f'{hsp.query}\n{hsp.match}\n{hsp.sbjct}\n\n'
+    except TypeError or AttributeError:
+        alignments = "Error in 'data_printer()': param 'blast_record' is malformed."
     return alignments
 
 
 def bio_blaster(
-        input_file: str, file_format: str, output_file: str, index: str = None,
-        program='blastn', database='nt', gi_format=True, size=10
+        input_file: str, file_format: str, output_file: str, index: Union[str, None] = None,
+        program: str = 'blastn', database: str = 'nt', gi_format: Union[bool, None] = True, size: int = 10
 ) -> str:
     """Blasting sort of automated.
     :param input_file: The file path which file contains a/the sequence that is to be blasted.
@@ -59,8 +56,24 @@ def bio_blaster(
     :param size: The amount of results to request.
     :return: 'result_handle_bak', not sure if this data can be used.
     """
+    assert file_format in [     # https://biopython.org/wiki/SeqIO
+        'abi', 'abi-trim', 'ace', 'cif-atom', 'cif-seqres', 'clustal', 'embl', 'fasta', 'fasta-2line', 'fastq-sanger',
+        'fastq', 'fastq-solexa', 'fastq-illumina', 'gck', 'genbank', 'gb', 'ig', 'imgt', 'nexus', 'pdb-seqres',
+        'pdb-atom', 'phd', 'phylip', 'pir', 'seqxml', 'sff', 'sff-trim', 'snapgene', 'stockholm', 'swiss', 'tab',
+        'qual', 'uniprot-xml', 'xdna'
+    ]
+    assert program in [     # https://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc92
+        'blastn', 'blastp', 'blastx', 'tblast', 'tblastx'
+    ]
+    assert size > 0
+    # Bio = Biopython but Pycharm doesn't know.
+    # noinspection PyPackageRequirements
+    from Bio import SeqIO
+    # noinspection PyPackageRequirements
+    from Bio.Blast.NCBIWWW import qblast
     from time import sleep
     record_dict = SeqIO.index(input_file, format=file_format)
+    assert index in record_dict.keys()
     if index is not None:
         record = [record_dict[index].format("fasta")]
     else:
@@ -72,16 +85,9 @@ def bio_blaster(
     for req in record:
         if index is None:
             sleep(0.4)
-        if program == 'blastn':
-            result_handle = qblast(     # blastn has the option 'megablast' which the others do not.
-                program='blastn', database=database, sequence=req,
-                ncbi_gi=gi_format, hitlist_size=size, megablast=False
-            )
-        else:
-            result_handle = qblast(     # The actual blasting
-                program=program, database=database, sequence=req,
-                ncbi_gi=gi_format, hitlist_size=size
-            )
+        result_handle = qblast(     # The actual blasting see print(help(qblast))
+            program=program, database=database, sequence=req, ncbi_gi=gi_format, hitlist_size=size, megablast=False
+        )
         result_handle_store += result_handle.read()
         result_handle.close()   # The result handle is like an open file and must be closed.
     with open(output_file + '.xml', "w") as out_handle:  # Saving the results
@@ -90,8 +96,9 @@ def bio_blaster(
 
 
 def biopython_use(
-        result_loc: str, get_data=False, large_job=True, input_file: str = None, file_format: str = None,
-        index: str = None, print_results=False, e_value_thresh=0.04
+        result_loc: str, get_data: bool = False, large_job: bool = True, input_file: Union[str, None] = None,
+        file_format: Union[str, None] = None, index: Union[str, None] = None, print_results: bool = False,
+        e_value_thresh: Union[float, int] = 0.04
 ) -> None:
     """Getting and/or printing results.
     :param result_loc: Where to store/get the results.
@@ -125,6 +132,9 @@ def biopython_use(
                 index=index
             )
     if print_results:
+        # Bio = Biopython but Pycharm doesn't know.
+        # noinspection PyPackageRequirements
+        from Bio.Blast import NCBIXML
         results = open(result_loc)  # reopening the results for reading.
         blast_records = NCBIXML.parse(results)
         print(data_printer(blast_record=blast_records, e_value_thresh=e_value_thresh))
