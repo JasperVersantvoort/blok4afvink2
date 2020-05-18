@@ -24,7 +24,7 @@ def data_printer(blast_record: Generator, e_value_thresh: Union[float, int] = 0.
     try:
         for record in blast_record:     # All 1 records
             for alignment in record.alignments:     # Each alignment
-                for hsp in alignment.hsps:  # hsp = ???
+                for hsp in alignment.hsps:
                     if hsp.expect < e_value_thresh:
                         alignments += '****Alignment****\n'
                         alignments += "sequence: " + alignment.title + '\n'
@@ -56,15 +56,17 @@ def bio_blaster(
     :param size: The amount of results to request.
     :return: 'result_handle_bak', not sure if this data can be used.
     """
-    assert file_format in [     # https://biopython.org/wiki/SeqIO
+    # noinspection SpellCheckingInspection
+    assert file_format in (  # https://biopython.org/wiki/SeqIO
         'abi', 'abi-trim', 'ace', 'cif-atom', 'cif-seqres', 'clustal', 'embl', 'fasta', 'fasta-2line', 'fastq-sanger',
         'fastq', 'fastq-solexa', 'fastq-illumina', 'gck', 'genbank', 'gb', 'ig', 'imgt', 'nexus', 'pdb-seqres',
         'pdb-atom', 'phd', 'phylip', 'pir', 'seqxml', 'sff', 'sff-trim', 'snapgene', 'stockholm', 'swiss', 'tab',
         'qual', 'uniprot-xml', 'xdna'
-    ]
-    assert program in [     # https://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc92
+    )
+    # noinspection SpellCheckingInspection
+    assert program in (  # https://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc92
         'blastn', 'blastp', 'blastx', 'tblast', 'tblastx'
-    ]
+    )
     assert size > 0
     # Bio = Biopython but Pycharm doesn't know.
     # noinspection PyPackageRequirements
