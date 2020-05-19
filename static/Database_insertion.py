@@ -19,6 +19,7 @@ def connector(
     :return: If fetch is True the collected output else ''.
     """
     import mysql.connector
+    conn = None
     try:
         conn = mysql.connector.connect(host=host, user=user, passwd=password, db=db)
         del password
@@ -32,9 +33,11 @@ def connector(
             fetch = ''
     except mysql.connector.Error as error:
         print(error)
-        return ''
-    cursor.close()
-    conn.close()
+    finally:
+        try:
+            conn.close()
+        except AttributeError:
+            return ''
     return fetch
 
 
@@ -49,22 +52,22 @@ def xml_to_database(xml_file: str) -> None:
     # noinspection SqlNoDataSourceInspection
     codes = connector(
         host='', db='', user='', password='',
-        command='select Hit_id from data', fetch=True
+        command='select title from results', fetch=True
     )
     with open(xml_file, 'r') as xml:
         blast_record = NCBIXML.parse(xml)
         try:
             for record in blast_record:
                 for alignment in record.alignments:     # Each alignment
-                    if alignment.Hit_id not in codes:
+                    if alignment.title not in codes:
                         for hsp in alignment.hsps:
                             # noinspection SqlNoDataSourceInspection
                             connector(
                                 host='', db='', user='', password='',
-                                command='INSERT INTO data '
-                                        '(Hit_id, title, length, "e-value", query, match, subject)'
+                                command='INSERT INTO results '
+                                        '(title, length, "e_value", query, match, subject)'
                                         ' VALUES '
-                                        f'({alignment.Hit_id}, {alignment.title}, {alignment.length}, {hsp.expect}, '
+                                        f'({alignment.title}, {alignment.length}, {hsp.expect}, '
                                         f'{hsp.query}, {hsp.match}, {hsp.sbjct})', commit=True
                             )
         except TypeError or AttributeError:

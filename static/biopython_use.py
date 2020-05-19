@@ -7,7 +7,7 @@ from Bio.Blast import NCBIXML
 from Bio.Blast.NCBIWWW import qblast
 from time import time, sleep, gmtime
 """
-from typing import Generator, Union
+from typing import Generator, Union, Optional
 
 
 def data_printer(blast_record: Generator, e_value_thresh: Union[float, int] = 0.04, line_len: int = 80) -> str:
@@ -18,6 +18,7 @@ def data_printer(blast_record: Generator, e_value_thresh: Union[float, int] = 0.
     :param e_value_thresh: Treshold of e_value above which the results are not printed.
     :return: str - A textblock
     """
+    assert e_value_thresh > 0
     assert line_len > 3
     alignments = ''
     line_len -= 3
@@ -42,8 +43,8 @@ def data_printer(blast_record: Generator, e_value_thresh: Union[float, int] = 0.
 
 
 def bio_blaster(
-        input_file: str, file_format: str, output_file: str, index: Union[str, None] = None,
-        program: str = 'blastn', database: str = 'nt', gi_format: Union[bool, None] = True, size: int = 10
+        input_file: str, file_format: str, output_file: str, index: Optional[str] = None,
+        program: str = 'blastn', database: str = 'nt', gi_format: bool = True, size: int = 10
 ) -> str:
     """Blasting sort of automated.
     :param input_file: The file path which file contains a/the sequence that is to be blasted.
@@ -98,8 +99,8 @@ def bio_blaster(
 
 
 def biopython_use(
-        result_loc: str, get_data: bool = False, large_job: bool = True, input_file: Union[str, None] = None,
-        file_format: Union[str, None] = None, index: Union[str, None] = None, print_results: bool = False,
+        result_loc: str, get_data: bool = False, large_job: bool = True, input_file: Optional[str] = None,
+        file_format: Optional[str] = None, index: Optional[str] = None, print_results: bool = False,
         e_value_thresh: Union[float, int] = 0.04
 ) -> None:
     """Getting and/or printing results.
@@ -113,6 +114,7 @@ def biopython_use(
     :param e_value_thresh: if print_results is True; Threshold of e_value above which the results are not printed.
     :return: None.
     """
+    assert e_value_thresh > 0 or not print_results
     if get_data:
         # https://www.ncbi.nlm.nih.gov/books/NBK25497/#chapter2.Usage_Guidelines_and_Requiremen
         from time import time, sleep, gmtime
@@ -141,3 +143,11 @@ def biopython_use(
         blast_records = NCBIXML.parse(results)
         print(data_printer(blast_record=blast_records, e_value_thresh=e_value_thresh))
     return
+
+
+"""
+    biopython_use(
+        result_loc='/static/results.xml', get_data=True, large_job=False, input_file='Course4_dataset_v04_mod.fastq',
+        file_format='fastq', index=None, print_results=True, e_value_thresh=0.04
+    )
+"""
