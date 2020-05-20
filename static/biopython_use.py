@@ -45,7 +45,7 @@ def data_printer(blast_record: Generator, e_value_thresh: Union[float, int] = 0.
 def bio_blaster(
         input_file: str, file_format: str, output_file: str, index: Optional[str] = None,
         program: str = 'blastn', database: str = 'nt', gi_format: bool = True, size: int = 10
-) -> str:
+) -> int:
     """Blasting sort of automated.
     :param input_file: The file path which file contains a/the sequence that is to be blasted.
     :param file_format: The format of the input_file.
@@ -55,7 +55,7 @@ def bio_blaster(
     :param database: Which database to use.
     :param gi_format: Whether to request the gi_format.
     :param size: The amount of results to request.
-    :return: 'result_handle_bak', not sure if this data can be used.
+    :return: Number of files made.
     """
     # noinspection SpellCheckingInspection
     assert file_format in (  # https://biopython.org/wiki/SeqIO
@@ -69,43 +69,39 @@ def bio_blaster(
         'blastn', 'blastp', 'blastx', 'tblast', 'tblastx'
     )
     assert size > 0
+    if output_file[-4:] == '.xml':
+        output_file = output_file[:-4]
     # Bio = Biopython but Pycharm doesn't know.
     # noinspection PyPackageRequirements
     from Bio import SeqIO
     # noinspection PyPackageRequirements
     from Bio.Blast.NCBIWWW import qblast
-    from time import sleep
     record_dict = SeqIO.index(input_file, format=file_format)
-    assert index in record_dict.keys()
+    record: str = ''
+    count: int = 1
     if index is not None:
-        record = [record_dict[index].format("fasta")]
+        assert index in record_dict.keys()
+        record = record_dict[index].format("fasta")
     else:
-        record = []
         for seq in record_dict:
-            record.append(record_dict[seq].format("fasta"))
+            record += record_dict[seq].format("fasta") + '\n'
     del record_dict
-    result_handle_store = ''
-    for req in record:
-        if index is None:
-            sleep(0.4)
-        result_handle = qblast(     # The actual blasting see print(help(qblast))
-            program=program, database=database, sequence=req, ncbi_gi=gi_format, hitlist_size=size, megablast=False
-        )
-        result_handle_store += result_handle.read()
-        result_handle.close()   # The result handle is like an open file and must be closed.
-    with open(output_file + '.xml', "w") as out_handle:  # Saving the results
-        out_handle.write(result_handle_store)
-    return result_handle_store
+    result_handle = qblast(     # The actual blasting see print(help(qblast))
+        program=program, database=database, sequence=record, ncbi_gi=gi_format, hitlist_size=size, megablast=False
+    )
+    with open(output_file + '.xml', "a") as out_handle:  # Saving the results
+        out_handle.write(result_handle.read())
+    result_handle.close()   # The result handle is like an open file and must be closed.
+    return count
 
 
 def biopython_use(
-        result_loc: str, get_data: bool = False, large_job: bool = True, input_file: Optional[str] = None,
+        result_loc: str, large_job: bool = True, input_file: Optional[str] = None,
         file_format: Optional[str] = None, index: Optional[str] = None, print_results: bool = False,
         e_value_thresh: Union[float, int] = 0.04
 ) -> None:
     """Getting and/or printing results.
     :param result_loc: Where to store/get the results.
-    :param get_data: Whether to blast or not.
     :param large_job: Check whether you are allowed to do large jobs.
     :param input_file: The file path which file contains a/the sequence that is to be blasted.
     :param file_format: The format of the input_file.
@@ -114,10 +110,15 @@ def biopython_use(
     :param e_value_thresh: if print_results is True; Threshold of e_value above which the results are not printed.
     :return: None.
     """
+    from os.path import isdir
     assert e_value_thresh > 0 or not print_results
-    if get_data:
-        # https://www.ncbi.nlm.nih.gov/books/NBK25497/#chapter2.Usage_Guidelines_and_Requiremen
+    assert isdir(result_loc)
+    if input_file is not None:
         from time import time, sleep, gmtime
+        if result_loc[-1:] == '/':
+            result_loc = result_loc[:-1]
+        result_loc += '/results.xml'
+        # https://www.ncbi.nlm.nih.gov/books/NBK25497/#chapter2.Usage_Guidelines_and_Requiremen
         sleep(0.4)  # post no more than three URL requests per second
         if large_job:  # Limit large jobs to either weekends or in between 9:00 PM to 5:00 AM (EST).
             job_time = gmtime(time())
@@ -125,29 +126,27 @@ def biopython_use(
                 # noinspection SpellCheckingInspection
                 bio_blaster(
                     input_file=input_file, file_format=file_format,
-                    output_file=result_loc,
-                    index=index
+                    output_file=result_loc, index=index
                 )
             del job_time
         else:
             bio_blaster(
                 input_file=input_file, file_format=file_format,
-                output_file=result_loc,
-                index=index
+                output_file=result_loc, index=index
             )
     if print_results:
         # Bio = Biopython but Pycharm doesn't know.
         # noinspection PyPackageRequirements
         from Bio.Blast import NCBIXML
-        results = open(result_loc)  # reopening the results for reading.
-        blast_records = NCBIXML.parse(results)
-        print(data_printer(blast_record=blast_records, e_value_thresh=e_value_thresh))
+        with open(result_loc, 'r') as results:   # reopening the results for reading.
+            blast_records = NCBIXML.parse(results)
+            print(data_printer(blast_record=blast_records, e_value_thresh=e_value_thresh))
     return
 
 
 """
-    biopython_use(
-        result_loc='/static/results.xml', get_data=True, large_job=False, input_file='Course4_dataset_v04_mod.fastq',
-        file_format='fastq', index=None, print_results=True, e_value_thresh=0.04
-    )
+biopython_use(
+    result_loc='static', large_job=False, input_file='Course4_dataset_v04_mod.fastq',
+    file_format='fastq', index=None, print_results=True, e_value_thresh=0.04
+)
 """
