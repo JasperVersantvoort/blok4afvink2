@@ -5,3 +5,4 @@ Jinja2>=2.10
 MarkupSafe==1.0
 Werkzeug==0.15.3
 biopython~=1.76
+mysql_connector_python~=8.0.20
