@@ -20,7 +20,9 @@ def dna_naar_eiwit():
     return render_template("dnanaareiwit.html", seq=eiwit)
 
 
+
 def eiwitje(seq: str) -> str:
+
     """
 
     :param seq: De ingevoerde string van de webpagina
@@ -44,7 +46,9 @@ def eiwitje(seq: str) -> str:
             'gta': 'V', 'gca': 'A', 'gaa': 'E', 'gga': 'G',
             'gtg': 'V', 'gcg': 'A', 'gag': 'E', 'ggg': 'G'
             }
+
     eiwit = ''
+
     try:
         if len(seq) == 0:
             eiwit = "Geef goede sequentie"
