@@ -51,8 +51,9 @@ def xml_to_database(xml_file: str) -> None:
     from Bio.Blast import NCBIXML
     # noinspection SqlNoDataSourceInspection
     codes = connector(
-        host='', db='', user='', password='',
-        command='select title from results', fetch=True
+        host='hannl-hlo-bioinformatica-mysqlsrv.mysql.database.azure.com', db='mlfrg',
+        user='mlfrg@hannl-hlo-bioinformatica-mysqlsrv', password='',
+        command='select acc_code from results', fetch=True
     )
     with open(xml_file, 'r') as xml:
         blast_record = NCBIXML.parse(xml)
@@ -63,12 +64,14 @@ def xml_to_database(xml_file: str) -> None:
                         for hsp in alignment.hsps:
                             # noinspection SqlNoDataSourceInspection
                             connector(
-                                host='', db='', user='', password='',
+                                host='hannl-hlo-bioinformatica-mysqlsrv.mysql.database.azure.com', db='mlfrg',
+                                user='mlfrg@hannl-hlo-bioinformatica-mysqlsrv', password='',
                                 command='INSERT INTO results '
-                                        '(title, length, "e_value", query, match, subject)'
+                                        '(acc_code, percent_identity, "e_value")'
                                         ' VALUES '
-                                        f'({alignment.title}, {alignment.length}, {hsp.expect}, '
-                                        f'{hsp.query}, {hsp.match}, {hsp.sbjct})', commit=True
+                                        f'({alignment.title}, '
+                                        f'{len(alignment.identities) / alignment.length}, '
+                                        f'{hsp.expect})', commit=True
                             )
         except TypeError or AttributeError:
             print("Did you use correct credentials?")
