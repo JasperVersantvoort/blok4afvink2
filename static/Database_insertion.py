@@ -1,5 +1,6 @@
 # Bin1d groep 3
 # XML data in database zetten
+# Voor branc 2
 import mysql.connector
 from xml.etree import ElementTree
 
