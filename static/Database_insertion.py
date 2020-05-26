@@ -1,78 +1,43 @@
-#!/usr/bin/env python3
-# coding=utf-8
-"""
-Putting xml files into the database.
-"""
+# Bin1d groep 3
+# XML data in database zetten
+import mysql.connector
+from xml.etree import ElementTree
 
 
-def connector(
-        host: str, db: str, user: str, password: str, command: str, fetch: bool = False, commit: bool = False
-) -> str:
-    """For the database operations
-    :param host: The host of the database.
-    :param db: The database to connect to.
-    :param user: The user to log in as.
-    :param password: Your password.
-    :param command: What command to execute.
-    :param fetch: Whether to collect the output.
-    :param commit: Whether to commit any made changes.
-    :return: If fetch is True the collected output else ''.
-    """
-    import mysql.connector
+def connector():
     conn = None
-    try:
-        conn = mysql.connector.connect(host=host, user=user, passwd=password, db=db)
-        del password
-        cursor = conn.cursor()
-        cursor.execute(command)
-        if commit:
-            conn.commit()
-        if fetch:
-            fetch = cursor.fetchall()
-        else:
-            fetch = ''
-    except mysql.connector.Error as error:
-        print(error)
-    finally:
-        try:
-            conn.close()
-        except AttributeError:
-            return ''
-    return fetch
+    # try:
+    conn = mysql.connector.connect(
+        host='hannl-hlo-bioinformatica-mysqlsrv.mysql.database.azure.com',
+        db='mlfrg',
+        user='mlfrg@hannl-hlo-bioinformatica-mysqlsrv',
+        password='chocolade45')
+    cursor = conn.cursor()
+    cursor.execute("select * from results")
+    rows = cursor.fetchall()
+    print(rows)
+    cursor.close()
+    conn.close()
 
 
-def xml_to_database(xml_file: str) -> None:
-    """TODO add database credentials and check contents.
-    :param xml_file: The file whose data is to be exported.
-    :return: None
-    """
-    # Bio = Biopython but Pycharm doesn't know.
-    # noinspection PyPackageRequirements
-    from Bio.Blast import NCBIXML
-    # noinspection SqlNoDataSourceInspection
-    codes = connector(
-        host='hannl-hlo-bioinformatica-mysqlsrv.mysql.database.azure.com', db='mlfrg',
-        user='mlfrg@hannl-hlo-bioinformatica-mysqlsrv', password='',
-        command='select acc_code from results', fetch=True
-    )
-    with open(xml_file, 'r') as xml:
-        blast_record = NCBIXML.parse(xml)
-        try:
-            for record in blast_record:
-                for alignment in record.alignments:     # Each alignment
-                    if alignment.title not in codes:
-                        for hsp in alignment.hsps:
-                            # noinspection SqlNoDataSourceInspection
-                            connector(
-                                host='hannl-hlo-bioinformatica-mysqlsrv.mysql.database.azure.com', db='mlfrg',
-                                user='mlfrg@hannl-hlo-bioinformatica-mysqlsrv', password='',
-                                command='INSERT INTO results '
-                                        '(acc_code, percent_identity, "e_value")'
-                                        ' VALUES '
-                                        f'({alignment.title}, '
-                                        f'{len(alignment.identities) / alignment.length}, '
-                                        f'{hsp.expect})', commit=True
-                            )
-        except TypeError or AttributeError:
-            print("Did you use correct credentials?")
-    return
+def open_xml(xml_file):
+
+
+    # Parse door xml file
+    par = ElementTree.parse(xml_file)
+    # hits = par.findall("/BlastOutput_iterations/Iteration/Iteration_hits/Hit")
+    hits = par.findall("./BlastOutput_iterations/Iteration/Iteration_hits/Hit")
+    print(hits)
+
+    # hits = find_hits()
+    # for regel in open_xml:
+    #     if regel.startswith('<!DOCTYPE'):
+
+
+def main():
+    xml_file = "results.xml"
+    test = connector()
+    open_xml(xml_file)
+
+
+main()
