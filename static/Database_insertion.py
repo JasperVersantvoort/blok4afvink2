@@ -4,14 +4,17 @@ import mysql.connector
 from xml.etree import ElementTree
 
 
-def connector():
+def connector(blast_version, header, hit_id, acc, perc, tscore,
+                          evalue, defen, qseq ):
+
     conn = mysql.connector.connect(
         host='hannl-hlo-bioinformatica-mysqlsrv.mysql.database.azure.com',
         db='mlfrg',
         user='mlfrg@hannl-hlo-bioinformatica-mysqlsrv',
         password='chocolade45')
     cursor = conn.cursor()
-    cursor.execute("select * from results")
+    cursor.execute(
+        "insert into research_sequence (sequence,score, header, `read`, plusorminux) values ('"qseq"', 0, "header", 1, 'plus');")
     rows = cursor.fetchall()
     cursor.close()
     conn.close()
@@ -24,11 +27,11 @@ def open_xml(xml_file):
     #queries = par.findall("./BlastOutput_iterations/Iteration/Iteration_hits")
     count = 1
     iteration = par.findall(path="./BlastOutput_iterations/Iteration")
+    blast_version = par.find("./BlastOutput_program").text
     for queries in iteration:
-        print('test code =', queries.find('Iteration_query-def').text)
+        header = queries.find('Iteration_query-def').text
         for hits in queries:
-            # print(count)
-            count += 1
+
             for hit in hits:
                 hit_id = hit.find("Hit_id")
                 defen = hit.find("Hit_def")
@@ -38,19 +41,26 @@ def open_xml(xml_file):
                 evalue = hit.find("Hit_hsps/Hsp/Hsp_evalue")
                 qseq = hit.find("Hit_hsps/Hsp/Hsp_qseq")
                 if hit_id is not None:
-                    print("hid_id = ", hit_id.text)
+                    hit_id = hit_id.text
                 if acc is not None:
-                    print("acc = ", acc.text)
+                    acc = acc.text
                 if perc is not None:
-                    print("perc = ", perc.text)
+                    perc = perc.text
                 if tscore is not None:
-                    print("tscore = ", tscore.text)
+                    tscore = tscore.text
                 if evalue is not None:
-                    print("evalue = ", evalue.text)
+                    evalue = evalue.text
                 if defen is not None:
-                    print("defen = ", defen.text)
+                    defen = defen.text
                 if qseq is not None:
-                    print("qseq = ", qseq.text)
+                    qseq = qseq.text
+
+                connector(blast_version, header, hit_id, acc, perc, tscore, evalue, defen, qseq)
+
+
+
+
+
 
 
                 # evalue = hit.find("Hit_hsps/Hsp/Hsp_evalue").text
@@ -58,8 +68,7 @@ def open_xml(xml_file):
 
 
 def main():
-    xml_file = "results.xml"
-    test = connector()
+    xml_file = "Tester.xml"
     open_xml(xml_file)
 
 
