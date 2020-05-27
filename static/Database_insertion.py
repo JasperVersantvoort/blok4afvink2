@@ -5,17 +5,57 @@ from xml.etree import ElementTree
 
 
 def connector(blast_version, header, hit_id, acc, perc, tscore,
-                          evalue, defen, qseq ):
-
+              evalue, defen, qseq):
     conn = mysql.connector.connect(
         host='hannl-hlo-bioinformatica-mysqlsrv.mysql.database.azure.com',
         db='mlfrg',
         user='mlfrg@hannl-hlo-bioinformatica-mysqlsrv',
         password='chocolade45')
     cursor = conn.cursor()
-    cursor.execute(
-        "insert into research_sequence (sequence,score, header, `read`, plusorminux) values ('"qseq"', 0, "header", 1, 'plus');")
-    rows = cursor.fetchall()
+
+    check_header_execute = "select header from research_sequence " \
+                           "where header = '" + header + "';"
+    cursor.execute(check_header_execute)
+    check = cursor.fetchall()
+
+    if len(check) == 0:
+        print("Nieuwe sequentie header: ", header)
+        if qseq is not None and header is not None:
+            execute_res_seq = "insert into research_sequence " \
+                              "(sequence,score, header, `read`, plusorminux) " \
+                              "values ('" + qseq + "',0, '" + header + "'," + \
+                              header[-1] + ", 'null')"
+
+            cursor.execute(execute_res_seq)
+            conn.commit()
+            cursor.close()
+            cursor = conn.cursor()
+            if perc is not None and acc is not None and evalue is not None and blast_version is not None and defen is not None:
+                res_seq_id_execute = "select id from research_sequence " \
+                                     "where header = '" + header + "'"
+                cursor.execute(res_seq_id_execute)
+                res_seq_id = cursor.fetchall()
+                execute_result = "insert into results (percent_identity, acc_code, e_value,total, max, research_sequence_id, blast_version, description)" \
+                                 " values (" + perc + ",'" + acc + "'," + evalue + ",0,0," + str(
+                    res_seq_id[0][
+                        0]) + ",'" + blast_version + "','" + defen + "');"
+                cursor.execute(execute_result)
+                conn.commit()
+
+    else:
+        if perc is not None and acc is not None and evalue is not None and blast_version is not None and defen is not None:
+            print(header, "hit", hit_id)
+            res_seq_id_execute = "select id from research_sequence " \
+                                 "where header = '" + header + "'"
+            cursor.execute(res_seq_id_execute)
+            res_seq_id = cursor.fetchall()
+            execute_result = "insert into results (percent_identity, acc_code, e_value,total, max, research_sequence_id, blast_version, description)" \
+                             " values (" + perc + ",'" + acc + "'," + evalue + ",0,0," + str(
+                res_seq_id[0][
+                    0]) + ",'" + blast_version + "','" + defen + "');"
+            cursor.execute(execute_result)
+            conn.commit()
+
     cursor.close()
     conn.close()
 
@@ -24,7 +64,7 @@ def open_xml(xml_file):
     # Parse door xml file
     par = ElementTree.parse(xml_file)
 
-    #queries = par.findall("./BlastOutput_iterations/Iteration/Iteration_hits")
+    # queries = par.findall("./BlastOutput_iterations/Iteration/Iteration_hits")
     count = 1
     iteration = par.findall(path="./BlastOutput_iterations/Iteration")
     blast_version = par.find("./BlastOutput_program").text
@@ -55,13 +95,8 @@ def open_xml(xml_file):
                 if qseq is not None:
                     qseq = qseq.text
 
-                connector(blast_version, header, hit_id, acc, perc, tscore, evalue, defen, qseq)
-
-
-
-
-
-
+                connector(blast_version, header, hit_id, acc, perc, tscore,
+                          evalue, defen, qseq)
 
                 # evalue = hit.find("Hit_hsps/Hsp/Hsp_evalue").text
                 # print("E value = ", evalue)
