@@ -22,6 +22,5 @@ def site_over_ons():
 def site_database():
     return render_template("database.html")
 
-
 if __name__ == '__main__':
     app.run()
