@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: mediumpurple;
+    background-color: white;
     color: black;
 }
 /*Dit komende stukje is voor de navagatiebalk bovenaan de paginas*/
@@ -19,7 +19,7 @@ body {
 
 .nav_links a {
   display: block;
-  color: purple;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;

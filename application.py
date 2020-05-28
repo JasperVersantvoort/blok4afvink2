@@ -7,7 +7,6 @@ app = Flask(__name__)
 def website():
     return render_template("project.html")
 
-
 @app.route('/project.html')
 def website_home():
     return render_template("project.html")
