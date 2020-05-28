@@ -1,6 +1,32 @@
 body {
     font-family: sans-serif;
-    background-color: white;
+    background-color: mediumpurple;
     color: black;
+}
+/*Dit komende stukje is voor de navagatiebalk bovenaan de paginas*/
+
+.navigatie {
+  list-style-type: none;
+    background-color: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav_links {
+  float: left;
+}
+
+.nav_links a {
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav_links
+a:hover:not(.active) {
+  background-color: #111;
 }
 
