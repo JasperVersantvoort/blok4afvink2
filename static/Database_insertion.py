@@ -30,31 +30,19 @@ def connector(blast_version, header, hit_id, acc, perc, tscore,
             conn.commit()
             cursor.close()
             cursor = conn.cursor()
-            if perc is not None and acc is not None and evalue is not None and blast_version is not None and defen is not None:
-                res_seq_id_execute = "select id from research_sequence " \
-                                     "where header = '" + header + "'"
-                cursor.execute(res_seq_id_execute)
-                res_seq_id = cursor.fetchall()
-                execute_result = "insert into results (percent_identity, acc_code, e_value,total, max, research_sequence_id, blast_version, description)" \
-                                 " values (" + perc + ",'" + acc + "'," + evalue + ",0,0," + str(
-                    res_seq_id[0][
-                        0]) + ",'" + blast_version + "','" + defen + "');"
-                cursor.execute(execute_result)
-                conn.commit()
 
-    else:
-        if perc is not None and acc is not None and evalue is not None and blast_version is not None and defen is not None:
-            print(header, "hit", hit_id)
-            res_seq_id_execute = "select id from research_sequence " \
-                                 "where header = '" + header + "'"
-            cursor.execute(res_seq_id_execute)
-            res_seq_id = cursor.fetchall()
-            execute_result = "insert into results (percent_identity, acc_code, e_value,total, max, research_sequence_id, blast_version, description)" \
-                             " values (" + perc + ",'" + acc + "'," + evalue + ",0,0," + str(
-                res_seq_id[0][
-                    0]) + ",'" + blast_version + "','" + defen + "');"
-            cursor.execute(execute_result)
-            conn.commit()
+    if perc is not None and acc is not None and evalue is not None and blast_version is not None and defen is not None:
+        print(header, "hit", hit_id)
+        res_seq_id_execute = "select id from research_sequence " \
+                             "where header = '" + header + "'"
+        cursor.execute(res_seq_id_execute)
+        res_seq_id = cursor.fetchall()
+        execute_result = "insert into results (percent_identity, acc_code, e_value,total, max, research_sequence_id, blast_version, description)" \
+                         " values (" + perc + ",'" + acc + "'," + evalue + ",0,0," + str(
+            res_seq_id[0][
+                0]) + ",'" + blast_version + "','" + defen + "');"
+        cursor.execute(execute_result)
+        conn.commit()
 
     cursor.close()
     conn.close()
