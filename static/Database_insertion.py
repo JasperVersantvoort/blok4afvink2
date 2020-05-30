@@ -98,7 +98,7 @@ def connector(blast_version, header, hit_id, acc, ident,
                              " acc_code, e_value,total, max," \
                              " research_sequence_id, description," \
                              " organism_id,blast_version_blast_version)" \
-                             " values (" + ident + ",'" + acc + "',"\
+                             " values (" + ident + ",'" + acc + "'," \
                              + evalue + ",null,null," + str(
                 res_seq_id[0][0]) + ",'" + defen + "'," + str(
                 org_id) + ",'" + blast_version + "');"
@@ -110,34 +110,42 @@ def connector(blast_version, header, hit_id, acc, ident,
 
 
 def open_xml(xml_file):
+    """
+    Opent de xml file en haalt de data die we willen gebruiken eruit
+    Roept connector aan om deze data in de database te zetten
+
+    xml_file is de xml file met de data die in de database moet
+
+    """
     # Parse door xml file
     par = ElementTree.parse(xml_file)
 
-    # queries = par.findall("./BlastOutput_iterations/Iteration/Iteration_hits")
+    # Zoekt in de xml file naar alle blastoutput iterations
     iteration = par.findall(path="./BlastOutput_iterations/Iteration")
     blast_version = par.find("./BlastOutput_program").text
+    # Loopt over de iteration's
     for queries in iteration:
         header = queries.find('Iteration_query-def').text
-        for hits in queries:
 
+        # een dubbele loop zodat de losses hits worden gepakt per query
+        for hits in queries:
+            # zoekt de juiste data per hit
             for hit in hits:
                 hit_id = hit.find("Hit_id")
                 defen = hit.find("Hit_def")
                 hit_num = hit.find("Hit_num")
                 acc = hit.find("Hit_accession")
                 ident = hit.find("Hit_hsps/Hsp/Hsp_identity")
-                tscore = hit.find("Hit_hsps/Hsp/Hsp_score")
                 evalue = hit.find("Hit_hsps/Hsp/Hsp_evalue")
                 qseq = hit.find("Hit_hsps/Hsp/Hsp_qseq")
 
+                # zet de data om zodat ze bruikbaar zijn voor de connector
                 if hit_id is not None:
                     hit_id = hit_id.text
                 if acc is not None:
                     acc = acc.text
                 if ident is not None:
                     ident = ident.text
-                if tscore is not None:
-                    tscore = tscore.text
                 if evalue is not None:
                     evalue = evalue.text
                 if defen is not None:
@@ -146,7 +154,7 @@ def open_xml(xml_file):
                     qseq = qseq.text
                 if hit_num is not None:
                     hit_num = hit_num.text
-
+                # Ropet connector aan om alle data in de database te etten
                 connector(blast_version, header, hit_id, acc, ident,
                           evalue, defen, qseq, hit_num)
 
