@@ -1,3 +1,4 @@
+/* Dit is algemeen op de hele website */
 body {
     font-family: sans-serif;
     background-color: white;
@@ -27,6 +28,20 @@ body {
 
 .nav_links
 a:hover:not(.active) {
-  background-color: #111;
+  background-color: black;
 }
+
+/* Dit wordt gebruikt voor de kolommen in de database */
+.kolom {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+
+.rij:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 

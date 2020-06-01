@@ -2,14 +2,83 @@
 {%  block title %}Database{% endblock %}
 {%  block content %}
     <p>
-        De filters; E-value
-        Zoeken op; accessiecode, description, de naam van het organisme
-        De database komt hier ook zelf te staan.
+    <!-- Dit zijn de filters -->
+        Filter op:
         <br>
         <input type="checkbox" value="E-value">
         <label for="E-value">E-value</label>
         <br>
-        <input type="text">
-        <button type="submit">Zoeken</button>
+
+        <br>
+        Sorteer op volgorde:
+        <br>
+        <input type="radio" name="sort" value="order by organism ASC">
+        <label>Organisme naam</label>
+        <br>
+        <input type="radio" name="sort" value="order by description ASC">
+        <label>Beschrijving</label>
+        <br>
+        <input type="radio" name="sort" value="order by accession_code ASC">
+        <label>Accessiecode</label>
+        <br>
+
+        <!-- De zoekbalk en de zoeknop -->
+
+        <div class="rij">
+            <div class="kolom">
+                <p><u>Zoek op trefwoord of accessiecode:</u></p>
+                <form class="zoeken">
+                    <input type="text" name="zoekwoord">
+                    <input type="submit" value="Zoeken">
+    <!-- de database -->
+
+        <table id="database">
+            <tr>
+                <th>Accessiecode</th>
+                <th>Organisme naam</th>
+                <th>Beschrijving</th>
+                <th>E-value</th>
+            </tr>
+            <tr>
+                <td>hoi</td>
+                <td>ola</td>
+                <td>test</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>hallo</td>
+                <td>appeltaart</td>
+                <td>eten</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>kwarttaart</td>
+                <td>testen</td>
+                <td>hola</td>
+                <td>90</td>
+            </tr>
+        </table>
+    <br>
+{#        <div class="rij">#}
+{#            <div class="kolom">#}
+{#                <h3>Accessiecode</h3>#}
+{#                <p>Hier kom de accessiecode te staan</p>#}
+{#            </div>#}
+{##}
+{#            <div class="kolom">#}
+{#                <h3>Organisme naam</h3>#}
+{#                <p>Hier kom de naam van het organisme te staan</p>#}
+{#            </div>#}
+{##}
+{#            <div class="kolom">#}
+{#                <h3>Beschrijving</h3>#}
+{#                <p>Hier kom de beschrijving te staan</p>#}
+{#            </div>#}
+{##}
+{#            <div class="kolom">#}
+{#                <h3>E-value</h3>#}
+{#                <p>Hier kom de e-value te staan</p>#}
+{#            </div>#}
+{#        </div>#}
     </p>
 {% endblock %}
