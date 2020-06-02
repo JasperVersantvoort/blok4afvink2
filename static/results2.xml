@@ -4,8 +4,8 @@
   <BlastOutput_program>blastx</BlastOutput_program>
   <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
   <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
-  <BlastOutput_db>nt</BlastOutput_db>
-  <BlastOutput_query-ID>Query_41441</BlastOutput_query-ID>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_64937</BlastOutput_query-ID>
   <BlastOutput_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:19810:2642_1</BlastOutput_query-def>
   <BlastOutput_query-len>301</BlastOutput_query-len>
   <BlastOutput_param>
@@ -20,7 +20,7 @@
 <BlastOutput_iterations>
 <Iteration>
   <Iteration_iter-num>1</Iteration_iter-num>
-  <Iteration_query-ID>Query_41441</Iteration_query-ID>
+  <Iteration_query-ID>Query_64937</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:19810:2642_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -36,10 +36,11 @@
       <Statistics_entropy>-1</Statistics_entropy>
     </Statistics>
   </Iteration_stat>
+  <Iteration_message>[blastsrv4.REAL]: Error: CPU usage limit was exceeded, resulting in SIGXCPU (24).</Iteration_message>
 </Iteration>
 <Iteration>
   <Iteration_iter-num>2</Iteration_iter-num>
-  <Iteration_query-ID>Query_41442</Iteration_query-ID>
+  <Iteration_query-ID>Query_64938</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:19810:2642_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -58,7 +59,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>3</Iteration_iter-num>
-  <Iteration_query-ID>Query_41443</Iteration_query-ID>
+  <Iteration_query-ID>Query_64939</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22532:2644_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -77,7 +78,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>4</Iteration_iter-num>
-  <Iteration_query-ID>Query_41444</Iteration_query-ID>
+  <Iteration_query-ID>Query_64940</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22532:2644_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -96,7 +97,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>5</Iteration_iter-num>
-  <Iteration_query-ID>Query_41445</Iteration_query-ID>
+  <Iteration_query-ID>Query_64941</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:23931:2645_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -115,7 +116,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>6</Iteration_iter-num>
-  <Iteration_query-ID>Query_41446</Iteration_query-ID>
+  <Iteration_query-ID>Query_64942</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:23931:2645_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -134,7 +135,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>7</Iteration_iter-num>
-  <Iteration_query-ID>Query_41447</Iteration_query-ID>
+  <Iteration_query-ID>Query_64943</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10190:2646_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -153,7 +154,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>8</Iteration_iter-num>
-  <Iteration_query-ID>Query_41448</Iteration_query-ID>
+  <Iteration_query-ID>Query_64944</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10190:2646_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -172,7 +173,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>9</Iteration_iter-num>
-  <Iteration_query-ID>Query_41449</Iteration_query-ID>
+  <Iteration_query-ID>Query_64945</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:24667:2646_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -191,7 +192,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>10</Iteration_iter-num>
-  <Iteration_query-ID>Query_41450</Iteration_query-ID>
+  <Iteration_query-ID>Query_64946</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:24667:2646_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -210,7 +211,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>11</Iteration_iter-num>
-  <Iteration_query-ID>Query_41451</Iteration_query-ID>
+  <Iteration_query-ID>Query_64947</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:15285:2646_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -229,7 +230,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>12</Iteration_iter-num>
-  <Iteration_query-ID>Query_41452</Iteration_query-ID>
+  <Iteration_query-ID>Query_64948</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:15285:2646_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -248,7 +249,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>13</Iteration_iter-num>
-  <Iteration_query-ID>Query_41453</Iteration_query-ID>
+  <Iteration_query-ID>Query_64949</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14040:2647_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -267,7 +268,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>14</Iteration_iter-num>
-  <Iteration_query-ID>Query_41454</Iteration_query-ID>
+  <Iteration_query-ID>Query_64950</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14040:2647_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -286,7 +287,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>15</Iteration_iter-num>
-  <Iteration_query-ID>Query_41455</Iteration_query-ID>
+  <Iteration_query-ID>Query_64951</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:13546:2647_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -305,7 +306,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>16</Iteration_iter-num>
-  <Iteration_query-ID>Query_41456</Iteration_query-ID>
+  <Iteration_query-ID>Query_64952</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:13546:2647_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -324,7 +325,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>17</Iteration_iter-num>
-  <Iteration_query-ID>Query_41457</Iteration_query-ID>
+  <Iteration_query-ID>Query_64953</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:8786:2648_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -343,7 +344,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>18</Iteration_iter-num>
-  <Iteration_query-ID>Query_41458</Iteration_query-ID>
+  <Iteration_query-ID>Query_64954</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:8786:2648_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -362,7 +363,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>19</Iteration_iter-num>
-  <Iteration_query-ID>Query_41459</Iteration_query-ID>
+  <Iteration_query-ID>Query_64955</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:12582:2649_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -381,7 +382,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>20</Iteration_iter-num>
-  <Iteration_query-ID>Query_41460</Iteration_query-ID>
+  <Iteration_query-ID>Query_64956</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:12582:2649_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -400,7 +401,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>21</Iteration_iter-num>
-  <Iteration_query-ID>Query_41461</Iteration_query-ID>
+  <Iteration_query-ID>Query_64957</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:17171:2650_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -419,7 +420,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>22</Iteration_iter-num>
-  <Iteration_query-ID>Query_41462</Iteration_query-ID>
+  <Iteration_query-ID>Query_64958</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:17171:2650_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -438,7 +439,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>23</Iteration_iter-num>
-  <Iteration_query-ID>Query_41463</Iteration_query-ID>
+  <Iteration_query-ID>Query_64959</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14839:2650_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -457,7 +458,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>24</Iteration_iter-num>
-  <Iteration_query-ID>Query_41464</Iteration_query-ID>
+  <Iteration_query-ID>Query_64960</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14839:2650_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -476,7 +477,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>25</Iteration_iter-num>
-  <Iteration_query-ID>Query_41465</Iteration_query-ID>
+  <Iteration_query-ID>Query_64961</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:17239:2651_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -495,7 +496,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>26</Iteration_iter-num>
-  <Iteration_query-ID>Query_41466</Iteration_query-ID>
+  <Iteration_query-ID>Query_64962</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:17239:2651_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -514,7 +515,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>27</Iteration_iter-num>
-  <Iteration_query-ID>Query_41467</Iteration_query-ID>
+  <Iteration_query-ID>Query_64963</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9336:2651_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -533,7 +534,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>28</Iteration_iter-num>
-  <Iteration_query-ID>Query_41468</Iteration_query-ID>
+  <Iteration_query-ID>Query_64964</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9336:2651_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -552,7 +553,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>29</Iteration_iter-num>
-  <Iteration_query-ID>Query_41469</Iteration_query-ID>
+  <Iteration_query-ID>Query_64965</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18663:2651_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -571,7 +572,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>30</Iteration_iter-num>
-  <Iteration_query-ID>Query_41470</Iteration_query-ID>
+  <Iteration_query-ID>Query_64966</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:15436:2652_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -590,7 +591,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>31</Iteration_iter-num>
-  <Iteration_query-ID>Query_41471</Iteration_query-ID>
+  <Iteration_query-ID>Query_64967</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:15436:2652_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -609,7 +610,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>32</Iteration_iter-num>
-  <Iteration_query-ID>Query_41472</Iteration_query-ID>
+  <Iteration_query-ID>Query_64968</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:7911:2652_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -628,7 +629,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>33</Iteration_iter-num>
-  <Iteration_query-ID>Query_41473</Iteration_query-ID>
+  <Iteration_query-ID>Query_64969</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:7911:2652_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -647,7 +648,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>34</Iteration_iter-num>
-  <Iteration_query-ID>Query_41474</Iteration_query-ID>
+  <Iteration_query-ID>Query_64970</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:15388:2652_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -666,7 +667,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>35</Iteration_iter-num>
-  <Iteration_query-ID>Query_41475</Iteration_query-ID>
+  <Iteration_query-ID>Query_64971</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:15388:2652_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -685,7 +686,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>36</Iteration_iter-num>
-  <Iteration_query-ID>Query_41476</Iteration_query-ID>
+  <Iteration_query-ID>Query_64972</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:7504:2653_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -704,7 +705,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>37</Iteration_iter-num>
-  <Iteration_query-ID>Query_41477</Iteration_query-ID>
+  <Iteration_query-ID>Query_64973</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14374:2654_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -723,7 +724,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>38</Iteration_iter-num>
-  <Iteration_query-ID>Query_41478</Iteration_query-ID>
+  <Iteration_query-ID>Query_64974</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14374:2654_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -742,7 +743,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>39</Iteration_iter-num>
-  <Iteration_query-ID>Query_41479</Iteration_query-ID>
+  <Iteration_query-ID>Query_64975</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:13274:2655_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -761,7 +762,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>40</Iteration_iter-num>
-  <Iteration_query-ID>Query_41480</Iteration_query-ID>
+  <Iteration_query-ID>Query_64976</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:20332:2655_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -780,7 +781,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>41</Iteration_iter-num>
-  <Iteration_query-ID>Query_41481</Iteration_query-ID>
+  <Iteration_query-ID>Query_64977</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:20332:2655_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -799,7 +800,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>42</Iteration_iter-num>
-  <Iteration_query-ID>Query_41482</Iteration_query-ID>
+  <Iteration_query-ID>Query_64978</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:20017:2655_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -818,7 +819,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>43</Iteration_iter-num>
-  <Iteration_query-ID>Query_41483</Iteration_query-ID>
+  <Iteration_query-ID>Query_64979</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:20017:2655_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -837,7 +838,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>44</Iteration_iter-num>
-  <Iteration_query-ID>Query_41484</Iteration_query-ID>
+  <Iteration_query-ID>Query_64980</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:17025:2657_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -856,7 +857,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>45</Iteration_iter-num>
-  <Iteration_query-ID>Query_41485</Iteration_query-ID>
+  <Iteration_query-ID>Query_64981</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:17025:2657_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -875,7 +876,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>46</Iteration_iter-num>
-  <Iteration_query-ID>Query_41486</Iteration_query-ID>
+  <Iteration_query-ID>Query_64982</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16082:2658_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -894,7 +895,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>47</Iteration_iter-num>
-  <Iteration_query-ID>Query_41487</Iteration_query-ID>
+  <Iteration_query-ID>Query_64983</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16082:2658_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -913,7 +914,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>48</Iteration_iter-num>
-  <Iteration_query-ID>Query_41488</Iteration_query-ID>
+  <Iteration_query-ID>Query_64984</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9533:2658_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -932,7 +933,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>49</Iteration_iter-num>
-  <Iteration_query-ID>Query_41489</Iteration_query-ID>
+  <Iteration_query-ID>Query_64985</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9533:2658_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -951,7 +952,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>50</Iteration_iter-num>
-  <Iteration_query-ID>Query_41490</Iteration_query-ID>
+  <Iteration_query-ID>Query_64986</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22355:2658_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -970,7 +971,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>51</Iteration_iter-num>
-  <Iteration_query-ID>Query_41491</Iteration_query-ID>
+  <Iteration_query-ID>Query_64987</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22355:2658_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -989,7 +990,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>52</Iteration_iter-num>
-  <Iteration_query-ID>Query_41492</Iteration_query-ID>
+  <Iteration_query-ID>Query_64988</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11625:2658_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1008,7 +1009,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>53</Iteration_iter-num>
-  <Iteration_query-ID>Query_41493</Iteration_query-ID>
+  <Iteration_query-ID>Query_64989</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11625:2658_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1027,7 +1028,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>54</Iteration_iter-num>
-  <Iteration_query-ID>Query_41494</Iteration_query-ID>
+  <Iteration_query-ID>Query_64990</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10599:2659_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1046,7 +1047,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>55</Iteration_iter-num>
-  <Iteration_query-ID>Query_41495</Iteration_query-ID>
+  <Iteration_query-ID>Query_64991</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10599:2659_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1065,7 +1066,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>56</Iteration_iter-num>
-  <Iteration_query-ID>Query_41496</Iteration_query-ID>
+  <Iteration_query-ID>Query_64992</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9698:2660_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1084,7 +1085,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>57</Iteration_iter-num>
-  <Iteration_query-ID>Query_41497</Iteration_query-ID>
+  <Iteration_query-ID>Query_64993</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9698:2660_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1103,7 +1104,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>58</Iteration_iter-num>
-  <Iteration_query-ID>Query_41498</Iteration_query-ID>
+  <Iteration_query-ID>Query_64994</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16515:2660_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1122,7 +1123,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>59</Iteration_iter-num>
-  <Iteration_query-ID>Query_41499</Iteration_query-ID>
+  <Iteration_query-ID>Query_64995</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16515:2660_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1141,7 +1142,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>60</Iteration_iter-num>
-  <Iteration_query-ID>Query_41500</Iteration_query-ID>
+  <Iteration_query-ID>Query_64996</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22471:2660_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1160,7 +1161,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>61</Iteration_iter-num>
-  <Iteration_query-ID>Query_41501</Iteration_query-ID>
+  <Iteration_query-ID>Query_64997</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11385:2660_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1179,7 +1180,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>62</Iteration_iter-num>
-  <Iteration_query-ID>Query_41502</Iteration_query-ID>
+  <Iteration_query-ID>Query_64998</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11385:2660_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1198,7 +1199,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>63</Iteration_iter-num>
-  <Iteration_query-ID>Query_41503</Iteration_query-ID>
+  <Iteration_query-ID>Query_64999</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:21117:2661_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1217,7 +1218,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>64</Iteration_iter-num>
-  <Iteration_query-ID>Query_41504</Iteration_query-ID>
+  <Iteration_query-ID>Query_65000</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:23151:2664_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1236,7 +1237,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>65</Iteration_iter-num>
-  <Iteration_query-ID>Query_41505</Iteration_query-ID>
+  <Iteration_query-ID>Query_65001</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:23151:2664_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1255,7 +1256,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>66</Iteration_iter-num>
-  <Iteration_query-ID>Query_41506</Iteration_query-ID>
+  <Iteration_query-ID>Query_65002</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16984:2665_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1274,7 +1275,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>67</Iteration_iter-num>
-  <Iteration_query-ID>Query_41507</Iteration_query-ID>
+  <Iteration_query-ID>Query_65003</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16984:2665_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1293,7 +1294,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>68</Iteration_iter-num>
-  <Iteration_query-ID>Query_41508</Iteration_query-ID>
+  <Iteration_query-ID>Query_65004</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:19727:2666_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1312,7 +1313,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>69</Iteration_iter-num>
-  <Iteration_query-ID>Query_41509</Iteration_query-ID>
+  <Iteration_query-ID>Query_65005</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:19727:2666_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1331,7 +1332,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>70</Iteration_iter-num>
-  <Iteration_query-ID>Query_41510</Iteration_query-ID>
+  <Iteration_query-ID>Query_65006</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:12697:2666_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1350,7 +1351,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>71</Iteration_iter-num>
-  <Iteration_query-ID>Query_41511</Iteration_query-ID>
+  <Iteration_query-ID>Query_65007</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:12697:2666_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1369,7 +1370,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>72</Iteration_iter-num>
-  <Iteration_query-ID>Query_41512</Iteration_query-ID>
+  <Iteration_query-ID>Query_65008</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14699:2667_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1388,7 +1389,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>73</Iteration_iter-num>
-  <Iteration_query-ID>Query_41513</Iteration_query-ID>
+  <Iteration_query-ID>Query_65009</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14699:2667_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1407,7 +1408,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>74</Iteration_iter-num>
-  <Iteration_query-ID>Query_41514</Iteration_query-ID>
+  <Iteration_query-ID>Query_65010</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22424:2668_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1426,7 +1427,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>75</Iteration_iter-num>
-  <Iteration_query-ID>Query_41515</Iteration_query-ID>
+  <Iteration_query-ID>Query_65011</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22424:2668_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1445,7 +1446,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>76</Iteration_iter-num>
-  <Iteration_query-ID>Query_41516</Iteration_query-ID>
+  <Iteration_query-ID>Query_65012</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:6951:2669_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1464,7 +1465,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>77</Iteration_iter-num>
-  <Iteration_query-ID>Query_41517</Iteration_query-ID>
+  <Iteration_query-ID>Query_65013</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:6951:2669_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1483,7 +1484,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>78</Iteration_iter-num>
-  <Iteration_query-ID>Query_41518</Iteration_query-ID>
+  <Iteration_query-ID>Query_65014</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9017:2669_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1502,7 +1503,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>79</Iteration_iter-num>
-  <Iteration_query-ID>Query_41519</Iteration_query-ID>
+  <Iteration_query-ID>Query_65015</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9017:2669_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1521,7 +1522,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>80</Iteration_iter-num>
-  <Iteration_query-ID>Query_41520</Iteration_query-ID>
+  <Iteration_query-ID>Query_65016</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:17010:2672_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1540,7 +1541,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>81</Iteration_iter-num>
-  <Iteration_query-ID>Query_41521</Iteration_query-ID>
+  <Iteration_query-ID>Query_65017</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:17010:2672_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1559,7 +1560,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>82</Iteration_iter-num>
-  <Iteration_query-ID>Query_41522</Iteration_query-ID>
+  <Iteration_query-ID>Query_65018</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18541:2673_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1578,7 +1579,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>83</Iteration_iter-num>
-  <Iteration_query-ID>Query_41523</Iteration_query-ID>
+  <Iteration_query-ID>Query_65019</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18541:2673_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1597,7 +1598,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>84</Iteration_iter-num>
-  <Iteration_query-ID>Query_41524</Iteration_query-ID>
+  <Iteration_query-ID>Query_65020</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14441:2675_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1616,7 +1617,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>85</Iteration_iter-num>
-  <Iteration_query-ID>Query_41525</Iteration_query-ID>
+  <Iteration_query-ID>Query_65021</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14441:2675_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1635,7 +1636,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>86</Iteration_iter-num>
-  <Iteration_query-ID>Query_41526</Iteration_query-ID>
+  <Iteration_query-ID>Query_65022</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11890:2677_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1654,7 +1655,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>87</Iteration_iter-num>
-  <Iteration_query-ID>Query_41527</Iteration_query-ID>
+  <Iteration_query-ID>Query_65023</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11890:2677_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1673,7 +1674,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>88</Iteration_iter-num>
-  <Iteration_query-ID>Query_41528</Iteration_query-ID>
+  <Iteration_query-ID>Query_65024</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16340:2677_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1692,7 +1693,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>89</Iteration_iter-num>
-  <Iteration_query-ID>Query_41529</Iteration_query-ID>
+  <Iteration_query-ID>Query_65025</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16340:2677_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1711,7 +1712,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>90</Iteration_iter-num>
-  <Iteration_query-ID>Query_41530</Iteration_query-ID>
+  <Iteration_query-ID>Query_65026</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:19192:2677_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1730,7 +1731,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>91</Iteration_iter-num>
-  <Iteration_query-ID>Query_41531</Iteration_query-ID>
+  <Iteration_query-ID>Query_65027</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:19192:2677_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1749,7 +1750,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>92</Iteration_iter-num>
-  <Iteration_query-ID>Query_41532</Iteration_query-ID>
+  <Iteration_query-ID>Query_65028</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11972:2678_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1768,7 +1769,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>93</Iteration_iter-num>
-  <Iteration_query-ID>Query_41533</Iteration_query-ID>
+  <Iteration_query-ID>Query_65029</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11972:2678_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1787,7 +1788,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>94</Iteration_iter-num>
-  <Iteration_query-ID>Query_41534</Iteration_query-ID>
+  <Iteration_query-ID>Query_65030</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:23305:2679_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1806,7 +1807,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>95</Iteration_iter-num>
-  <Iteration_query-ID>Query_41535</Iteration_query-ID>
+  <Iteration_query-ID>Query_65031</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:23305:2679_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1825,7 +1826,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>96</Iteration_iter-num>
-  <Iteration_query-ID>Query_41536</Iteration_query-ID>
+  <Iteration_query-ID>Query_65032</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:15104:2680_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1844,7 +1845,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>97</Iteration_iter-num>
-  <Iteration_query-ID>Query_41537</Iteration_query-ID>
+  <Iteration_query-ID>Query_65033</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:15104:2680_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1863,7 +1864,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>98</Iteration_iter-num>
-  <Iteration_query-ID>Query_41538</Iteration_query-ID>
+  <Iteration_query-ID>Query_65034</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:12276:2680_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1882,7 +1883,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>99</Iteration_iter-num>
-  <Iteration_query-ID>Query_41539</Iteration_query-ID>
+  <Iteration_query-ID>Query_65035</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:12276:2680_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1901,7 +1902,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>100</Iteration_iter-num>
-  <Iteration_query-ID>Query_41540</Iteration_query-ID>
+  <Iteration_query-ID>Query_65036</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:19700:2680_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1920,7 +1921,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>101</Iteration_iter-num>
-  <Iteration_query-ID>Query_41541</Iteration_query-ID>
+  <Iteration_query-ID>Query_65037</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:19700:2680_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1939,7 +1940,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>102</Iteration_iter-num>
-  <Iteration_query-ID>Query_41542</Iteration_query-ID>
+  <Iteration_query-ID>Query_65038</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10978:2680_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1958,7 +1959,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>103</Iteration_iter-num>
-  <Iteration_query-ID>Query_41543</Iteration_query-ID>
+  <Iteration_query-ID>Query_65039</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10978:2680_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1977,7 +1978,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>104</Iteration_iter-num>
-  <Iteration_query-ID>Query_41544</Iteration_query-ID>
+  <Iteration_query-ID>Query_65040</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:17423:2682_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -1996,7 +1997,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>105</Iteration_iter-num>
-  <Iteration_query-ID>Query_41545</Iteration_query-ID>
+  <Iteration_query-ID>Query_65041</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:17423:2682_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2015,7 +2016,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>106</Iteration_iter-num>
-  <Iteration_query-ID>Query_41546</Iteration_query-ID>
+  <Iteration_query-ID>Query_65042</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16932:2683_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2034,7 +2035,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>107</Iteration_iter-num>
-  <Iteration_query-ID>Query_41547</Iteration_query-ID>
+  <Iteration_query-ID>Query_65043</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16932:2683_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2053,7 +2054,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>108</Iteration_iter-num>
-  <Iteration_query-ID>Query_41548</Iteration_query-ID>
+  <Iteration_query-ID>Query_65044</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:24042:2683_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2072,7 +2073,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>109</Iteration_iter-num>
-  <Iteration_query-ID>Query_41549</Iteration_query-ID>
+  <Iteration_query-ID>Query_65045</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:24042:2683_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2091,7 +2092,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>110</Iteration_iter-num>
-  <Iteration_query-ID>Query_41550</Iteration_query-ID>
+  <Iteration_query-ID>Query_65046</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11543:2685_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2110,7 +2111,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>111</Iteration_iter-num>
-  <Iteration_query-ID>Query_41551</Iteration_query-ID>
+  <Iteration_query-ID>Query_65047</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11543:2685_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2129,7 +2130,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>112</Iteration_iter-num>
-  <Iteration_query-ID>Query_41552</Iteration_query-ID>
+  <Iteration_query-ID>Query_65048</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:13906:2689_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2148,7 +2149,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>113</Iteration_iter-num>
-  <Iteration_query-ID>Query_41553</Iteration_query-ID>
+  <Iteration_query-ID>Query_65049</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:13906:2689_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2167,7 +2168,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>114</Iteration_iter-num>
-  <Iteration_query-ID>Query_41554</Iteration_query-ID>
+  <Iteration_query-ID>Query_65050</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:24222:2689_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2186,7 +2187,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>115</Iteration_iter-num>
-  <Iteration_query-ID>Query_41555</Iteration_query-ID>
+  <Iteration_query-ID>Query_65051</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:24222:2689_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2205,7 +2206,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>116</Iteration_iter-num>
-  <Iteration_query-ID>Query_41556</Iteration_query-ID>
+  <Iteration_query-ID>Query_65052</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10142:2689_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2224,7 +2225,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>117</Iteration_iter-num>
-  <Iteration_query-ID>Query_41557</Iteration_query-ID>
+  <Iteration_query-ID>Query_65053</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10142:2689_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2243,7 +2244,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>118</Iteration_iter-num>
-  <Iteration_query-ID>Query_41558</Iteration_query-ID>
+  <Iteration_query-ID>Query_65054</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18798:2692_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2262,7 +2263,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>119</Iteration_iter-num>
-  <Iteration_query-ID>Query_41559</Iteration_query-ID>
+  <Iteration_query-ID>Query_65055</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18798:2692_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2281,7 +2282,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>120</Iteration_iter-num>
-  <Iteration_query-ID>Query_41560</Iteration_query-ID>
+  <Iteration_query-ID>Query_65056</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:8476:2692_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2300,7 +2301,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>121</Iteration_iter-num>
-  <Iteration_query-ID>Query_41561</Iteration_query-ID>
+  <Iteration_query-ID>Query_65057</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:8476:2692_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2319,7 +2320,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>122</Iteration_iter-num>
-  <Iteration_query-ID>Query_41562</Iteration_query-ID>
+  <Iteration_query-ID>Query_65058</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:7523:2693_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2338,7 +2339,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>123</Iteration_iter-num>
-  <Iteration_query-ID>Query_41563</Iteration_query-ID>
+  <Iteration_query-ID>Query_65059</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:7523:2693_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2357,7 +2358,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>124</Iteration_iter-num>
-  <Iteration_query-ID>Query_41564</Iteration_query-ID>
+  <Iteration_query-ID>Query_65060</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18140:2696_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2376,7 +2377,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>125</Iteration_iter-num>
-  <Iteration_query-ID>Query_41565</Iteration_query-ID>
+  <Iteration_query-ID>Query_65061</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18140:2696_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2395,7 +2396,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>126</Iteration_iter-num>
-  <Iteration_query-ID>Query_41566</Iteration_query-ID>
+  <Iteration_query-ID>Query_65062</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:20917:2696_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2414,7 +2415,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>127</Iteration_iter-num>
-  <Iteration_query-ID>Query_41567</Iteration_query-ID>
+  <Iteration_query-ID>Query_65063</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:20917:2696_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2433,7 +2434,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>128</Iteration_iter-num>
-  <Iteration_query-ID>Query_41568</Iteration_query-ID>
+  <Iteration_query-ID>Query_65064</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:23694:2696_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2452,7 +2453,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>129</Iteration_iter-num>
-  <Iteration_query-ID>Query_41569</Iteration_query-ID>
+  <Iteration_query-ID>Query_65065</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:23694:2696_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2471,7 +2472,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>130</Iteration_iter-num>
-  <Iteration_query-ID>Query_41570</Iteration_query-ID>
+  <Iteration_query-ID>Query_65066</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16186:2697_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2490,7 +2491,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>131</Iteration_iter-num>
-  <Iteration_query-ID>Query_41571</Iteration_query-ID>
+  <Iteration_query-ID>Query_65067</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16186:2697_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2509,7 +2510,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>132</Iteration_iter-num>
-  <Iteration_query-ID>Query_41572</Iteration_query-ID>
+  <Iteration_query-ID>Query_65068</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:17863:2698_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2528,7 +2529,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>133</Iteration_iter-num>
-  <Iteration_query-ID>Query_41573</Iteration_query-ID>
+  <Iteration_query-ID>Query_65069</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:17863:2698_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2547,7 +2548,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>134</Iteration_iter-num>
-  <Iteration_query-ID>Query_41574</Iteration_query-ID>
+  <Iteration_query-ID>Query_65070</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22380:2698_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2566,7 +2567,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>135</Iteration_iter-num>
-  <Iteration_query-ID>Query_41575</Iteration_query-ID>
+  <Iteration_query-ID>Query_65071</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22380:2698_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2585,7 +2586,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>136</Iteration_iter-num>
-  <Iteration_query-ID>Query_41576</Iteration_query-ID>
+  <Iteration_query-ID>Query_65072</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:15777:2699_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2604,7 +2605,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>137</Iteration_iter-num>
-  <Iteration_query-ID>Query_41577</Iteration_query-ID>
+  <Iteration_query-ID>Query_65073</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:15777:2699_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2623,7 +2624,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>138</Iteration_iter-num>
-  <Iteration_query-ID>Query_41578</Iteration_query-ID>
+  <Iteration_query-ID>Query_65074</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:15168:2700_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2642,7 +2643,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>139</Iteration_iter-num>
-  <Iteration_query-ID>Query_41579</Iteration_query-ID>
+  <Iteration_query-ID>Query_65075</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:15168:2700_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2661,7 +2662,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>140</Iteration_iter-num>
-  <Iteration_query-ID>Query_41580</Iteration_query-ID>
+  <Iteration_query-ID>Query_65076</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:20557:2701_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2680,7 +2681,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>141</Iteration_iter-num>
-  <Iteration_query-ID>Query_41581</Iteration_query-ID>
+  <Iteration_query-ID>Query_65077</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:20557:2701_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2699,7 +2700,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>142</Iteration_iter-num>
-  <Iteration_query-ID>Query_41582</Iteration_query-ID>
+  <Iteration_query-ID>Query_65078</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:8111:2701_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2718,7 +2719,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>143</Iteration_iter-num>
-  <Iteration_query-ID>Query_41583</Iteration_query-ID>
+  <Iteration_query-ID>Query_65079</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:8111:2701_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2737,7 +2738,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>144</Iteration_iter-num>
-  <Iteration_query-ID>Query_41584</Iteration_query-ID>
+  <Iteration_query-ID>Query_65080</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:23183:2701_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2756,7 +2757,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>145</Iteration_iter-num>
-  <Iteration_query-ID>Query_41585</Iteration_query-ID>
+  <Iteration_query-ID>Query_65081</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:23183:2701_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2775,7 +2776,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>146</Iteration_iter-num>
-  <Iteration_query-ID>Query_41586</Iteration_query-ID>
+  <Iteration_query-ID>Query_65082</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16456:2702_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2794,7 +2795,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>147</Iteration_iter-num>
-  <Iteration_query-ID>Query_41587</Iteration_query-ID>
+  <Iteration_query-ID>Query_65083</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16456:2702_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2813,7 +2814,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>148</Iteration_iter-num>
-  <Iteration_query-ID>Query_41588</Iteration_query-ID>
+  <Iteration_query-ID>Query_65084</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22638:2703_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2832,7 +2833,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>149</Iteration_iter-num>
-  <Iteration_query-ID>Query_41589</Iteration_query-ID>
+  <Iteration_query-ID>Query_65085</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22638:2703_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2851,7 +2852,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>150</Iteration_iter-num>
-  <Iteration_query-ID>Query_41590</Iteration_query-ID>
+  <Iteration_query-ID>Query_65086</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22238:2703_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2870,7 +2871,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>151</Iteration_iter-num>
-  <Iteration_query-ID>Query_41591</Iteration_query-ID>
+  <Iteration_query-ID>Query_65087</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22238:2703_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2889,7 +2890,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>152</Iteration_iter-num>
-  <Iteration_query-ID>Query_41592</Iteration_query-ID>
+  <Iteration_query-ID>Query_65088</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:23822:2703_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2908,7 +2909,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>153</Iteration_iter-num>
-  <Iteration_query-ID>Query_41593</Iteration_query-ID>
+  <Iteration_query-ID>Query_65089</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:23822:2703_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2927,7 +2928,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>154</Iteration_iter-num>
-  <Iteration_query-ID>Query_41594</Iteration_query-ID>
+  <Iteration_query-ID>Query_65090</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14241:2704_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2946,7 +2947,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>155</Iteration_iter-num>
-  <Iteration_query-ID>Query_41595</Iteration_query-ID>
+  <Iteration_query-ID>Query_65091</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14241:2704_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2965,7 +2966,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>156</Iteration_iter-num>
-  <Iteration_query-ID>Query_41596</Iteration_query-ID>
+  <Iteration_query-ID>Query_65092</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9473:2705_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -2984,7 +2985,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>157</Iteration_iter-num>
-  <Iteration_query-ID>Query_41597</Iteration_query-ID>
+  <Iteration_query-ID>Query_65093</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9473:2705_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3003,7 +3004,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>158</Iteration_iter-num>
-  <Iteration_query-ID>Query_41598</Iteration_query-ID>
+  <Iteration_query-ID>Query_65094</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18630:2705_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3022,7 +3023,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>159</Iteration_iter-num>
-  <Iteration_query-ID>Query_41599</Iteration_query-ID>
+  <Iteration_query-ID>Query_65095</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18630:2705_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3041,7 +3042,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>160</Iteration_iter-num>
-  <Iteration_query-ID>Query_41600</Iteration_query-ID>
+  <Iteration_query-ID>Query_65096</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:19656:2706_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3060,7 +3061,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>161</Iteration_iter-num>
-  <Iteration_query-ID>Query_41601</Iteration_query-ID>
+  <Iteration_query-ID>Query_65097</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:19656:2706_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3079,7 +3080,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>162</Iteration_iter-num>
-  <Iteration_query-ID>Query_41602</Iteration_query-ID>
+  <Iteration_query-ID>Query_65098</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14693:2706_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3098,7 +3099,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>163</Iteration_iter-num>
-  <Iteration_query-ID>Query_41603</Iteration_query-ID>
+  <Iteration_query-ID>Query_65099</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:14693:2706_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3117,7 +3118,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>164</Iteration_iter-num>
-  <Iteration_query-ID>Query_41604</Iteration_query-ID>
+  <Iteration_query-ID>Query_65100</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:7486:2708_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3136,7 +3137,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>165</Iteration_iter-num>
-  <Iteration_query-ID>Query_41605</Iteration_query-ID>
+  <Iteration_query-ID>Query_65101</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:7486:2708_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3155,7 +3156,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>166</Iteration_iter-num>
-  <Iteration_query-ID>Query_41606</Iteration_query-ID>
+  <Iteration_query-ID>Query_65102</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:12361:2708_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3174,7 +3175,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>167</Iteration_iter-num>
-  <Iteration_query-ID>Query_41607</Iteration_query-ID>
+  <Iteration_query-ID>Query_65103</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16923:2709_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3193,7 +3194,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>168</Iteration_iter-num>
-  <Iteration_query-ID>Query_41608</Iteration_query-ID>
+  <Iteration_query-ID>Query_65104</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16923:2709_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3212,7 +3213,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>169</Iteration_iter-num>
-  <Iteration_query-ID>Query_41609</Iteration_query-ID>
+  <Iteration_query-ID>Query_65105</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:13861:2709_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3231,7 +3232,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>170</Iteration_iter-num>
-  <Iteration_query-ID>Query_41610</Iteration_query-ID>
+  <Iteration_query-ID>Query_65106</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:13861:2709_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3250,7 +3251,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>171</Iteration_iter-num>
-  <Iteration_query-ID>Query_41611</Iteration_query-ID>
+  <Iteration_query-ID>Query_65107</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:20471:2710_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3269,7 +3270,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>172</Iteration_iter-num>
-  <Iteration_query-ID>Query_41612</Iteration_query-ID>
+  <Iteration_query-ID>Query_65108</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:20471:2710_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3288,7 +3289,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>173</Iteration_iter-num>
-  <Iteration_query-ID>Query_41613</Iteration_query-ID>
+  <Iteration_query-ID>Query_65109</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:13736:2710_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3307,7 +3308,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>174</Iteration_iter-num>
-  <Iteration_query-ID>Query_41614</Iteration_query-ID>
+  <Iteration_query-ID>Query_65110</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:13736:2710_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3326,7 +3327,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>175</Iteration_iter-num>
-  <Iteration_query-ID>Query_41615</Iteration_query-ID>
+  <Iteration_query-ID>Query_65111</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:7591:2711_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3345,7 +3346,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>176</Iteration_iter-num>
-  <Iteration_query-ID>Query_41616</Iteration_query-ID>
+  <Iteration_query-ID>Query_65112</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:7591:2711_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3364,7 +3365,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>177</Iteration_iter-num>
-  <Iteration_query-ID>Query_41617</Iteration_query-ID>
+  <Iteration_query-ID>Query_65113</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10300:2714_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3383,7 +3384,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>178</Iteration_iter-num>
-  <Iteration_query-ID>Query_41618</Iteration_query-ID>
+  <Iteration_query-ID>Query_65114</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10300:2714_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3402,7 +3403,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>179</Iteration_iter-num>
-  <Iteration_query-ID>Query_41619</Iteration_query-ID>
+  <Iteration_query-ID>Query_65115</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:24526:2714_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3421,7 +3422,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>180</Iteration_iter-num>
-  <Iteration_query-ID>Query_41620</Iteration_query-ID>
+  <Iteration_query-ID>Query_65116</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:24526:2714_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3440,7 +3441,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>181</Iteration_iter-num>
-  <Iteration_query-ID>Query_41621</Iteration_query-ID>
+  <Iteration_query-ID>Query_65117</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18466:2715_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3459,7 +3460,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>182</Iteration_iter-num>
-  <Iteration_query-ID>Query_41622</Iteration_query-ID>
+  <Iteration_query-ID>Query_65118</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:21495:2716_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3478,7 +3479,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>183</Iteration_iter-num>
-  <Iteration_query-ID>Query_41623</Iteration_query-ID>
+  <Iteration_query-ID>Query_65119</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:21495:2716_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3497,7 +3498,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>184</Iteration_iter-num>
-  <Iteration_query-ID>Query_41624</Iteration_query-ID>
+  <Iteration_query-ID>Query_65120</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11612:2718_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3516,7 +3517,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>185</Iteration_iter-num>
-  <Iteration_query-ID>Query_41625</Iteration_query-ID>
+  <Iteration_query-ID>Query_65121</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11612:2718_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3535,7 +3536,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>186</Iteration_iter-num>
-  <Iteration_query-ID>Query_41626</Iteration_query-ID>
+  <Iteration_query-ID>Query_65122</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:13466:2719_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3554,7 +3555,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>187</Iteration_iter-num>
-  <Iteration_query-ID>Query_41627</Iteration_query-ID>
+  <Iteration_query-ID>Query_65123</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:13466:2719_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3573,7 +3574,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>188</Iteration_iter-num>
-  <Iteration_query-ID>Query_41628</Iteration_query-ID>
+  <Iteration_query-ID>Query_65124</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9668:2719_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3592,7 +3593,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>189</Iteration_iter-num>
-  <Iteration_query-ID>Query_41629</Iteration_query-ID>
+  <Iteration_query-ID>Query_65125</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9668:2719_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3611,7 +3612,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>190</Iteration_iter-num>
-  <Iteration_query-ID>Query_41630</Iteration_query-ID>
+  <Iteration_query-ID>Query_65126</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:21056:2721_1</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>
@@ -3630,7 +3631,7 @@
 </Iteration>
 <Iteration>
   <Iteration_iter-num>191</Iteration_iter-num>
-  <Iteration_query-ID>Query_41631</Iteration_query-ID>
+  <Iteration_query-ID>Query_65127</Iteration_query-ID>
   <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:21056:2721_2</Iteration_query-def>
   <Iteration_query-len>301</Iteration_query-len>
 <Iteration_hits>

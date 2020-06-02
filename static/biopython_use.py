@@ -12,7 +12,7 @@ from typing import Generator, Union, Optional
 
 def data_printer(blast_record: Generator, e_value_thresh: Union[float, int] = 0.04, line_len: int = 80) -> str:
     # noinspection SpellCheckingInspection
-    """prints the results.
+    """prints the results. Adapted from https://biopython.org/DIST/docs/tutorial/Tutorial.html#sec125
     :param line_len: The max length of the sequence lines. (Min 4)
     :param blast_record: Generator = NCBIXML.parse(results)
     :param e_value_thresh: Treshold of e_value above which the results are not printed.
@@ -44,7 +44,7 @@ def data_printer(blast_record: Generator, e_value_thresh: Union[float, int] = 0.
 
 def bio_blaster(
         input_file: str, file_format: str, output_file: str, index: Optional[str] = None,
-        program: str = 'blastn', database: str = 'nt', gi_format: bool = True, size: int = 10
+        program: str = 'blastn', database: str = 'nr', gi_format: bool = True, size: int = 10
 ) -> None:
     """Blasting sort of automated.
     :param input_file: The file path which file contains a/the sequence that is to be blasted.
@@ -68,6 +68,15 @@ def bio_blaster(
     assert program in (  # https://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc92
         'blastn', 'blastp', 'blastx', 'tblast', 'tblastx'
     )
+    if program == 'blastp' or program == 'blastx':  # Checking if the program supports the database.
+        assert database in (
+            'nr', 'refseq_protein', 'landmark', 'swissprot', 'pataa', 'pdb', 'env_nr', 'tsa_nr'
+        )
+    else:
+        assert database in (
+            'nr', 'nt', 'refseq_rna', 'refseq_representative_genomes', 'refseq_genomes', 'wgs', 'est', 'SRA', 'TSA',
+            'HTGS', 'pat', 'pdb', 'RefSeq_Gene', 'gss', 'dbsts'
+        )
     assert size > 0
     if output_file[-4:] == '.xml':
         output_file = output_file[:-4]
@@ -78,10 +87,10 @@ def bio_blaster(
     from Bio.Blast.NCBIWWW import qblast
     record_dict = SeqIO.index(input_file, format=file_format)
     record: str = ''
-    if index is not None:
+    if index is not None:   # Only one of the contained sequences.
         assert index in record_dict.keys()
         record = record_dict[index].format("fasta")
-    else:
+    else:   # All contained sequences
         for seq in record_dict:
             record += record_dict[seq].format("fasta") + '\n'
     del record_dict
@@ -96,14 +105,15 @@ def bio_blaster(
 
 def biopython_use(
         result_loc: str, large_job: bool = True, input_file: Optional[str] = None, program: str = 'blastn',
-        file_format: Optional[str] = None, index: Optional[str] = None, print_results: bool = False,
-        e_value_thresh: Union[float, int] = 0.04
+        database: str = 'nr', file_format: Optional[str] = None, index: Optional[str] = None,
+        print_results: bool = False, e_value_thresh: Union[float, int] = 0.04
 ) -> None:
     """Getting and/or printing results.
     :param program: What BLAST program to use.
     :param result_loc: Where to store/get the results.
     :param large_job: Check whether you are allowed to do large jobs.
     :param input_file: The file path which file contains a/the sequence that is to be blasted.
+    :param database: The database to use.
     :param file_format: The format of the input_file.
     :param index: If the file contains multiple seqs and you want to analise 1 place its ref code here.
     :param print_results: Whether to print the results.
@@ -126,18 +136,18 @@ def biopython_use(
                 # noinspection SpellCheckingInspection
                 bio_blaster(
                     input_file=input_file, file_format=file_format,
-                    output_file=result_loc, index=index, program=program
+                    output_file=result_loc, index=index, program=program, database=database
                 )
             del job_time
         else:
             bio_blaster(
-                input_file=input_file, file_format=file_format,
+                input_file=input_file, file_format=file_format, database=database,
                 output_file=result_loc, index=index, program=program
             )
     if print_results:
         # Bio = Biopython but Pycharm doesn't know.
         # noinspection PyPackageRequirements
-        from Bio.Blast import NCBIXML
+        from Bio.Blast import NCBIXML   # only importing if necicairy.
         with open(result_loc, 'r') as results:   # reopening the results for reading.
             for blast_records in NCBIXML.parse(results):
                 print(data_printer(blast_record=blast_records, e_value_thresh=e_value_thresh))
