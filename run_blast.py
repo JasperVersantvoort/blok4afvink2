@@ -7,5 +7,5 @@ from static.biopython_use import biopython_use
 
 biopython_use(
     result_loc='static', large_job=False, input_file='Course4_dataset_v04_mod.fastq',
-    file_format='fastq', index=None, print_results=True, e_value_thresh=0.04, program='blastx'
+    file_format='fastq', index=None, print_results=False, e_value_thresh=0.04, program='blastx'
 )
