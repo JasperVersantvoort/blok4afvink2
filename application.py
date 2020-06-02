@@ -42,7 +42,7 @@ def site_database():
     :return: Geeft de database html pagina weer
     """
     if request.method == "POST":
-        zoeken = request.form.get("zoek", "")
+        zoeken = request.form.get("zoek", "None")
         rows = database(zoeken)
         return render_template("database.html", database=rows,
                                zoek=zoeken)
@@ -67,16 +67,28 @@ def database(zoek):
                                         '-bioinformatica-mysqlsrv',
                                    password='chocolade45', db='mlfrg')
     cursor = conn.cursor()
-    cursor.execute("select acc_code, description, e_value from results")
-    rows = cursor.fetchall()
-    des = []
-    for row in rows:
-        if str(row) != "(None,)":
-            if zoek.upper() in str(row).upper() or zoek is 'None':
-                des.append(row)
-    cursor.close()
-    conn.close()
-    return des
+
+    if zoek == "None":
+        print("zoek is none")
+        cursor.execute("select acc_code, name, "
+                       "description, e_value from results "
+                       "join organism on "
+                       "organism_id = organism.id order by name")
+        rows = cursor.fetchall()
+        cursor.close()
+        conn.close()
+        return rows
+    else:
+        query = "select acc_code, name, description,e_value from " \
+                "results join organism on organism_id = organism.id  " \
+                "where name like '%" + zoek + "%' or acc_code like " \
+                "'%" + zoek + "%' or description like '%" + zoek +"%'" \
+                "order by name"
+        cursor.execute(query)
+        rows = cursor.fetchall()
+        cursor.close()
+        conn.close()
+        return rows
 
 
 if __name__ == '__main__':

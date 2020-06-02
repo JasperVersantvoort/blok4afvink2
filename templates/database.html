@@ -15,53 +15,44 @@
         <br>
         Sorteer op volgorde:
         <br>
-        <input type="radio" name="sort" value="order by organism ASC">
+        <input type="radio" name="sort" value="organisme_naam_sorteren">
         <label>Organisme naam</label>
         <br>
-        <input type="radio" name="sort" value="order by description ASC">
+        <input type="radio" name="sort" value="beschrijving_sorteren">
         <label>Beschrijving</label>
         <br>
-        <input type="radio" name="sort" value="order by accession_code ASC">
+        <input type="radio" name="sort" value="accessiecode_sorteren">
         <label>Accessiecode</label>
 
         <!-- De zoekbalk en de zoeknop -->
-{##}
-{#        <form method="POST">#}
-{#            <p>#}
-{#                Voer een zoekwoord in:#}
-{#                <label>#}
-{#                    <input type="text" name=zoek>#}
-{#                    <button type="submit">Zoek</button>#}
-{#                </label>#}
-{#            </p>#}
-{##}
-{#        <p> De database: </p>#}
-{##}
-{#        {% for regel in database %}#}
-{#            <p> {{ regel }} </p>#}
-{##}
-{#        {% endfor %}#}
 
-    {% endif %}
-    {% if blast_data %}
-        <p>Hieronder volgen de resultaten.</p>
-        <table>
+        <form method="POST">
+            <p>
+                Voer een zoekwoord in:
+                <label>
+                    <input type="text" name=zoek>
+                    <button type="submit">Zoek</button>
+                </label>
+            </p>
+
+        <p> De database: </p>
+
+    <table>
+        <tr>
+            <th>Accessiecode</th>
+            <th>Organisme naam</th>
+            <th>Description</th>
+            <th>E-value</th>
+        </tr>
+        {% for rij in database %}
             <tr>
-                <th>Organisme</th>
-                <th>Descriptie</th>
-                <th>Accessie code</th>
-                <th>E-value</th>
+                <td>{% print(rij[0]) %}</td>
+                <td>{% print(rij[1]) %}</td>
+                <td>{% print(rij[2]) %}</td>
+                <td>{% print(rij[3]) %}</td>
             </tr>
-            {% for row in blast_data %}
-                <tr>
-                    <td><a href="organisme?organisme={% print(row[0]) %}">{% print(row[0]) %}</a></td>  <!-- Organisme -->
-                    <td>{% print(row[1].split("[")[0]) %}</td>  <!-- Desciptie -->
-                    <td><a href="https://www.ncbi.nlm.nih.gov/protein/{% print(row[2]) %}" target="_blank"> {% print(row[2]) %}</a></td>  <!-- Accessie code -->
-                    <td>{% print(row[3]) %}</td>  <!-- E-value -->
-                </tr>
-            {% endfor %}
-        </table> <br>
-    {% elif research %}
-        <p>Er zijn geen resultaten gevonden.</p>
-    {% endif %}
+        {% endfor %}
+    </table>
+
+
 {% endblock %}
