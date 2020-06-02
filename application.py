@@ -67,7 +67,7 @@ def database(zoek):
                                         '-bioinformatica-mysqlsrv',
                                    password='chocolade45', db='mlfrg')
     cursor = conn.cursor()
-    cursor.execute("select description from results")
+    cursor.execute("select acc_code, description, e_value from results")
     rows = cursor.fetchall()
     des = []
     for row in rows:
