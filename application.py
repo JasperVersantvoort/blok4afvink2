@@ -1,3 +1,6 @@
+# Course 4, groep d3 in Azure
+# Jasper Versantvoort, Yuri Wit, Lars Weijenborg en Christel van Haren
+
 import mysql.connector
 from flask import Flask, render_template, request
 
@@ -6,28 +9,43 @@ app = Flask(__name__)
 
 @app.route('/')
 def website():
+    """
+    Zorgt voor de homepagina op de website met informatie over het
+    project.
+    :return: De basis html pagina
+    """
     return render_template("project.html")
 
 
 @app.route('/project.html')
 def website_home():
+    """
+    Zorgt ervoor dat je ook weer terug kunt komen op de homepagina.
+    :return: de basis html pagina
+    """
     return render_template("project.html")
 
 
 @app.route('/over ons.html')
 def site_over_ons():
+    """
+    Geeft een pagina weer met wat informatie over ons.
+    :return: De html pagina dat over ons gaat
+    """
     return render_template("over ons.html")
 
 
 @app.route('/database.html', methods=["POST", "GET"])
 def site_database():
+    """
+    Zorgt ervoor dat je kunt zoeken in de database met de POST methode.
+    :return: Geeft de database html pagina weer
+    """
     if request.method == "POST":
         zoeken = request.form.get("zoek", "")
         rows = database(zoeken)
-
         return render_template("database.html", database=rows,
                                zoek=zoeken)
-
     else:
         rows = database("None")
         return render_template("database.html", database=rows,
@@ -35,17 +53,19 @@ def site_database():
 
 
 def database(zoek):
-    """ haalt de description uit de ensembldb database
-     en filtert deze op het zoekwoord
-
+    """
+    Geeft de description van de database en kan deze filteren op een
+    zoekwoord
     :param zoek: Het ingegeven zoekwoord
     :return: Een lijst met de juiste discriptions
     """
     print("zoek woord is:", zoek)
     conn = mysql.connector.connect(host='hannl-hlo-bioinformatica'
-                                        '-mysqlsrv.mysql.database.azure.com',
-                                   user='mlfrg@hannl-hlo-bioinformatica-mysqlsrv',
-                                   password = 'chocolade45', db='mlfrg')
+                                        '-mysqlsrv.mysql.database'
+                                        '.azure.com',
+                                   user='mlfrg@hannl-hlo'
+                                        '-bioinformatica-mysqlsrv',
+                                   password='chocolade45', db='mlfrg')
     cursor = conn.cursor()
     cursor.execute("select description from results")
     rows = cursor.fetchall()
@@ -54,10 +74,10 @@ def database(zoek):
         if str(row) != "(None,)":
             if zoek.upper() in str(row).upper() or zoek is 'None':
                 des.append(row)
-
     cursor.close()
     conn.close()
     return des
+
 
 if __name__ == '__main__':
     app.run()

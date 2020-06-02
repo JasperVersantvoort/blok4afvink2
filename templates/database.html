@@ -1,8 +1,11 @@
 {% extends "project.html" %}
 {%  block title %}Database{% endblock %}
 {%  block content %}
+
     <p>
+
     <!-- Dit zijn de filters -->
+
         Filter op:
         <br>
         <input type="checkbox" value="E-value">
@@ -20,7 +23,6 @@
         <br>
         <input type="radio" name="sort" value="order by accession_code ASC">
         <label>Accessiecode</label>
-        <br>
 
         <!-- De zoekbalk en de zoeknop -->
 
@@ -30,7 +32,8 @@
                 <form class="zoeken">
                     <input type="text" name="zoekwoord">
                     <input type="submit" value="Zoeken">
-    <!-- de database -->
+
+    <!-- De oefen database -->
 
         <table id="database">
             <tr>
@@ -59,26 +62,6 @@
             </tr>
         </table>
     <br>
-{#        <div class="rij">#}
-{#            <div class="kolom">#}
-{#                <h3>Accessiecode</h3>#}
-{#                <p>Hier kom de accessiecode te staan</p>#}
-{#            </div>#}
-{##}
-{#            <div class="kolom">#}
-{#                <h3>Organisme naam</h3>#}
-{#                <p>Hier kom de naam van het organisme te staan</p>#}
-{#            </div>#}
-{##}
-{#            <div class="kolom">#}
-{#                <h3>Beschrijving</h3>#}
-{#                <p>Hier kom de beschrijving te staan</p>#}
-{#            </div>#}
-{##}
-{#            <div class="kolom">#}
-{#                <h3>E-value</h3>#}
-{#                <p>Hier kom de e-value te staan</p>#}
-{#            </div>#}
-{#        </div>#}
+
     </p>
 {% endblock %}

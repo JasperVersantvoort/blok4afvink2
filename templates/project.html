@@ -4,7 +4,7 @@
 <head>
     {% block head %}
     <meta charset="UTF-8" name="Projectgroep course 4">
-    <title>{% block title %}{% endblock %}BLAST</title>
+    <title>{% block title %}{% endblock %} Homepagina</title>
     <link rel="stylesheet" href="static/project.css">
     {% endblock %}
 </head>
@@ -21,12 +21,15 @@
 		</ul>
     </nav>
     {% endblock %}
+
     {% block content %}
         Dit is onze webpagina. Hier komt het een en ander te staan
         over het onderzoek.
     {% endblock %}
+
+    <!-- Hier komt de footer te staan -->
         {% block footer %}
-        <p>&copy; 2020 HAN Bio-informatica Course 4; Lars, Jasper,
+        <p>&copy 2020 HAN Bio-informatica Course 4; Lars, Jasper,
             Yuri & Christel</p>
         {% endblock %}
 </body>
