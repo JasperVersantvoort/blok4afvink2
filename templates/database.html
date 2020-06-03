@@ -3,26 +3,19 @@
 {%  block content %}
 
     <p>
+        Op deze pagina staat de database. Er is een filter voor de
+        e-value. Via de zoekbalk kan er gezocht worden op de
+        description en op het organisme naam. Er is ook van A tot en
+        met Z gefilterd op het organisme naam.
+        <br>
 
-    <!-- Dit zijn de filters -->
-
+    <!-- Dit is/zijn de filter(s) -->
+        <br>
         Filter op:
         <br>
         <input type="checkbox" value="E-value">
         <label for="E-value">E-value</label>
         <br>
-
-        <br>
-        Sorteer op volgorde:
-        <br>
-        <input type="radio" name="sort" value="organisme_naam_sorteren">
-        <label>Organisme naam</label>
-        <br>
-        <input type="radio" name="sort" value="beschrijving_sorteren">
-        <label>Beschrijving</label>
-        <br>
-        <input type="radio" name="sort" value="accessiecode_sorteren">
-        <label>Accessiecode</label>
 
         <!-- De zoekbalk en de zoeknop -->
 
@@ -34,8 +27,14 @@
                     <button type="submit">Zoek</button>
                 </label>
             </p>
+    <p>Je huidige zoekwoord is: {% print(zoek) %}
+    <br>
+    <button type="submit">Reset</button>
+    </p>
 
-        <p> De database: </p>
+
+    <!-- De database -->
+        <h3> De database </h3>
 
     <table>
         <tr>

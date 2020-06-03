@@ -1,7 +1,7 @@
 /* Dit is algemeen op de hele website */
 body {
     font-family: sans-serif;
-    background-color: white;
+    background-color: lightblue;
     color: black;
 }
 /*Dit komende stukje is voor de navagatiebalk bovenaan de paginas*/
@@ -43,5 +43,3 @@ a:hover:not(.active) {
     display: table;
     clear: both;
 }
-
-

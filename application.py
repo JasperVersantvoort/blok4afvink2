@@ -59,7 +59,7 @@ def database(zoek):
     :param zoek: Het ingegeven zoekwoord
     :return: Een lijst met de juiste discriptions
     """
-    print("zoek woord is:", zoek)
+
     conn = mysql.connector.connect(host='hannl-hlo-bioinformatica'
                                         '-mysqlsrv.mysql.database'
                                         '.azure.com',
@@ -69,7 +69,7 @@ def database(zoek):
     cursor = conn.cursor()
 
     if zoek == "None":
-        print("zoek is none")
+        print("Het zoekwoord is:", zoek)
         cursor.execute("select acc_code, name, "
                        "description, e_value from results "
                        "join organism on "
