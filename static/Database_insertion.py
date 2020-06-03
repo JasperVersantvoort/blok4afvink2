@@ -1,7 +1,12 @@
-# Bin1d groep 3
-# XML data in database zetten
-import mysql.connector
+#!/usr/bin/env python3
+# coding=utf-8
+"""
+Bin1d groep 3
+XML data in database zetten
+"""
 from xml.etree import ElementTree
+
+import mysql.connector
 
 
 def connector(blast_version, header, hit_id, acc, ident,
@@ -32,35 +37,30 @@ def connector(blast_version, header, hit_id, acc, ident,
     # Checkt welke blast is uitgevoerd,
     # als hij deze niet kent voegt hij die toe aan de database
     check_blast_execute = \
-        "select blast_version from blast_version " \
-        "where blast_version = '" + blast_version + "';"
+        f"select blast_version from blast_version where blast_version = '{blast_version}';"
     cursor.execute(check_blast_execute)
     blast_check = cursor.fetchall()
 
     if len(blast_check) == 0 and blast_version is not None:
-        execute_blast = "insert into blast_version (blast_version) " \
-                        "values ('" + blast_version + "')"
+        execute_blast = \
+            f"insert into blast_version (blast_version) values ('{blast_version}')"
         cursor.execute(execute_blast)
         conn.commit()
         cursor.close()
         cursor = conn.cursor()
 
     # Kijkt of er een nieuwe header is en voegt deze toe
-    check_header_execute = "select header from research_sequence " \
-                           "where header = '" + header + "';"
+    check_header_execute = \
+        f"select header from research_sequence where header = '{header}';"
     cursor.execute(check_header_execute)
     check = cursor.fetchall()
 
     if len(check) == 0:
         print("Nieuwe sequentie header: ", header)
         if qseq is not None and header is not None:
-            execute_res_seq = "insert into research_sequence " \
-                              "(sequence,score, header, `read`," \
-                              " plusorminux) " \
-                              "values ('" + qseq + "',null, '" + \
-                              header + "'," + \
-                              header[-1] + ", null)"
-
+            execute_res_seq = \
+                "insert into research_sequence (sequence, score, header, `read`, plusorminux)" \
+                f" values ('{qseq}', null, '{header}', {header[-1]}, null)"
             cursor.execute(execute_res_seq)
             conn.commit()
             cursor.close()
@@ -69,15 +69,14 @@ def connector(blast_version, header, hit_id, acc, ident,
     # kijkt of er een nieuw organism is.
     # Wanneer deze nieuw is voegt hij deze toe aan de database
     if defen is not None:
-        check_organism_execute = "select id from organism " \
-                                 "where name = '" + defen.split(',')[0] + "';"
+        check_organism_execute = \
+            f"select id from organism where name = '{defen.split(',')[0]}';"
         cursor.execute(check_organism_execute)
         check_organism = cursor.fetchall()
-
         if len(check_organism) == 0:
             org_id = defen.split(',')[0]
-            execute_organism = "insert into organism(name, results_id) " \
-                               "values ('" + defen.split(',')[0] + "',0)"
+            execute_organism = \
+                f"insert into organism(name, results_id) values ('{defen.split(',')[0]}', 0)"
             cursor.execute(execute_organism)
             conn.commit()
             cursor.close()
@@ -90,18 +89,15 @@ def connector(blast_version, header, hit_id, acc, ident,
         # kijkt of de data aan de eisen voldoet om in de database te mogen
         if int(hit_num) < 10 and float(evalue) < 0.00005 and int(ident) > 40:
             print(header, "hit", hit_id)
-            res_seq_id_execute = "select id from research_sequence " \
-                                 "where header = '" + header + "'"
+            res_seq_id_execute = \
+                f"select id from research_sequence where header = '{header}'"
             cursor.execute(res_seq_id_execute)
             res_seq_id = cursor.fetchall()
-            execute_result = "insert into results (percent_identity," \
-                             " acc_code, e_value,total, max," \
-                             " research_sequence_id, description," \
-                             " organism_id,blast_version_blast_version)" \
-                             " values (" + ident + ",'" + acc + "'," \
-                             + evalue + ",null,null," + str(
-                res_seq_id[0][0]) + ",'" + defen + "'," + str(
-                org_id) + ",'" + blast_version + "');"
+            execute_result = \
+                "insert into results (percent_identity, acc_code, e_value,total, max, research_sequence_id," \
+                " description, organism_id,blast_version_blast_version)" \
+                f" values({ident}, '{acc}', {evalue}, null, null, {str(res_seq_id[0][0])}, '{defen}', {str(org_id)}," \
+                f" '{blast_version}');"
             cursor.execute(execute_result)
             conn.commit()
 

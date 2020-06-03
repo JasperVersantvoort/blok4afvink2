@@ -127,7 +127,7 @@ def biopython_use(
         from time import time, sleep, gmtime
         if result_loc[-1:] == '/':
             result_loc = result_loc[:-1]
-        result_loc += '/results.xml'
+        result_loc += '/results5.xml'
         # https://www.ncbi.nlm.nih.gov/books/NBK25497/#chapter2.Usage_Guidelines_and_Requiremen
         sleep(0.4)  # post no more than three URL requests per second
         if large_job:  # Limit large jobs to either weekends or in between 9:00 PM to 5:00 AM (EST).
@@ -152,11 +152,3 @@ def biopython_use(
             for blast_records in NCBIXML.parse(results):
                 print(data_printer(blast_record=blast_records, e_value_thresh=e_value_thresh))
     return
-
-
-"""
-biopython_use(
-    result_loc='static', large_job=False, input_file='Course4_dataset_v04_mod.fastq',
-    file_format='fastq', index=None, print_results=True, e_value_thresh=0.04
-)
-"""
