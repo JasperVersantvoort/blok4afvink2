@@ -1,7 +1,7 @@
 {% extends "project.html" %}
 {%  block title %}Database{% endblock %}
 {%  block content %}
-
+    <h2>De database</h2>
     <p>
         Op deze pagina staat de database. Er is een filter voor de
         e-value. Via de zoekbalk kan er gezocht worden op de
@@ -10,21 +10,22 @@
         <br>
 
     <!-- Dit is/zijn de filter(s) -->
-        <br>
-        Filter op e-value:
-        <br>
-        <input type="checkbox" value="0">
-        <label for="0">0</label>
-        <br>
-        <input type="checkbox" value="21-30">
-        <label for="21-30">1e-30 en lager</label>
-        <br>
-        <input type="checkbox" value="11-20">
-        <label for="11-20">1e-20 en lager</label>
-        <br>
-        <input type="checkbox" value="0-10">
-        <label for="0-10">1e-10 en lager</label>
-        <br>
+        <form method="get">
+            Filter op e-value:
+            <br>
+            <input type="checkbox" value="0" name="evalue_nul">
+            <label for="0">0</label>
+            <br>
+            <input type="checkbox" value="21-30" name="tien">
+            <label for="21-30">1e-30 en lager</label>
+            <br>
+            <input type="checkbox" value="11-20" name="twinitg">
+            <label for="11-20">1e-20 en lager</label>
+            <br>
+            <input type="checkbox" value="0-10" name="dertig">
+            <label for="0-10">1e-10 en lager</label>
+            <br>
+        </form>
 
         <!-- De zoekbalk en de zoeknop -->
 
@@ -43,8 +44,6 @@
 
 
     <!-- De database -->
-        <h3> De database </h3>
-
     <table>
         <tr>
             <th>Accessiecode</th>

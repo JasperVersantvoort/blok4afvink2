@@ -26,13 +26,13 @@ def website_home():
     return render_template("project.html")
 
 
-@app.route('/over ons.html')
-def site_over_ons():
+@app.route('/resultaten.html')
+def resultaten():
     """
-    Geeft een pagina weer met wat informatie over ons.
-    :return: De html pagina dat over ons gaat
+    Geeft een pagina weer met de belangrijkste resultaten
+    :return: De html pagina met resultaten
     """
-    return render_template("over ons.html")
+    return render_template("resultaten.html")
 
 
 @app.route('/database.html', methods=["POST", "GET"])
@@ -82,13 +82,34 @@ def database(zoek):
         query = "select acc_code, name, description,e_value from " \
                 "results join organism on organism_id = organism.id  " \
                 "where name like '%" + zoek + "%' or acc_code like " \
-                "'%" + zoek + "%' or description like '%" + zoek +"%'" \
-                "order by name"
+                                              "'%" + zoek + "%' or description like '%" + zoek + "%'" \
+                                                                                                 "order by name"
         cursor.execute(query)
         rows = cursor.fetchall()
         cursor.close()
         conn.close()
         return rows
+
+
+def evalue_nul():
+    """
+
+    :return:
+    """
+    conn = mysql.connector.connect(host='hannl-hlo-bioinformatica'
+                                        '-mysqlsrv.mysql.database'
+                                        '.azure.com',
+                                   user='mlfrg@hannl-hlo'
+                                        '-bioinformatica-mysqlsrv',
+                                   password='chocolade45', db='mlfrg')
+    cursor = conn.cursor()
+    cursor.execute("select acc_code, name, description,e_value from "
+                   "results join organism on organism_id =  "
+                   "organism.id where e_value = 0")
+    rij_1 = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    return rij_1
 
 
 if __name__ == '__main__':
