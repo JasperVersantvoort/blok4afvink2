@@ -34,6 +34,7 @@ def resultaten():
     """
     return render_template("resultaten.html")
 
+
 @app.route('/blast.html')
 def blast():
     """
@@ -46,30 +47,22 @@ def blast():
 @app.route('/database.html', methods=["POST", "GET"])
 def site_database():
     """
-    Zorgt ervoor dat je kunt zoeken in de database met de POST methode.
+    Zorgt ervoor dat je kunt zoeken in de database em dat je op de
+    e-value kunt filteren met de POST methode.
     :return: Geeft de database html pagina weer
     """
     if request.method == "POST":
         zoeken = request.form.get("zoek", "None")
-        print(zoeken)
+        print("Het zoekwoord is", zoeken)
         if zoeken == "":
             zoeken = "None"
         e_value = str(request.form.get("evalue", '1'))
-        # print(e_value)
-        # e_value = '1'
-
-        print("if", e_value)
         rows = database(zoeken, e_value)
         return render_template("database.html", database=rows,
                                zoek=zoeken, evalue=e_value)
     else:
         e_value = str(request.form.get("evalue", '1'))
-        # print(e_value)
-        print("else", e_value)
-        # e_value = '1'
-
         rows = database("None", e_value)
-
         return render_template("database.html", database=rows,
                                zoek="None", evalue=e_value)
 
@@ -78,6 +71,7 @@ def database(zoek, e_value):
     """
     Geeft de description van de database en kan deze filteren op een
     zoekwoord en filteren op de e-value.
+    :param e_value: filtert op evalue
     :param zoek: Het ingegeven zoekwoord
     :return: Een lijst met de juiste discriptions
     """
@@ -110,7 +104,7 @@ def database(zoek, e_value):
                 "where (name like '%" + zoek + "%' or acc_code like  " \
                 "'%" + zoek + "%' or description like '%" + zoek + \
                 "%')  and e_value <= " + e_value + " order by name "
-        print(query)
+        # print(query)
         cursor.execute(query)
         rows = cursor.fetchall()
         cursor.close()
