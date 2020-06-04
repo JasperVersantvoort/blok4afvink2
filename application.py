@@ -46,15 +46,20 @@ def site_database():
         print(zoeken)
         if zoeken == "":
             zoeken = "None"
-        e_value = request.form['evalue']
+        e_value = str(request.form.get("evalue", '1'))
+        # print(e_value)
+        # e_value = '1'
 
-        print("if",e_value)
+        print("if", e_value)
         rows = database(zoeken, e_value)
         return render_template("database.html", database=rows,
                                zoek=zoeken)
     else:
-        e_value = request.form['evalue']
+        e_value = str(request.form.get("evalue", '1'))
+        # print(e_value)
         print("else", e_value)
+        # e_value = '1'
+
         rows = database("None", e_value)
 
         return render_template("database.html", database=rows,
