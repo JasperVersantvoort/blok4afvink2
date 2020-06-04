@@ -4,7 +4,21 @@
     <h2>BLAST resultaten toevoegen</h2>
     <p>
     Op deze pagina kunnen er blast resultaten worden toegevoegd aan
-        de database
+        de database. Vul je blast resultaten op de juiste plek in.
+    </p>
+    <form method="POST">
+        <p>
+    <label>
+        Blast versie:                       <input type="text" name=blast> <br>
+        Header van ingevoerde sequentie:    <input type="text" name=header><br>
+        hit id:                             <input type="text" name=hit_id><br>
+        accesie code:                       <input type="text" name=acc><br>
+        identie:                            <input type="text" name=ident><br>
+        evalue:                             <input type="text" name=evalue><br>
+        defenitie:                          <input type="text" name=defenitie><br>
+        qsequentie:                         <input type="text" name=qseq><br>
+        <button type="submit">Zet in database</button>
+    </label>
     </p>
 {% endblock %}
 
