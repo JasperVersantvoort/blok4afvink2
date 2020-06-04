@@ -43,16 +43,25 @@ def site_database():
     """
     if request.method == "POST":
         zoeken = request.form.get("zoek", "None")
-        rows = database(zoeken)
+        print(zoeken)
+        if zoeken == "":
+            zoeken = "None"
+        e_value = request.form['evalue']
+
+        print("if",e_value)
+        rows = database(zoeken, e_value)
         return render_template("database.html", database=rows,
                                zoek=zoeken)
     else:
-        rows = database("None")
+        e_value = request.form['evalue']
+        print("else", e_value)
+        rows = database("None", e_value)
+
         return render_template("database.html", database=rows,
                                zoek="None")
 
 
-def database(zoek):
+def database(zoek, e_value):
     """
     Geeft de description van de database en kan deze filteren op een
     zoekwoord
@@ -68,12 +77,18 @@ def database(zoek):
                                    password='chocolade45', db='mlfrg')
     cursor = conn.cursor()
 
+    print("zoek: ", zoek)
+
     if zoek == "None":
         print("Het zoekwoord is:", zoek)
-        cursor.execute("select acc_code, name, "
-                       "description, e_value from results "
-                       "join organism on "
-                       "organism_id = organism.id order by name")
+        query = "select acc_code, name, " \
+                       "description, e_value from results " \
+                       "join organism on " \
+                       "organism_id = organism.id " \
+                       "where e_value <= " + e_value + " order " \
+                                                            "by name "
+        print (query)
+        cursor.execute(query)
         rows = cursor.fetchall()
         cursor.close()
         conn.close()
@@ -81,35 +96,15 @@ def database(zoek):
     else:
         query = "select acc_code, name, description,e_value from " \
                 "results join organism on organism_id = organism.id  " \
-                "where name like '%" + zoek + "%' or acc_code like " \
-                                              "'%" + zoek + "%' or description like '%" + zoek + "%'" \
-                                                                                                 "order by name"
+                "where (name like '%" + zoek + "%' or acc_code like  " \
+                "'%" + zoek + "%' or description like '%" + zoek + \
+                "%')  and e_value <= " + e_value + " order by name "
+        print(query)
         cursor.execute(query)
         rows = cursor.fetchall()
         cursor.close()
         conn.close()
         return rows
-
-
-def evalue_nul():
-    """
-
-    :return:
-    """
-    conn = mysql.connector.connect(host='hannl-hlo-bioinformatica'
-                                        '-mysqlsrv.mysql.database'
-                                        '.azure.com',
-                                   user='mlfrg@hannl-hlo'
-                                        '-bioinformatica-mysqlsrv',
-                                   password='chocolade45', db='mlfrg')
-    cursor = conn.cursor()
-    cursor.execute("select acc_code, name, description,e_value from "
-                   "results join organism on organism_id =  "
-                   "organism.id where e_value = 0")
-    rij_1 = cursor.fetchall()
-    cursor.close()
-    conn.close()
-    return rij_1
 
 
 if __name__ == '__main__':
