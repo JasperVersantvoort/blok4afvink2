@@ -1,0 +1,3612 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>refseq_protein</BlastOutput_db>
+  <BlastOutput_query-ID>Query_22494</BlastOutput_query-ID>
+  <BlastOutput_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22355:2658_2</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_22494</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22355:2658_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_091400575.1|</Hit_id>
+  <Hit_def>amidohydrolase [Arachidicoccus rhizosphaerae]</Hit_def>
+  <Hit_accession>WP_091400575</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>6.24672e-33</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>LKTRIAELAKKYFNEAIEIRRHLHAHPELSYQEFETAAFVRKKLDTWGIPHKTMAVTGVVGWIEGKNPSSRVVALRADMDALPI</Hsp_qseq>
+      <Hsp_hseq>LKDKIKELAEAYHSEFIDIRRHLHAHPELSYQEFETSKFVQQKLKSFQIPFQVMAETGVIGLIEGKNPTSRVIALRADMDALPI</Hsp_hseq>
+      <Hsp_midline>LK +I ELA+ Y +E I+IRRHLHAHPELSYQEFET+ FV++KL ++ IP + MA TGV+G IEGKNP+SRV+ALRADMDALPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_126973488.1|</Hit_id>
+  <Hit_def>amidohydrolase [Gynurincola endophyticus]</Hit_def>
+  <Hit_accession>WP_126973488</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>1.97608e-32</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MDNLKTRIAELAKKYFNEAIEIRRHLHAHPELSYQEFETAAFVRKKLDTWGIPHKTMAVTGVVGWIEGKNPSSRVVALRADMDALPI</Hsp_qseq>
+      <Hsp_hseq>MIHLKQTIKDLAKKYSNEFIDIRHHLHANPELSYEEFETSAFIQKKLQAFDIPYQVMATTGVVGVIEGNNPSSRTIALRADIDALPI</Hsp_hseq>
+      <Hsp_midline>M +LK  I +LAKKY NE I+IR HLHA+PELSY+EFET+AF++KKL  + IP++ MA TGVVG IEG NPSSR +ALRAD+DALPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_146785058.1|</Hit_id>
+  <Hit_def>amidohydrolase [Arachidicoccus ginsenosidivorans]</Hit_def>
+  <Hit_accession>WP_146785058</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>2.24196e-32</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>LKTRIAELAKKYFNEAIEIRRHLHAHPELSYQEFETAAFVRKKLDTWGIPHKTMAVTGVVGWIEGKNPSSRVVALRADMDALPI</Hsp_qseq>
+      <Hsp_hseq>LKTKIEQLAKAYHSEFIDIRRHLHAHPELSYQEFETSKFIQDKLKAFNIHYQVMAETGVIGLIEGKNPNSRVIALRADMDALPI</Hsp_hseq>
+      <Hsp_midline>LKT+I +LAK Y +E I+IRRHLHAHPELSYQEFET+ F++ KL  + I ++ MA TGV+G IEGKNP+SRV+ALRADMDALPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_133989648.1|</Hit_id>
+  <Hit_def>amidohydrolase [Dinghuibacter silviterrae]</Hit_def>
+  <Hit_accession>WP_133989648</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>2.26565e-32</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>LKTRIAELAKKYFNEAIEIRRHLHAHPELSYQEFETAAFVRKKLDTWGIPHKTMAVTGVVGWIEGKNPSSRVVALRADMDALPI</Hsp_qseq>
+      <Hsp_hseq>LREKIQQLADRYSDEFIAIRHHLHAHPELSYQEFQTSAFVQDRLKAWGIPFQVMAVTGVVGLIEGRNPTKRVIALRGDMDALPI</Hsp_hseq>
+      <Hsp_midline>L+ +I +LA +Y +E I IR HLHAHPELSYQEF+T+AFV+ +L  WGIP + MAVTGVVG IEG+NP+ RV+ALR DMDALPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_054284343.1|</Hit_id>
+  <Hit_def>amidohydrolase [Chitinophagaceae bacterium PMP191F]</Hit_def>
+  <Hit_accession>WP_054284343</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>6.72174e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MDNLKTRIAELAKKYFNEAIEIRRHLHAHPELSYQEFETAAFVRKKLDTWGIPHKTMAVTGVVGWIEGKNPSSRVVALRADMDALPIQ</Hsp_qseq>
+      <Hsp_hseq>MNNLKDKIQHLAHTYQADAVAIRHHLHAHPELSYQEFETSAFVQQQLTKLGIPFQVMATTGVVGLIKGKSPDKRIVALRADMDALPIQ</Hsp_hseq>
+      <Hsp_midline>M+NLK +I  LA  Y  +A+ IR HLHAHPELSYQEFET+AFV+++L   GIP + MA TGVVG I+GK+P  R+VALRADMDALPIQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_163871628.1|</Hit_id>
+  <Hit_def>amidohydrolase [Parapedobacter sp. SGR-10]</Hit_def>
+  <Hit_accession>WP_163871628</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>1.32878e-31</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MDNLKTRIAELAKKYFNEAIEIRRHLHAHPELSYQEFETAAFVRKKLDTWGIPHKTMAVTGVVGWIEGKNPSSRVVALRADMDALPI</Hsp_qseq>
+      <Hsp_hseq>MADIKERVHRLAKDFFGETVEIRRHLHRHPELSFEEFETSAFVKRTLDSLGIPYQEMANTGVVGIITGEQPSEKVIALRADMDALPI</Hsp_hseq>
+      <Hsp_midline>M ++K R+  LAK +F E +EIRRHLH HPELS++EFET+AFV++ LD+ GIP++ MA TGVVG I G+ PS +V+ALRADMDALPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_129005663.1|</Hit_id>
+  <Hit_def>amidohydrolase [Filimonas sp. TTM-71]</Hit_def>
+  <Hit_accession>WP_129005663</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>1.33647e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LKTRIAELAKKYFNEAIEIRRHLHAHPELSYQEFETAAFVRKKLDTWGIPHKTMAVTGVVGWIEGKNPSSRVVALRADMDALPIQ</Hsp_qseq>
+      <Hsp_hseq>LEQKIKALAQAYAGEFVAVRQHLHAHPELSYQEFETSAFVKEKLSSWGIPFEVKATTGIVGIIEGRNPASRIIALRADMDALPIE</Hsp_hseq>
+      <Hsp_midline>L+ +I  LA+ Y  E + +R+HLHAHPELSYQEFET+AFV++KL +WGIP +  A TG+VG IEG+NP+SR++ALRADMDALPI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_086946955.1|</Hit_id>
+  <Hit_def>amidohydrolase [Sphingobacterium sp. JB170]</Hit_def>
+  <Hit_accession>WP_086946955</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>1.68352e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LKTRIAELAKKYFNEAIEIRRHLHAHPELSYQEFETAAFVRKKLDTWGIPHKTMAVTGVVGWIEGKNPSSRVVALRADMDALPIQ</Hsp_qseq>
+      <Hsp_hseq>LKDKIQQLAKAYFNDTVEIRRHLHQHPELSFEEFQTAAYVKEKLDDLGIPYQAMAGTGIVALIQGQLPGEKVLALRADMDALPIQ</Hsp_hseq>
+      <Hsp_midline>LK +I +LAK YFN+ +EIRRHLH HPELS++EF+TAA+V++KLD  GIP++ MA TG+V  I+G+ P  +V+ALRADMDALPIQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_093364854.1|</Hit_id>
+  <Hit_def>amidohydrolase [Sphingobacterium wenxiniae]</Hit_def>
+  <Hit_accession>WP_093364854</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>1.74838e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MDNLKTRIAELAKKYFNEAIEIRRHLHAHPELSYQEFETAAFVRKKLDTWGIPHKTMAVTGVVGWIEGKNPSSRVVALRADMDALPIQ</Hsp_qseq>
+      <Hsp_hseq>MPYLQNKIKELAKQYFNEVVSIRRHLHQNPELSFEEYQTAAFVKEKLDVLGISYESMANTGVVGLIVGEKPSDKVLALRADMDALPIQ</Hsp_hseq>
+      <Hsp_midline>M  L+ +I ELAK+YFNE + IRRHLH +PELS++E++TAAFV++KLD  GI +++MA TGVVG I G+ PS +V+ALRADMDALPIQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_123121572.1|</Hit_id>
+  <Hit_def>amidohydrolase [Ferruginibacter sp. BO-59]</Hit_def>
+  <Hit_accession>WP_123121572</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>2.67681e-31</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>LKTRIAELAKKYFNEAIEIRRHLHAHPELSYQEFETAAFVRKKLDTWGIPHKTMAVTGVVGWIEGKNPSSRVVALRADMDALPI</Hsp_qseq>
+      <Hsp_hseq>LKEKIQNLAKTDFDEFVQIRRHLHAHPELSYKEFETSKFVQQKLKEFGIKHSVIATTGVVGIIEGKNPSKKIIALRADMDALPI</Hsp_hseq>
+      <Hsp_midline>LK +I  LAK  F+E ++IRRHLHAHPELSY+EFET+ FV++KL  +GI H  +A TGVVG IEGKNPS +++ALRADMDALPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>169813165</Statistics_db-num>
+      <Statistics_db-len>149509442</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_22495</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11625:2658_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_115840573.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Lysobacter soli]</Hit_def>
+  <Hit_accession>WP_115840573</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>8.36405e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VNPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFDSLLKGLGKLSPDPARLAEDLDDAWEVLAEAVQTVMRRHGLPN</Hsp_qseq>
+      <Hsp_hseq>VNPIDFENAEGNFGIANALFEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFDALLRGLGKLSANPQRLAEDLDAAWEVLAEAVQTVMRRHGLPN</Hsp_hseq>
+      <Hsp_midline>VNPIDFENAEGNFGIANAL EHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFD+LL+GLGKLS +P RLAEDLD AWEVLAEAVQTVMRRHGLPN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_133322983.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Luteimonas aestuarii]</Hit_def>
+  <Hit_accession>WP_133322983</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>1.14309e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VNPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFDSLLKGLGKLSPDPARLAEDLDDAWEVLAEAVQTVMRRHGLPN</Hsp_qseq>
+      <Hsp_hseq>VNPIDFENAEGNFGIANALLEHFAAKLPVSRWQRDLTDSTVLRALGTAIGHALIGYDALLKGLGKLKPNPARLAEDLDATWEVLGEAVQTVMRRHGLPN</Hsp_hseq>
+      <Hsp_midline>VNPIDFENAEGNFGIANALLEHFAAKLP+SRWQRDLTDSTVLRALGTA GHALIG+D+LLKGLGKL P+PARLAEDLD  WEVL EAVQTVMRRHGLPN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_146385161.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Luteimonas marina]</Hit_def>
+  <Hit_accession>WP_146385161</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>2.0591e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VNPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFDSLLKGLGKLSPDPARLAEDLDDAWEVLAEAVQTVMRRHGLPN</Hsp_qseq>
+      <Hsp_hseq>VNPIDFENAEGNFGIANALFEHFAAKLPVSRWQRDLTDSTVLRALGTAFGHALIGFDALLRGLGKLSPNPDRLAADLDASWEVLAEAVQTVMRRHGLPN</Hsp_hseq>
+      <Hsp_midline>VNPIDFENAEGNFGIANAL EHFAAKLP+SRWQRDLTDSTVLRALGTAFGHALIGFD+LL+GLGKLSP+P RLA DLD +WEVLAEAVQTVMRRHGLPN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_141518381.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Lysobacter aestuarii]</Hit_def>
+  <Hit_accession>WP_141518381</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>5.74581e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VNPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFDSLLKGLGKLSPDPARLAEDLDDAWEVLAEAVQTVMRRHGLPN</Hsp_qseq>
+      <Hsp_hseq>VNPIDFENAEGNLGIANALFEHFAAKLPISRWQRDLTDSTTLRALGTAFGHALIGFDALLRGLGKLSANPARLAEDLDAAWEVLAEAVQTVMRRHGLPN</Hsp_hseq>
+      <Hsp_midline>VNPIDFENAEGN GIANAL EHFAAKLPISRWQRDLTDST LRALGTAFGHALIGFD+LL+GLGKLS +PARLAEDLD AWEVLAEAVQTVMRRHGLPN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_091793111.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Lysobacter sp. yr284]</Hit_def>
+  <Hit_accession>WP_091793111</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>6.67619e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VNPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFDSLLKGLGKLSPDPARLAEDLDDAWEVLAEAVQTVMRRHGLPN</Hsp_qseq>
+      <Hsp_hseq>VNPIDFENAEGNFGIANALFEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFDALLRGLGKLSANPERLAADLDAAWEVLAEAVQTVMRRHGLPN</Hsp_hseq>
+      <Hsp_midline>VNPIDFENAEGNFGIANAL EHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFD+LL+GLGKLS +P RLA DLD AWEVLAEAVQTVMRRHGLPN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_158986828.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Lysobacter panacisoli]</Hit_def>
+  <Hit_accession>WP_158986828</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>1.44152e-55</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VNPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFDSLLKGLGKLSPDPARLAEDLDDAWEVLAEAVQTVMRRHGLPN</Hsp_qseq>
+      <Hsp_hseq>INPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFDALQRGLGKLSVNPQRLAEDLEAAWEVLAEAVQTVMRRHGLPN</Hsp_hseq>
+      <Hsp_midline>+NPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFD+L +GLGKLS +P RLAEDL+ AWEVLAEAVQTVMRRHGLPN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_111268041.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Lysobacter maris]</Hit_def>
+  <Hit_accession>WP_111268041</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>1.74798e-55</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VNPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFDSLLKGLGKLSPDPARLAEDLDDAWEVLAEAVQTVMRRHGLPN</Hsp_qseq>
+      <Hsp_hseq>VNPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDSTTLRALGTAFGHALIGFDALGRGLGKLSANPERLAEDLDAAWEVLAEAVQTVMRRHGLPN</Hsp_hseq>
+      <Hsp_midline>VNPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDST LRALGTAFGHALIGFD+L +GLGKLS +P RLAEDLD AWEVLAEAVQTVMRRHGLPN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_056102459.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Lysobacter sp. Root667]</Hit_def>
+  <Hit_accession>WP_056102459</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>2.43548e-55</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VNPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFDSLLKGLGKLSPDPARLAEDLDDAWEVLAEAVQTVMRRHGLPN</Hsp_qseq>
+      <Hsp_hseq>VNPIDFENAEGNFGIANALFEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGYDALLRGLGKLSANPERLAADLDAAWEVLAEAVQTVMRRHGLPN</Hsp_hseq>
+      <Hsp_midline>VNPIDFENAEGNFGIANAL EHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIG+D+LL+GLGKLS +P RLA DLD AWEVLAEAVQTVMRRHGLPN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_123769070.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Vulcaniibacterium tengchongense]</Hit_def>
+  <Hit_accession>WP_123769070</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>2.59612e-55</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VNPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFDSLLKGLGKLSPDPARLAEDLDDAWEVLAEAVQTVMRRHGLPN</Hsp_qseq>
+      <Hsp_hseq>VNPIDFENAEGNFGIANALFEHFAAKLPVSRWQRDLTDSTVLRALGTAFGHALIGLDALLRGLGKLSANPQRLAEDLDASWEVLAEAVQTVMRRHGLPN</Hsp_hseq>
+      <Hsp_midline>VNPIDFENAEGNFGIANAL EHFAAKLP+SRWQRDLTDSTVLRALGTAFGHALIG D+LL+GLGKLS +P RLAEDLD +WEVLAEAVQTVMRRHGLPN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_057163425.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Lysobacter sp. Root916]</Hit_def>
+  <Hit_accession>WP_057163425</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>2.7987e-55</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VNPIDFENAEGNFGIANALLEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGFDSLLKGLGKLSPDPARLAEDLDDAWEVLAEAVQTVMRRHGLPN</Hsp_qseq>
+      <Hsp_hseq>VNPIDFENAEGNFGIANALFEHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIGYDALLRGLGKLSVNPERLAADLDAAWEVLAEAVQTVMRRHGLPN</Hsp_hseq>
+      <Hsp_midline>VNPIDFENAEGNFGIANAL EHFAAKLPISRWQRDLTDSTVLRALGTAFGHALIG+D+LL+GLGKLS +P RLA DLD AWEVLAEAVQTVMRRHGLPN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>169813165</Statistics_db-num>
+      <Statistics_db-len>149509442</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_22496</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11625:2658_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_146309909.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Luteimonas sp. YD-1]</Hit_def>
+  <Hit_accession>WP_146309909</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>2.88777e-38</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>366</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>RGRAAHSPDPARLAEDLDDAWAVLAEAVQTVMRRHGLPNPYEQLKALTRGQGVTAESIRGFIRTLPLPEADRQRLLELTPATYTGLAERLARGI</Hsp_qseq>
+      <Hsp_hseq>RGLGKLGANPERLAADLDASWEVLAEAVQTVMRRHGLPNPYEQLKALTRGQGITAESMRAFIQSLELPEADRQRLLAMTPASYTGLASELASGI</Hsp_hseq>
+      <Hsp_midline>RG      +P RLA DLD +W VLAEAVQTVMRRHGLPNPYEQLKALTRGQG+TAES+R FI++L LPEADRQRLL +TPA+YTGLA  LA GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_114960932.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Thermomonas haemolytica]</Hit_def>
+  <Hit_accession>WP_114960932</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>9.51822e-38</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>360</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>RRGRAAHSPDPARLAEDLDDAWAVLAEAVQTVMRRHGLPNPYEQLKALTRGQGVTAESIRGFIRTLPLPEADRQRLLELTPATYTGLAERLARGI</Hsp_qseq>
+      <Hsp_hseq>QRGLGKLSANPERLAADLDASWEVLAEAVQTVMRRHGLPNPYEQLKALTRGHGISAESMRAFVETLDLPAADKQRLLDMTPARYTGLAERLAREI</Hsp_hseq>
+      <Hsp_midline>+RG    S +P RLA DLD +W VLAEAVQTVMRRHGLPNPYEQLKALTRG G++AES+R F+ TL LP AD+QRLL++TPA YTGLAERLAR I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_150928327.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Xanthomonas citri]</Hit_def>
+  <Hit_accession>WP_150928327</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>9.98546e-38</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>366</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>RRGRAAHSPDPARLAEDLDDAWAVLAEAVQTVMRRHGLPNPYEQLKALTRGQGVTAESIRGFIRTLPLPEADRQRLLELTPATYTGLAERLARGI</Hsp_qseq>
+      <Hsp_hseq>QRGLAKLSVNPERLAADLDASWEVLAEAVQTVMRRHGLPNPYEQLKALTRGQGITAESMRGFVDALALPDADKARLRELVPGGYTGLAERLARDI</Hsp_hseq>
+      <Hsp_midline>+RG A  S +P RLA DLD +W VLAEAVQTVMRRHGLPNPYEQLKALTRGQG+TAES+RGF+  L LP+AD+ RL EL P  YTGLAERLAR I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_137265370.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Luteimonas sp. H23]</Hit_def>
+  <Hit_accession>WP_137265370</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>1.12411e-37</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>363</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>RGRAAHSPDPARLAEDLDDAWAVLAEAVQTVMRRHGLPNPYEQLKALTRGQGVTAESIRGFIRTLPLPEADRQRLLELTPATYTGLAERLARGI</Hsp_qseq>
+      <Hsp_hseq>RGLNKLSANPERLAADLDASWEVLAEAVQTVMRRHGLPNPYEQLKALTRGQGINEASMREFIRTLELPEADKRRLLDMTPGTYTGLAEKLARDI</Hsp_hseq>
+      <Hsp_midline>RG    S +P RLA DLD +W VLAEAVQTVMRRHGLPNPYEQLKALTRGQG+   S+R FIRTL LPEAD++RLL++TP TYTGLAE+LAR I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_072754948.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Thermomonas hydrothermalis]</Hit_def>
+  <Hit_accession>WP_072754948</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>3.24313e-37</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>360</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>RRGRAAHSPDPARLAEDLDDAWAVLAEAVQTVMRRHGLPNPYEQLKALTRGQGVTAESIRGFIRTLPLPEADRQRLLELTPATYTGLAERLARGI</Hsp_qseq>
+      <Hsp_hseq>QRGLGKLSVNPEQLAADLDASWEVLAEAVQTVMRRHGLPNPYEQLKALTRGQGITADSMRAFIATLELPAADKARLLEMTPARYTGLAERLAREI</Hsp_hseq>
+      <Hsp_midline>+RG    S +P +LA DLD +W VLAEAVQTVMRRHGLPNPYEQLKALTRGQG+TA+S+R FI TL LP AD+ RLLE+TPA YTGLAERLAR I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_043740592.1|</Hit_id>
+  <Hit_def>MULTISPECIES: adenylosuccinate lyase [unclassified Luteimonas]</Hit_def>
+  <Hit_accession>WP_043740592</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>3.36185e-37</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>367</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>RGRAAHSPDPARLAEDLDDAWAVLAEAVQTVMRRHGLPNPYEQLKALTRGQGVTAESIRGFIRTLPLPEADRQRLLELTPATYTGLAERLARGI</Hsp_qseq>
+      <Hsp_hseq>RGLGKLGANPERLAADLDAAWEVLAEAVQTVMRRHGLPNPYEQLKALTRGQGITADSMRQFIQSLDLPEADRERLLAMTPASYTGLAAELASGI</Hsp_hseq>
+      <Hsp_midline>RG      +P RLA DLD AW VLAEAVQTVMRRHGLPNPYEQLKALTRGQG+TA+S+R FI++L LPEADR+RLL +TPA+YTGLA  LA GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_137913452.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Rudaea sp. 3F27F6]</Hit_def>
+  <Hit_accession>WP_137913452</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>3.84396e-37</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>362</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>RGRAAHSPDPARLAEDLDDAWAVLAEAVQTVMRRHGLPNPYEQLKALTRGQGVTAESIRGFIRTLPLPEADRQRLLELTPATYTGLAERLARGI*G</Hsp_qseq>
+      <Hsp_hseq>RGVGKLNVDPARLAADLDASWEVLAEAVQTVMRRHGLPEPYEQLKALTRGQGITRDSMREFISGLALPEADKQRLLDLTPGGYTGLAEALAKGIQG</Hsp_hseq>
+      <Hsp_midline>RG    + DPARLA DLD +W VLAEAVQTVMRRHGLP PYEQLKALTRGQG+T +S+R FI  L LPEAD+QRLL+LTP  YTGLAE LA+GI G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_108840752.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase, partial [Xanthomonas fragariae]</Hit_def>
+  <Hit_accession>WP_108840752</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>4.6892e-37</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>RGRAAHSPDPARLAEDLDDAWAVLAEAVQTVMRRHGLPNPYEQLKALTRGQGVTAESIRGFIRTLPLPEADRQRLLELTPATYTGLAERLARGI</Hsp_qseq>
+      <Hsp_hseq>KGLGKLTVNSERLDADLDAAWEVLAEAVQTVMRRHGLPNPYEQLKALTRGQGITAASMQAFVESLQLPEADKQRLRALTPGTYTGLAEQLARGI</Hsp_hseq>
+      <Hsp_midline>+G    + +  RL  DLD AW VLAEAVQTVMRRHGLPNPYEQLKALTRGQG+TA S++ F+ +L LPEAD+QRL  LTP TYTGLAE+LARGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_138348469.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Thermomonas fusca]</Hit_def>
+  <Hit_accession>WP_138348469</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>5.76858e-37</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>360</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>RRGRAAHSPDPARLAEDLDDAWAVLAEAVQTVMRRHGLPNPYEQLKALTRGQGVTAESIRGFIRTLPLPEADRQRLLELTPATYTGLAERLARGI</Hsp_qseq>
+      <Hsp_hseq>QRGLNKLSVNPERLAADLDASWEVLAEAVQTVMRRHGLPNPYEQLKALTRGHGITADSMRAFVESLDLPAADKQRLLDMTPGSYTGLAERLAREV</Hsp_hseq>
+      <Hsp_midline>+RG    S +P RLA DLD +W VLAEAVQTVMRRHGLPNPYEQLKALTRG G+TA+S+R F+ +L LP AD+QRLL++TP +YTGLAERLAR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_139444874.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Arenimonas sp. R29]</Hit_def>
+  <Hit_accession>WP_139444874</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.658</Hsp_bit-score>
+      <Hsp_score>348</Hsp_score>
+      <Hsp_evalue>8.26877e-37</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>361</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>RRGRAAHSPDPARLAEDLDDAWAVLAEAVQTVMRRHGLPNPYEQLKALTRGQGVTAESIRGFIRTLPLPEADRQRLLELTPATYTGLAERLARGI</Hsp_qseq>
+      <Hsp_hseq>QRGLGKLSANPERLAADLDAAWEVLAEPVQTVMRRHGLPNPYEQLKALTRGQGITAESMRAFIEGLELPAAARQRLLAMTPASYTGLAERLAREV</Hsp_hseq>
+      <Hsp_midline>+RG    S +P RLA DLD AW VLAE VQTVMRRHGLPNPYEQLKALTRGQG+TAES+R FI  L LP A RQRLL +TPA+YTGLAERLAR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>169813165</Statistics_db-num>
+      <Statistics_db-len>149509442</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_22497</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10599:2659_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_123770498.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Vulcaniibacterium tengchongense]</Hit_def>
+  <Hit_accession>WP_123770498</Hit_accession>
+  <Hit_len>841</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>1.12813e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>513</Hsp_hit-from>
+      <Hsp_hit-to>612</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VYVSDMWRVGNWLLDLSARLEQQDATNRICNLVNRDLDGDPTTLYDNAVPVCDGTFTVVEYRKSHPSFTAGANYSFNDRMSAYVRANTGGHFPDFDNGMR</Hsp_qseq>
+      <Hsp_hseq>IYLSDTWRIGKWLLDLSGRLENQDATNNVCNLRNVDLDGDPNTLYDNATPVCDGTYTRNHYKKSHPSWTAGANYAFTDRMSAYGRVNTGGHFPDFDNGIR</Hsp_hseq>
+      <Hsp_midline>+Y+SD WR+G WLLDLS RLE QDATN +CNL N DLDGDP TLYDNA PVCDGT+T   Y+KSHPS+TAGANY+F DRMSAY R NTGGHFPDFDNG+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_162373342.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Pseudoxanthomonas sangjuensis]</Hit_def>
+  <Hit_accession>WP_162373342</Hit_accession>
+  <Hit_len>860</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>6.37706e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>529</Hsp_hit-from>
+      <Hsp_hit-to>628</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VYVSDMWRVGNWLLDLSARLEQQDATNRICNLVNRDLDGDPTTLYDNAVPVCDGTFTVVEYRKSHPSFTAGANYSFNDRMSAYVRANTGGHFPDFDNGMR</Hsp_qseq>
+      <Hsp_hseq>LYLSDSWRVGQWLLDLSGRLERQDATNNVCNLANQDLDGDPNTLYDNNTPVCDGTFARIHYEKTHPTWTAGANYAFTDRMSAYVRVNTGGHFLDFDNGIR</Hsp_hseq>
+      <Hsp_midline>+Y+SD WRVG WLLDLS RLE+QDATN +CNL N+DLDGDP TLYDN  PVCDGTF  + Y K+HP++TAGANY+F DRMSAYVR NTGGHF DFDNG+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_162455223.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Pseudoxanthomonas kalamensis]</Hit_def>
+  <Hit_accession>WP_162455223</Hit_accession>
+  <Hit_len>834</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.1804e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>504</Hsp_hit-from>
+      <Hsp_hit-to>603</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VYVSDMWRVGNWLLDLSARLEQQDATNRICNLVNRDLDGDPTTLYDNAVPVCDGTFTVVEYRKSHPSFTAGANYSFNDRMSAYVRANTGGHFPDFDNGMR</Hsp_qseq>
+      <Hsp_hseq>LYLSDSWRVGKWLLDLSGRIENQDATNNVCNLDNVDLDGDPTTLYDNAVPVCNGTYAKTDYDKTHPSFSAGANYSFNDHMSMYGRVNTGGHFLDFDNGIR</Hsp_hseq>
+      <Hsp_midline>+Y+SD WRVG WLLDLS R+E QDATN +CNL N DLDGDPTTLYDNAVPVC+GT+   +Y K+HPSF+AGANYSFND MS Y R NTGGHF DFDNG+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_130516516.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TonB-dependent receptor [unclassified Pseudoxanthomonas]</Hit_def>
+  <Hit_accession>WP_130516516</Hit_accession>
+  <Hit_len>836</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>5.30149e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>506</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VYVSDMWRVGNWLLDLSARLEQQDATNRICNLVNRDLDGDPTTLYDNAVPVCDGTFTVVEYRKSHPSFTAGANYSFNDRMSAYVRANTGGHFPDFDNGMR</Hsp_qseq>
+      <Hsp_hseq>IYVSDSWRVGNWLLDLSGRLENQDAKSDVCNMTNQDLDGNPRTLYDNAVPVCNGTYARNEYDKTHPSWTAGANYSFNEHTSAYGRVNTGGHFLDFDNGIR</Hsp_hseq>
+      <Hsp_midline>+YVSD WRVGNWLLDLS RLE QDA + +CN+ N+DLDG+P TLYDNAVPVC+GT+   EY K+HPS+TAGANYSFN+  SAY R NTGGHF DFDNG+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_130528196.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TonB-dependent receptor [unclassified Pseudoxanthomonas]</Hit_def>
+  <Hit_accession>WP_130528196</Hit_accession>
+  <Hit_len>836</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>5.30149e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>506</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VYVSDMWRVGNWLLDLSARLEQQDATNRICNLVNRDLDGDPTTLYDNAVPVCDGTFTVVEYRKSHPSFTAGANYSFNDRMSAYVRANTGGHFPDFDNGMR</Hsp_qseq>
+      <Hsp_hseq>IYVSDSWRVGNWLLDLSGRLENQDAKSDVCNMTNQDLDGNPRTLYDNAVPVCNGTYAHNEYDKTHPSWTAGANYSFNEHTSAYGRVNTGGHFLDFDNGIR</Hsp_hseq>
+      <Hsp_midline>+YVSD WRVGNWLLDLS RLE QDA + +CN+ N+DLDG+P TLYDNAVPVC+GT+   EY K+HPS+TAGANYSFN+  SAY R NTGGHF DFDNG+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_130524983.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TonB-dependent receptor [unclassified Pseudoxanthomonas]</Hit_def>
+  <Hit_accession>WP_130524983</Hit_accession>
+  <Hit_len>836</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>5.67996e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>506</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VYVSDMWRVGNWLLDLSARLEQQDATNRICNLVNRDLDGDPTTLYDNAVPVCDGTFTVVEYRKSHPSFTAGANYSFNDRMSAYVRANTGGHFPDFDNGMR</Hsp_qseq>
+      <Hsp_hseq>IYVSDSWRVGNWLLDLSGRLENQDAKSDVCNMTNQDLDGNPRTLYDNAVPVCNGTYAHNEYDKTHPSWTAGANYSFNEHTSAYGRVNTGGHFLDFDNGIR</Hsp_hseq>
+      <Hsp_midline>+YVSD WRVGNWLLDLS RLE QDA + +CN+ N+DLDG+P TLYDNAVPVC+GT+   EY K+HPS+TAGANYSFN+  SAY R NTGGHF DFDNG+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_129471522.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Pseudoxanthomonas composti]</Hit_def>
+  <Hit_accession>WP_129471522</Hit_accession>
+  <Hit_len>837</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>9.78551e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>507</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VYVSDMWRVGNWLLDLSARLEQQDATNRICNLVNRDLDGDPTTLYDNAVPVCDGTFTVVEYRKSHPSFTAGANYSFNDRMSAYVRANTGGHFPDFDNGMR</Hsp_qseq>
+      <Hsp_hseq>IYLSDSWRVGNWLLDLSGRLENQDAESDVCNMTNQDLDGNPLTLYDNAVPVCDGTYAHNKYDKTHPSWTAGANYSFNEHTSAYGRVNTGGHFLDFDNGIR</Hsp_hseq>
+      <Hsp_midline>+Y+SD WRVGNWLLDLS RLE QDA + +CN+ N+DLDG+P TLYDNAVPVCDGT+   +Y K+HPS+TAGANYSFN+  SAY R NTGGHF DFDNG+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_103074556.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Lysobacter silvestris]</Hit_def>
+  <Hit_accession>WP_103074556</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>2.26053e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>514</Hsp_hit-from>
+      <Hsp_hit-to>613</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VYVSDMWRVGNWLLDLSARLEQQDATNRICNLVNRDLDGDPTTLYDNAVPVCDGTFTVVEYRKSHPSFTAGANYSFNDRMSAYVRANTGGHFPDFDNGMR</Hsp_qseq>
+      <Hsp_hseq>VYLSDTWRIGKWLLDASGRVENENATNNICNLSNRNLDGNPNTLYDNAVPVCNGTWHTVHYNKTHPAFTVGANYTFTNHMSAYGRVNTGGHFPDFDSGLR</Hsp_hseq>
+      <Hsp_midline>VY+SD WR+G WLLD S R+E ++ATN ICNL NR+LDG+P TLYDNAVPVC+GT+  V Y K+HP+FT GANY+F + MSAY R NTGGHFPDFD+G+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_130536076.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Pseudoxanthomonas sp. NML130969]</Hit_def>
+  <Hit_accession>WP_130536076</Hit_accession>
+  <Hit_len>835</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>2.2712e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>505</Hsp_hit-from>
+      <Hsp_hit-to>604</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VYVSDMWRVGNWLLDLSARLEQQDATNRICNLVNRDLDGDPTTLYDNAVPVCDGTFTVVEYRKSHPSFTAGANYSFNDRMSAYVRANTGGHFPDFDNGMR</Hsp_qseq>
+      <Hsp_hseq>IYVSDSWRVGQWLLDLSGRLENQDAKSDVCNMTNQDLDGNPRTLYDNAVPVCNGTYAHNEYDKTHPSWTAGANYSFNEHTSAYGRVNTGGHFLDFDNGIR</Hsp_hseq>
+      <Hsp_midline>+YVSD WRVG WLLDLS RLE QDA + +CN+ N+DLDG+P TLYDNAVPVC+GT+   EY K+HPS+TAGANYSFN+  SAY R NTGGHF DFDNG+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_079723699.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Pseudoxanthomonas indica]</Hit_def>
+  <Hit_accession>WP_079723699</Hit_accession>
+  <Hit_len>845</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>3.1766e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>614</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>YVSDMWRVGNWLLDLSARLEQQDATNRICNLVNRDLDGDPTTLYDNAVPVCDGTFTVVEYRKSHPSFTAGANYSFNDRMSAYVRANTGGHFPDFDNGMR</Hsp_qseq>
+      <Hsp_hseq>YLSDSWRVGKWLFDLSGRVENQDATNNVCNLENRDLDGDPDTLYDNAVPVCNGTFQKINYDKTHPTWTAGANYSFTPNMSMYGRVNTGGHFLDFDNGIR</Hsp_hseq>
+      <Hsp_midline>Y+SD WRVG WL DLS R+E QDATN +CNL NRDLDGDP TLYDNAVPVC+GTF  + Y K+HP++TAGANYSF   MS Y R NTGGHF DFDNG+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>169813165</Statistics_db-num>
+      <Statistics_db-len>149509442</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_22498</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10599:2659_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_093285265.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Pseudoxanthomonas sp. CF125]</Hit_def>
+  <Hit_accession>WP_093285265</Hit_accession>
+  <Hit_len>849</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>7.10845e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>421</Hsp_hit-from>
+      <Hsp_hit-to>511</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>HKRLTSLNNDLRLSRELFEGNTLTVGLYAAHYTMRDHWSLGNQMLMTNEPNARPITVT*TGTDGVTYRRTHGQGLADFAGYHITPHRQGPN</Hsp_qseq>
+      <Hsp_hseq>HKHLKSFNNDFRLSKELFEGNTLTIGFYINHYTMDDRWSLGNQMLMSNTPNATPIMVSYVGMDGQTYQRTDNQGFADFSGFHIAQHGSATN</Hsp_hseq>
+      <Hsp_midline>HK L S NND RLS+ELFEGNTLT+G Y  HYTM D WSLGNQMLM+N PNA PI V+  G DG TY+RT  QG ADF+G+HI  H    N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_162455223.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Pseudoxanthomonas kalamensis]</Hit_def>
+  <Hit_accession>WP_162455223</Hit_accession>
+  <Hit_len>834</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>2.02454e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>412</Hsp_hit-from>
+      <Hsp_hit-to>501</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>HKRLTSLNNDLRLSRELFEGNTLTVGLYAAHYTMRDHWSLGNQMLMTNEPNARPITVT*TGTDGVTYRRTHGQGLADFAGYHITPHRQGPN</Hsp_qseq>
+      <Hsp_hseq>HKHLKSFNNDFRLSKELFDGNTLTIGLYVNHYTMDDKWSLGNQMLMTNEPNARPIMVT-YDDGGTTYYRTDSQGFADFSGFHIAEHGSATN</Hsp_hseq>
+      <Hsp_midline>HK L S NND RLS+ELF+GNTLT+GLY  HYTM D WSLGNQMLMTNEPNARPI VT     G TY RT  QG ADF+G+HI  H    N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_129471522.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Pseudoxanthomonas composti]</Hit_def>
+  <Hit_accession>WP_129471522</Hit_accession>
+  <Hit_len>837</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>2.9595e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>415</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>HKRLTSLNNDLRLSRELFEGNTLTVGLYAAHYTMRDHWSLGNQMLMTNEPNARPITVT*TGTDGVTYRRTHGQGLADFAGYHIT</Hsp_qseq>
+      <Hsp_hseq>HKQLKSFNNDFRLSRELFEGNTLTVGLYYAHYSMSDKWSLGNQMLMTNTPNATPIAVTYV-DGGQTYYRTDGQGFADFSGYHIV</Hsp_hseq>
+      <Hsp_midline>HK+L S NND RLSRELFEGNTLTVGLY AHY+M D WSLGNQMLMTN PNA PI VT     G TY RT GQG ADF+GYHI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_130516516.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TonB-dependent receptor [unclassified Pseudoxanthomonas]</Hit_def>
+  <Hit_accession>WP_130516516</Hit_accession>
+  <Hit_len>836</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>6.31471e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>414</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>HKRLTSLNNDLRLSRELFEGNTLTVGLYAAHYTMRDHWSLGNQMLMTNEPNARPITVT*TGTDGVTYRRTHGQGLADFAGYHIT</Hsp_qseq>
+      <Hsp_hseq>HKHLKSFNNDFRLSRELFEGNTLTVGLYYAHYTMADKWSLGNQMLMTNTPNATPIAVTYV-DGGQTYYRTDGQGFADFGGYHIA</Hsp_hseq>
+      <Hsp_midline>HK L S NND RLSRELFEGNTLTVGLY AHYTM D WSLGNQMLMTN PNA PI VT     G TY RT GQG ADF GYHI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_130524983.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TonB-dependent receptor [unclassified Pseudoxanthomonas]</Hit_def>
+  <Hit_accession>WP_130524983</Hit_accession>
+  <Hit_len>836</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>6.95919e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>414</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>HKRLTSLNNDLRLSRELFEGNTLTVGLYAAHYTMRDHWSLGNQMLMTNEPNARPITVT*TGTDGVTYRRTHGQGLADFAGYHIT</Hsp_qseq>
+      <Hsp_hseq>HKHLKSFNNDFRLSRELFEGNTLTVGLYYAHYTMADKWSLGNQMLMTNTPNATPIAVTYV-DGGQTYYRTDGQGFADFGGYHIA</Hsp_hseq>
+      <Hsp_midline>HK L S NND RLSRELFEGNTLTVGLY AHYTM D WSLGNQMLMTN PNA PI VT     G TY RT GQG ADF GYHI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_130550582.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TonB-dependent receptor [unclassified Pseudoxanthomonas]</Hit_def>
+  <Hit_accession>WP_130550582</Hit_accession>
+  <Hit_len>835</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>7.23373e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>413</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>HKRLTSLNNDLRLSRELFEGNTLTVGLYAAHYTMRDHWSLGNQMLMTNEPNARPITVT*TGTDGVTYRRTHGQGLADFAGYHIT</Hsp_qseq>
+      <Hsp_hseq>HKHLKSFNNDFRLSRELFEGNTLTVGLYYAHYTMDDKWSLGNQMLMTNTPNATPIAVTYV-DGGQTYYRTDGQGFADFGGYHIV</Hsp_hseq>
+      <Hsp_midline>HK L S NND RLSRELFEGNTLTVGLY AHYTM D WSLGNQMLMTN PNA PI VT     G TY RT GQG ADF GYHI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_130528196.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TonB-dependent receptor [unclassified Pseudoxanthomonas]</Hit_def>
+  <Hit_accession>WP_130528196</Hit_accession>
+  <Hit_len>836</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>1.60512e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>414</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>HKRLTSLNNDLRLSRELFEGNTLTVGLYAAHYTMRDHWSLGNQMLMTNEPNARPITVT*TGTDGVTYRRTHGQGLADFAGYHIT</Hsp_qseq>
+      <Hsp_hseq>HKHLKSFNNDFRLSRELFEGNTLTVGVYYAHYTMADKWSLGNQMLMTNTPNATPIAVTYV-DGGQTYYRTDGQGFADFGGYHIA</Hsp_hseq>
+      <Hsp_midline>HK L S NND RLSRELFEGNTLTVG+Y AHYTM D WSLGNQMLMTN PNA PI VT     G TY RT GQG ADF GYHI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_130536076.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Pseudoxanthomonas sp. NML130969]</Hit_def>
+  <Hit_accession>WP_130536076</Hit_accession>
+  <Hit_len>835</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>2.08632e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>413</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>HKRLTSLNNDLRLSRELFEGNTLTVGLYAAHYTMRDHWSLGNQMLMTNEPNARPITVT*TGTDGVTYRRTHGQGLADFAGYHIT</Hsp_qseq>
+      <Hsp_hseq>HKHLKSFNNDFRLSRELFEGNTLTIGLYYAHYSMADKWSLGNQMLMTNTPNATPIAVTYV-DGGQTYYRTDGQGFADFGGYHIA</Hsp_hseq>
+      <Hsp_midline>HK L S NND RLSRELFEGNTLT+GLY AHY+M D WSLGNQMLMTN PNA PI VT     G TY RT GQG ADF GYHI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_163839597.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Pseudoxanthomonas sacheonensis]</Hit_def>
+  <Hit_accession>WP_163839597</Hit_accession>
+  <Hit_len>840</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>4.12187e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>413</Hsp_hit-from>
+      <Hsp_hit-to>502</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>HKRLTSLNNDLRLSRELFEGNTLTVGLYAAHYTMRDHWSLGNQMLMTNEPNARPITVT*TGTDGVTYRRTHGQGLADFAGYHITPHRQGPN</Hsp_qseq>
+      <Hsp_hseq>HKHLKSFNNDFRLSKELFEGNTLTIGFYINHYTMNDKWSLGNQMLMTNTPNATPITVSYT-DGGQTYQRTDSQGFADFGGFHIAQHGSATN</Hsp_hseq>
+      <Hsp_midline>HK L S NND RLS+ELFEGNTLT+G Y  HYTM D WSLGNQMLMTN PNA PITV+ T   G TY+RT  QG ADF G+HI  H    N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_093489844.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TonB-dependent receptor [unclassified Pseudoxanthomonas]</Hit_def>
+  <Hit_accession>WP_093489844</Hit_accession>
+  <Hit_len>832</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>7.09413e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>407</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>HKRLTSLNNDLRLSRELFEGNTLTVGLYAAHYTMRDHWSLGNQMLMTNEPNARPITVT*TGTDGVTYRRTHGQGLADFAGYHITPHRQGPN</Hsp_qseq>
+      <Hsp_hseq>HKELKAFNNDFRLSKDLFEGNTLTIGLYVNHYSMSDKWSLGNQMLMTNEPNATPITVSYV-NGGQTYQRTDSQGFADFGGYHIAQNGSATN</Hsp_hseq>
+      <Hsp_midline>HK L + NND RLS++LFEGNTLT+GLY  HY+M D WSLGNQMLMTNEPNA PITV+     G TY+RT  QG ADF GYHI  +    N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>169813165</Statistics_db-num>
+      <Statistics_db-len>149509442</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_22499</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9698:2660_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_051322996.1|</Hit_id>
+  <Hit_def>MULTISPECIES: sigma-70 family RNA polymerase sigma factor [unclassified Luteimonas]</Hit_def>
+  <Hit_accession>WP_051322996</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.31304e-07</Hsp_evalue>
+      <Hsp_query-from>207</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRI</Hsp_qseq>
+      <Hsp_hseq>LLARARAGDRVAFEQVYRWFERPVFSLALRI</Hsp_hseq>
+      <Hsp_midline>+LA+ARAGDR AFEQVYR FERPVF++ALRI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>1.31304e-07</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>22</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>MAAAPRPASSFAIDLPDACWRR</Hsp_qseq>
+      <Hsp_hseq>MPATNGPASSFAIDLPDALLAR</Hsp_hseq>
+      <Hsp_midline>M A   PASSFAIDLPDA   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_158733847.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Lysobacter sp. SYSU H10001]</Hit_def>
+  <Hit_accession>WP_158733847</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>9.95928e-07</Hsp_evalue>
+      <Hsp_query-from>207</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRI</Hsp_qseq>
+      <Hsp_hseq>LLARARAGDRSAFEQIYRWFERPVFNLALRI</Hsp_hseq>
+      <Hsp_midline>+LA+ARAGDR+AFEQ+YR FERPVF +ALRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_133322897.1|</Hit_id>
+  <Hit_def>RNA polymerase sigma factor [Luteimonas aestuarii]</Hit_def>
+  <Hit_accession>WP_133322897</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.10647e-06</Hsp_evalue>
+      <Hsp_query-from>207</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRI</Hsp_qseq>
+      <Hsp_hseq>LLARVRAGDRAAFEQVYRWFERPVFTLALRI</Hsp_hseq>
+      <Hsp_midline>+LA+ RAGDR AFEQVYR FERPVF +ALRI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.10647e-06</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>22</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>PRPASSFAIDLPDACWRR</Hsp_qseq>
+      <Hsp_hseq>PRPASSFAIELPTALLAR</Hsp_hseq>
+      <Hsp_midline>PRPASSFAI+LP A   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_144898092.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Luteimonas cucumeris]</Hit_def>
+  <Hit_accession>WP_144898092</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.64454e-06</Hsp_evalue>
+      <Hsp_query-from>207</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRI</Hsp_qseq>
+      <Hsp_hseq>LLARARAGDRVAFEQLYRWFERPVFTLALRI</Hsp_hseq>
+      <Hsp_midline>+LA+ARAGDR AFEQ+YR FERPVF +ALRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_056128501.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Lysobacter sp. Root494]</Hit_def>
+  <Hit_accession>WP_056128501</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.60386e-06</Hsp_evalue>
+      <Hsp_query-from>207</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRI</Hsp_qseq>
+      <Hsp_hseq>LLTRARTGERAAFEQLYRWFERPVFTLAMRM</Hsp_hseq>
+      <Hsp_midline>+L +AR G+R AFEQ+YR FERPVF +A+R+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>3.60386e-06</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>31</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>LRPFRLRRHPQWGMAAAPRPASSFAIDLPDACWRR</Hsp_qseq>
+      <Hsp_hseq>MRPFRIRAHPYRWMP----PNSSFAIDVPDTLLTR</Hsp_hseq>
+      <Hsp_midline>+RPFR+R HP   M     P SSFAID+PD    R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_051175957.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Luteimonas mephitis]</Hit_def>
+  <Hit_accession>WP_051175957</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>1.04006e-05</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>TVSPPAASTMGNGRSPQTRVELRHRPARRVLAKARAGDRTAFEQVYRRFERPVFAMALRI</Hsp_qseq>
+      <Hsp_hseq>TVPAAAILTPASGRASSFAIEV----PEALLARARAGEHAAFEQIYRRFERPVFTLAVRI</Hsp_hseq>
+      <Hsp_midline>TV   A  T  +GR+    +E+       +LA+ARAG+  AFEQ+YRRFERPVF +A+RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_117201346.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Lysobacter sp. WF-2]</Hit_def>
+  <Hit_accession>WP_117201346</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.64364e-05</Hsp_evalue>
+      <Hsp_query-from>207</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRI</Hsp_qseq>
+      <Hsp_hseq>LLARARSGERAAFEQLYRRFERPVFTLALRL</Hsp_hseq>
+      <Hsp_midline>+LA+AR+G+R AFEQ+YRRFERPVF +ALR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_082563075.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Pseudoxanthomonas sp. Root65]</Hit_def>
+  <Hit_accession>WP_082563075</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>2.2312e-05</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>RVLAKARAGDRTAFEQVYRRFERPVFAMALRI</Hsp_qseq>
+      <Hsp_hseq>RLVARARTGCREAFEQIYRRFERPVFTLALRI</Hsp_hseq>
+      <Hsp_midline>R++A+AR G R AFEQ+YRRFERPVF +ALRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_139448404.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Arenimonas sp. R29]</Hit_def>
+  <Hit_accession>WP_139448404</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>0.000105019</Hsp_evalue>
+      <Hsp_query-from>207</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRI</Hsp_qseq>
+      <Hsp_hseq>LLARARRGEASAFEQIYRRFERPVFTLALRL</Hsp_hseq>
+      <Hsp_midline>+LA+AR G+ +AFEQ+YRRFERPVF +ALR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_084635531.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Pseudoxanthomonas sp. J35]</Hit_def>
+  <Hit_accession>WP_084635531</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000440685</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>ARAATVSPPAASTMGNGRSPQTRVELRHRPARRVLAKARAGDRTAFEQVYRRFERPVFAMALRI</Hsp_qseq>
+      <Hsp_hseq>CRAFVPAMPAAHTRGDAAAPRSGFAID--VPETLLARARRGEPAAFEQLYRWFERPVFTLALRL</Hsp_hseq>
+      <Hsp_midline> RA   + PAA T G+  +P++   +       +LA+AR G+  AFEQ+YR FERPVF +ALR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>169813165</Statistics_db-num>
+      <Statistics_db-len>149509442</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_22500</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:9698:2660_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_051322996.1|</Hit_id>
+  <Hit_def>MULTISPECIES: sigma-70 family RNA polymerase sigma factor [unclassified Luteimonas]</Hit_def>
+  <Hit_accession>WP_051322996</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.79682e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRICGDREEAFEVLQE</Hsp_qseq>
+      <Hsp_hseq>LLARARAGDRVAFEQVYRWFERPVFSLALRICGDREEAAEVLQE</Hsp_hseq>
+      <Hsp_midline>+LA+ARAGDR AFEQVYR FERPVF++ALRICGDREEA EVLQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_117201346.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Lysobacter sp. WF-2]</Hit_def>
+  <Hit_accession>WP_117201346</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>4.34008e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRICGDREEAFEVLQE</Hsp_qseq>
+      <Hsp_hseq>LLARARSGERAAFEQLYRRFERPVFTLALRLCGDREEAADVLQD</Hsp_hseq>
+      <Hsp_midline>+LA+AR+G+R AFEQ+YRRFERPVF +ALR+CGDREEA +VLQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_013534201.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Pseudoxanthomonas suwonensis]</Hit_def>
+  <Hit_accession>WP_013534201</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>2.30486e-13</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRICGDREEAFEVLQE</Hsp_qseq>
+      <Hsp_hseq>LLARARRGDQAAFEQIYRWFERPVFTLAMRLCGDREEASEVLQD</Hsp_hseq>
+      <Hsp_midline>+LA+AR GD+ AFEQ+YR FERPVF +A+R+CGDREEA EVLQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_051175957.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Luteimonas mephitis]</Hit_def>
+  <Hit_accession>WP_051175957</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>1.37395e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRICGDREEAFEVLQE</Hsp_qseq>
+      <Hsp_hseq>LLARARAGEHAAFEQIYRRFERPVFTLAVRICGEREAAADVLQE</Hsp_hseq>
+      <Hsp_midline>+LA+ARAG+  AFEQ+YRRFERPVF +A+RICG+RE A +VLQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_026010271.1|</Hit_id>
+  <Hit_def>MULTISPECIES: sigma-70 family RNA polymerase sigma factor [unclassified Pseudoxanthomonas]</Hit_def>
+  <Hit_accession>WP_026010271</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>2.63718e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRICGDREEAFEVLQE</Hsp_qseq>
+      <Hsp_hseq>LLARARRGEPAAFEQIYRWFERPVFTLALRLCGDREEASEVLQE</Hsp_hseq>
+      <Hsp_midline>+LA+AR G+  AFEQ+YR FERPVF +ALR+CGDREEA EVLQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_125165139.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Pseudoxanthomonas sp. SGD-5-1]</Hit_def>
+  <Hit_accession>WP_125165139</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>5.73727e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRICGDREEAFEVLQE</Hsp_qseq>
+      <Hsp_hseq>LLARARRGEPAAFEQMYRWFERPVFTLALRLCGDREEASEVLQE</Hsp_hseq>
+      <Hsp_midline>+LA+AR G+  AFEQ+YR FERPVF +ALR+CGDREEA EVLQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_125111013.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Pseudoxanthomonas sp. SGNA-20]</Hit_def>
+  <Hit_accession>WP_125111013</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>5.92082e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>VLAKARAGDRTAFEQVYRRFERPVFAMALRICGDREEAFEVLQE</Hsp_qseq>
+      <Hsp_hseq>LLARARRGEPAAFEQMYRWFERPVFTLALRLCGDREEASEVLQE</Hsp_hseq>
+      <Hsp_midline>+LA+AR G+  AFEQ+YR FERPVF +ALR+CGDREEA EVLQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_024867741.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Pseudoxanthomonas suwonensis]</Hit_def>
+  <Hit_accession>WP_024867741</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>1.06951e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>PPADSRPARAATV-----APPAASTMGNGRSPQTRVELRHRPARRVLAKARAGDRTAFEQVYRRFERPVFAMALRICGDREEAFEVLQE</Hsp_qseq>
+      <Hsp_hseq>PPASTRLAAPASCLAFVPAVPAADTRGDAAAPRSGFAID--VPETLLARARRGEPAAFEQLYRWFERPVFTLALRLCGDHDEACEALQE</Hsp_hseq>
+      <Hsp_midline>PPA +R A  A+      A PAA T G+  +P++   +       +LA+AR G+  AFEQ+YR FERPVF +ALR+CGD +EA E LQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_139448404.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Arenimonas sp. R29]</Hit_def>
+  <Hit_accession>WP_139448404</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>4.70072e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>PRPPAPAPASRPPPADSRPARAATVAPPAASTMGNGRSPQTRVELRHRPARRVLAKARAGDRTAFEQVYRRFERPVFAMALRICGDREEAFEVLQE</Hsp_qseq>
+      <Hsp_hseq>PKAGRPAPGSEPDPFS-----AATLFRPAASL--TDVSPPSSFAIDVPDA--LLARARRGEASAFEQIYRRFERPVFTLALRLTGEREEAQDVLQD</Hsp_hseq>
+      <Hsp_midline>P+   PAP S P P       AAT+  PAAS      SP +   +    A  +LA+AR G+ +AFEQ+YRRFERPVF +ALR+ G+REEA +VLQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_084635531.1|</Hit_id>
+  <Hit_def>sigma-70 family RNA polymerase sigma factor [Pseudoxanthomonas sp. J35]</Hit_def>
+  <Hit_accession>WP_084635531</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>5.95448e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>ARAATVAPPAASTMGNGRSPQTRVELRHRPARRVLAKARAGDRTAFEQVYRRFERPVFAMALRICGDREEAFEVLQE</Hsp_qseq>
+      <Hsp_hseq>CRAFVPAMPAAHTRGDAAAPRSGFAID--VPETLLARARRGEPAAFEQLYRWFERPVFTLALRLCGDHDEACEALQE</Hsp_hseq>
+      <Hsp_midline> RA   A PAA T G+  +P++   +       +LA+AR G+  AFEQ+YR FERPVF +ALR+CGD +EA E LQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>169813165</Statistics_db-num>
+      <Statistics_db-len>149509442</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>8</Iteration_iter-num>
+  <Iteration_query-ID>Query_22501</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16515:2660_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_125112022.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas sp. SGNA-20]</Hit_def>
+  <Hit_accession>WP_125112022</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.67797e-10</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>35</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVPPR</Hsp_qseq>
+      <Hsp_hseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVSPR</Hsp_hseq>
+      <Hsp_midline>MTRIVILGSGFAALTAIRKLRELRVDAEITVV PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_162123951.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas taiwanensis]</Hit_def>
+  <Hit_accession>WP_162123951</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>3.37603e-10</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>35</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVPPR</Hsp_qseq>
+      <Hsp_hseq>MTRIVILGSGFAALTALRKLRELRVDAEITVVSPR</Hsp_hseq>
+      <Hsp_midline>MTRIVILGSGFAALTA+RKLRELRVDAEITVV PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_125109486.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas sp. SGD-10]</Hit_def>
+  <Hit_accession>WP_125109486</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.81318e-09</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>35</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVPPR</Hsp_qseq>
+      <Hsp_hseq>MTRIVILGSGFAALTAIRKLRERRVDAEITVVSPR</Hsp_hseq>
+      <Hsp_midline>MTRIVILGSGFAALTAIRKLRE RVDAEITVV PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_146313539.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Luteimonas sp. YD-1]</Hit_def>
+  <Hit_accession>WP_146313539</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>3.71195e-09</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>35</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVPPR</Hsp_qseq>
+      <Hsp_hseq>MTRIVILGSGFAALTAIRKLREQHVDAEITVVSPR</Hsp_hseq>
+      <Hsp_midline>MTRIVILGSGFAALTAIRKLRE  VDAEITVV PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_024869304.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas suwonensis]</Hit_def>
+  <Hit_accession>WP_024869304</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>8.35984e-08</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>35</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVPPR</Hsp_qseq>
+      <Hsp_hseq>MTRIVILGSGFAALTAIRKLRALHVDAGITVVSPR</Hsp_hseq>
+      <Hsp_midline>MTRIVILGSGFAALTAIRKLR L VDA ITVV PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_056879375.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas sp. Root630]</Hit_def>
+  <Hit_accession>WP_056879375</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>8.35984e-08</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>35</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVPPR</Hsp_qseq>
+      <Hsp_hseq>MTHIVILGSGFAALTAIRRLREQRLDADITVVSPR</Hsp_hseq>
+      <Hsp_midline>MT IVILGSGFAALTAIR+LRE R+DA+ITVV PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_162111070.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas mexicana]</Hit_def>
+  <Hit_accession>WP_162111070</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.0349e-07</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>35</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVPPR</Hsp_qseq>
+      <Hsp_hseq>MTRILILGSGFAALTAIRQLRKQRVDAEIIVVSPR</Hsp_hseq>
+      <Hsp_midline>MTRI+ILGSGFAALTAIR+LR+ RVDAEI VV PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_128154603.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Sinirhodobacter hungdaonensis]</Hit_def>
+  <Hit_accession>WP_128154603</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>8.14554e-07</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>35</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVPPR</Hsp_qseq>
+      <Hsp_hseq>MTRIAILGSGFAALTAVRELRRQKVDAEITVVSPR</Hsp_hseq>
+      <Hsp_midline>MTRI ILGSGFAALTA+R+LR  +VDAEITVV PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_162455679.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas kalamensis]</Hit_def>
+  <Hit_accession>WP_162455679</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>2.9542e-06</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>35</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVPPR</Hsp_qseq>
+      <Hsp_hseq>MSRISILGSGFAALTAIRELRKQGVDAEITVVSPR</Hsp_hseq>
+      <Hsp_midline>M+RI ILGSGFAALTAIR+LR+  VDAEITVV PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_128147932.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Sinirhodobacter ferrireducens]</Hit_def>
+  <Hit_accession>WP_128147932</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>3.45332e-06</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>35</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVPPR</Hsp_qseq>
+      <Hsp_hseq>MTRIAILGSGFAALTAVRELRRQKVEAEITVVSPR</Hsp_hseq>
+      <Hsp_midline>MTRI ILGSGFAALTA+R+LR  +V+AEITVV PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>169813165</Statistics_db-num>
+      <Statistics_db-len>149509442</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>9</Iteration_iter-num>
+  <Iteration_query-ID>Query_22502</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:16515:2660_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_162123951.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas taiwanensis]</Hit_def>
+  <Hit_accession>WP_162123951</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>3.26934e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTGDDLRIPLA</Hsp_qseq>
+      <Hsp_hseq>MTRIVILGSGFAALTALRKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTGDDLRIPLA</Hsp_hseq>
+      <Hsp_midline>MTRIVILGSGFAALTA+RKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTGDDLRIPLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_125112022.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas sp. SGNA-20]</Hit_def>
+  <Hit_accession>WP_125112022</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>2.62681e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTGDDLRIPLA</Hsp_qseq>
+      <Hsp_hseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTGADLRIPLA</Hsp_hseq>
+      <Hsp_midline>MTRIVILGSGFAALTAIRKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTG DLRIPLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_146313539.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Luteimonas sp. YD-1]</Hit_def>
+  <Hit_accession>WP_146313539</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>1.89345e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTGDDLRIPLA</Hsp_qseq>
+      <Hsp_hseq>MTRIVILGSGFAALTAIRKLREQHVDAEITVVSPRNELVYLPSLIWLPSGEKTGNDLRIPLA</Hsp_hseq>
+      <Hsp_midline>MTRIVILGSGFAALTAIRKLRE  VDAEITVVSPRNELVYLPSLIWLPSGEKTG+DLRIPLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_125109486.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas sp. SGD-10]</Hit_def>
+  <Hit_accession>WP_125109486</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>3.00478e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTGDDLRIPLA</Hsp_qseq>
+      <Hsp_hseq>MTRIVILGSGFAALTAIRKLRERRVDAEITVVSPRNELVYLPSLIWLPSGEKTGADLRIPLA</Hsp_hseq>
+      <Hsp_midline>MTRIVILGSGFAALTAIRKLRE RVDAEITVVSPRNELVYLPSLIWLPSGEKTG DLRIPLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_056879375.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas sp. Root630]</Hit_def>
+  <Hit_accession>WP_056879375</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>1.1039e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTGDDLRIPLA</Hsp_qseq>
+      <Hsp_hseq>MTHIVILGSGFAALTAIRRLREQRLDADITVVSPRNELVYLPSLIWLPSGEKTSDDLRIPLA</Hsp_hseq>
+      <Hsp_midline>MT IVILGSGFAALTAIR+LRE R+DA+ITVVSPRNELVYLPSLIWLPSGEKT DDLRIPLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_024869304.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas suwonensis]</Hit_def>
+  <Hit_accession>WP_024869304</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>1.20023e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTGDDLRIPLA</Hsp_qseq>
+      <Hsp_hseq>MTRIVILGSGFAALTAIRKLRALHVDAGITVVSPRNELVYLPSLIWLPSGEKTGADLRIPLA</Hsp_hseq>
+      <Hsp_midline>MTRIVILGSGFAALTAIRKLR L VDA ITVVSPRNELVYLPSLIWLPSGEKTG DLRIPLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_162111070.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas mexicana]</Hit_def>
+  <Hit_accession>WP_162111070</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.51067e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTGDDLRIPLA</Hsp_qseq>
+      <Hsp_hseq>MTRILILGSGFAALTAIRQLRKQRVDAEIIVVSPRNELVYLPSLIWLPSGERTGDDLRVPLA</Hsp_hseq>
+      <Hsp_midline>MTRI+ILGSGFAALTAIR+LR+ RVDAEI VVSPRNELVYLPSLIWLPSGE+TGDDLR+PLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_162455679.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Pseudoxanthomonas kalamensis]</Hit_def>
+  <Hit_accession>WP_162455679</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>6.74744e-23</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTGDDLRIPL</Hsp_qseq>
+      <Hsp_hseq>MSRISILGSGFAALTAIRELRKQGVDAEITVVSPRAELVYLPSLIWLPSGRKRGEDLRIPL</Hsp_hseq>
+      <Hsp_midline>M+RI ILGSGFAALTAIR+LR+  VDAEITVVSPR ELVYLPSLIWLPSG K G+DLRIPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_144891886.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Luteimonas sp. Gr-4]</Hit_def>
+  <Hit_accession>WP_144891886</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>1.10301e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTGDDLRIPLA</Hsp_qseq>
+      <Hsp_hseq>MKQIVILGSGFAALTTIRRLRALGVRDAITVVSPRKELVYLPSLIWLPSGKRSGDDLRIPLA</Hsp_hseq>
+      <Hsp_midline>M +IVILGSGFAALT IR+LR L V   ITVVSPR ELVYLPSLIWLPSG+++GDDLRIPLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_128154603.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Sinirhodobacter hungdaonensis]</Hit_def>
+  <Hit_accession>WP_128154603</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>4.04738e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MTRIVILGSGFAALTAIRKLRELRVDAEITVVSPRNELVYLPSLIWLPSGEKTGDDLRIPLA</Hsp_qseq>
+      <Hsp_hseq>MTRIAILGSGFAALTAVRELRRQKVDAEITVVSPREELHYLPSSIWIPAGLRQGDALRLPLA</Hsp_hseq>
+      <Hsp_midline>MTRI ILGSGFAALTA+R+LR  +VDAEITVVSPR EL YLPS IW+P+G + GD LR+PLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>169813165</Statistics_db-num>
+      <Statistics_db-len>149509442</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>10</Iteration_iter-num>
+  <Iteration_query-ID>Query_22503</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:22471:2660_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_123522974.1|</Hit_id>
+  <Hit_def>insulinase family protein [Pseudofulvimonas gallinarii]</Hit_def>
+  <Hit_accession>WP_123522974</Hit_accession>
+  <Hit_len>940</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>2.73435e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>503</Hsp_hit-from>
+      <Hsp_hit-to>601</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DNGLAVILARREGLPLVQMSLEVNGGYSADAGRKPGTASFTMNMLTEGAGRRNALELARAAESLGAIIGSGASLDAGNVSLSVLKEQLDKALPLVADVV</Hsp_qseq>
+      <Hsp_hseq>DNGLAVVLARREGLPLVQMSLEIEGGYSADAGRKPGTASFTMNMLPESAGGRSALELAAAAESLGARIGSGASLDAGNISLSVLHENLAPALTLYADVI</Hsp_hseq>
+      <Hsp_midline>DNGLAV+LARREGLPLVQMSLE+ GGYSADAGRKPGTASFTMNML E AG R+ALELA AAESLGA IGSGASLDAGN+SLSVL E L  AL L ADV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_162404445.1|</Hit_id>
+  <Hit_def>insulinase family protein [Pseudoxanthomonas jiangsuensis]</Hit_def>
+  <Hit_accession>WP_162404445</Hit_accession>
+  <Hit_len>952</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>1.98606e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>613</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>NGLAVILARREGLPLVQMSLEVNGGYSADAGRKPGTASFTMNMLTEGAGRRNALELARAAESLGAIIGSGASLDAGNVSLSVLKEQLDKALPLVADVV</Hsp_qseq>
+      <Hsp_hseq>NGTRVILARRDAVPVVQFSYEFKGGFAADLGRKLGTSSFTMSMLDEGAGALDALEFANRAESLGAALGAGASLDGGNAYLSALKENLDPSLDLFADML</Hsp_hseq>
+      <Hsp_midline>NG  VILARR+ +P+VQ S E  GG++AD GRK GT+SFTM+ML EGAG  +ALE A  AESLGA +G+GASLD GN  LS LKE LD +L L AD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_096007923.1|</Hit_id>
+  <Hit_def>insulinase family protein [Xanthomonadaceae bacterium NML93-0399]</Hit_def>
+  <Hit_accession>WP_096007923</Hit_accession>
+  <Hit_len>955</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>4.80684e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>521</Hsp_hit-from>
+      <Hsp_hit-to>618</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>NGLAVILARREGLPLVQMSLEVNGGYSADAGRKPGTASFTMNMLTEGAGRRNALELARAAESLGAIIGSGASLDAGNVSLSVLKEQLDKALPLVADVV</Hsp_qseq>
+      <Hsp_hseq>NGTQVILARRPEIPVVQLSYEFKGGYTADQGRTPGTASFTMNLLDEGAGGLGSLDFADRVESLGASIGAGASLDGSNAYVSALKENLDPTLALFADMV</Hsp_hseq>
+      <Hsp_midline>NG  VILARR  +P+VQ+S E  GGY+AD GR PGTASFTMN+L EGAG   +L+ A   ESLGA IG+GASLD  N  +S LKE LD  L L AD+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_019399415.1|</Hit_id>
+  <Hit_def>MULTISPECIES: insulinase family protein [unclassified Pseudoxanthomonas]</Hit_def>
+  <Hit_accession>WP_019399415</Hit_accession>
+  <Hit_len>950</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>5.29578e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>515</Hsp_hit-from>
+      <Hsp_hit-to>612</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>NGLAVILARREGLPLVQMSLEVNGGYSADAGRKPGTASFTMNMLTEGAGRRNALELARAAESLGAIIGSGASLDAGNVSLSVLKEQLDKALPLVADVV</Hsp_qseq>
+      <Hsp_hseq>NGTQVILARRDAVPVVQLSYEFKGGFAADLGRKLGTSSFTMAMLDEGAGELDALGFANRAESLGAVLGAGATLDGGNAYLSALKENLDASLQLFADMV</Hsp_hseq>
+      <Hsp_midline>NG  VILARR+ +P+VQ+S E  GG++AD GRK GT+SFTM ML EGAG  +AL  A  AESLGA++G+GA+LD GN  LS LKE LD +L L AD+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_028914363.1|</Hit_id>
+  <Hit_def>MULTISPECIES: insulinase family protein [unclassified Pseudoxanthomonas]</Hit_def>
+  <Hit_accession>WP_028914363</Hit_accession>
+  <Hit_len>950</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>5.45235e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>515</Hsp_hit-from>
+      <Hsp_hit-to>612</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>NGLAVILARREGLPLVQMSLEVNGGYSADAGRKPGTASFTMNMLTEGAGRRNALELARAAESLGAIIGSGASLDAGNVSLSVLKEQLDKALPLVADVV</Hsp_qseq>
+      <Hsp_hseq>NGTQVILARRDAVPVVQLSYEFKGGFAADLGRKLGTSSFTMAMLDEGAGELDALGFANRAESLGAVLGAGATLDGGNAYLSALKENLDASLQLFADMV</Hsp_hseq>
+      <Hsp_midline>NG  VILARR+ +P+VQ+S E  GG++AD GRK GT+SFTM ML EGAG  +AL  A  AESLGA++G+GA+LD GN  LS LKE LD +L L AD+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_147208783.1|</Hit_id>
+  <Hit_def>insulinase family protein [Pseudoxanthomonas taiwanensis]</Hit_def>
+  <Hit_accession>WP_147208783</Hit_accession>
+  <Hit_len>942</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>5.72134e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>507</Hsp_hit-from>
+      <Hsp_hit-to>604</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>NGLAVILARREGLPLVQMSLEVNGGYSADAGRKPGTASFTMNMLTEGAGRRNALELARAAESLGAIIGSGASLDAGNVSLSVLKEQLDKALPLVADVV</Hsp_qseq>
+      <Hsp_hseq>NGTQVILARRDAVPVVQLSYEFKGGFAADLGRKLGTSSFTMAMLDEGAGELDALGFANRAESLGAVLGAGATLDGGNAYLSALKENLDASLQLFADMV</Hsp_hseq>
+      <Hsp_midline>NG  VILARR+ +P+VQ+S E  GG++AD GRK GT+SFTM ML EGAG  +AL  A  AESLGA++G+GA+LD GN  LS LKE LD +L L AD+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_133394035.1|</Hit_id>
+  <Hit_def>insulinase family protein [Luteimonas terrae]</Hit_def>
+  <Hit_accession>WP_133394035</Hit_accession>
+  <Hit_len>955</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>6.24796e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>521</Hsp_hit-from>
+      <Hsp_hit-to>618</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>NGLAVILARREGLPLVQMSLEVNGGYSADAGRKPGTASFTMNMLTEGAGRRNALELARAAESLGAIIGSGASLDAGNVSLSVLKEQLDKALPLVADVV</Hsp_qseq>
+      <Hsp_hseq>NGTTVILARRPEIPVVQLSYEFKGGYTADQGRTPGTASFAMNMLDEGAGGLGSLDFADRVESLGASIGAGASLDGSNAYVSALKENLDPTLALFADMV</Hsp_hseq>
+      <Hsp_midline>NG  VILARR  +P+VQ+S E  GGY+AD GR PGTASF MNML EGAG   +L+ A   ESLGA IG+GASLD  N  +S LKE LD  L L AD+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_022969497.1|</Hit_id>
+  <Hit_def>insulinase family protein [Arenimonas oryziterrae]</Hit_def>
+  <Hit_accession>WP_022969497</Hit_accession>
+  <Hit_len>953</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>8.12037e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>512</Hsp_hit-from>
+      <Hsp_hit-to>609</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>NGLAVILARREGLPLVQMSLEVNGGYSADAGRKPGTASFTMNMLTEGAGRRNALELARAAESLGAIIGSGASLDAGNVSLSVLKEQLDKALPLVADVV</Hsp_qseq>
+      <Hsp_hseq>NGMTIILAERHDVPVVQLSMEFAGGFSTDQGRKLGTASFTMGMLDEGAGDLGAIALGNRSESLGANIGTGASLDAASVSLSALKEKLDDSLSLYADVI</Hsp_hseq>
+      <Hsp_midline>NG+ +ILA R  +P+VQ+S+E  GG+S D GRK GTASFTM ML EGAG   A+ L   +ESLGA IG+GASLDA +VSLS LKE+LD +L L ADV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_166047137.1|</Hit_id>
+  <Hit_def>insulinase family protein [Thioalkalivibrio sp. XN279]</Hit_def>
+  <Hit_accession>WP_166047137</Hit_accession>
+  <Hit_len>913</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>9.46579e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>482</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>NGLAVILARREGLPLVQMSLEVNGGYSADAGRKPGTASFTMNMLTEGAGRRNALELARAAESLGAIIGSGASLDAGNVSLSVLKEQLDKALPLVADVVL</Hsp_qseq>
+      <Hsp_hseq>NGIEVVLAERREIPVVQVQLQFDAGYAADVGRKLGTASFAMNMLDQGAGKRDTLELAAAIESEGAFIGAGAGLDTASVSLNALKDRLDPSLALFADVAL</Hsp_hseq>
+      <Hsp_midline>NG+ V+LA R  +P+VQ+ L+ + GY+AD GRK GTASF MNML +GAG+R+ LELA A ES GA IG+GA LD  +VSL+ LK++LD +L L ADV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_052631528.1|</Hit_id>
+  <Hit_def>insulinase family protein [Pseudoxanthomonas suwonensis]</Hit_def>
+  <Hit_accession>WP_052631528</Hit_accession>
+  <Hit_len>953</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>1.03519e-27</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>614</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>NGLAVILARREGLPLVQMSLEVNGGYSADAGRKPGTASFTMNMLTEGAGRRNALELARAAESLGAIIGSGASLDAGNVSLSVLKEQLDKALPLVADVV</Hsp_qseq>
+      <Hsp_hseq>NGTQVILARRDAVPVVQFSYEFKGGFASDQGRKLGTSSFTMGMLDEGAGDLDALGFANRAESLGATLGAGASLDAGNAYLSALKENLDESLGLYADML</Hsp_hseq>
+      <Hsp_midline>NG  VILARR+ +P+VQ S E  GG+++D GRK GT+SFTM ML EGAG  +AL  A  AESLGA +G+GASLDAGN  LS LKE LD++L L AD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>169813165</Statistics_db-num>
+      <Statistics_db-len>149509442</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>11</Iteration_iter-num>
+  <Iteration_query-ID>Query_22504</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11385:2660_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_061783866.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase [Thermobifida fusca]</Hit_def>
+  <Hit_accession>WP_061783866</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>2.089e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GLEAARALDKYLRVRATHAHAHVSAVWIGPKGPLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSAAVA</Hsp_qseq>
+      <Hsp_hseq>SFEAARALDKYLRMRAKHAHAHVSAVWIGPKGPLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSAAVA</Hsp_hseq>
+      <Hsp_midline>  EAARALDKYLR+RA HAHAHVSAVWIGPKGPLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSAAVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_016188065.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase [Thermobifida fusca]</Hit_def>
+  <Hit_accession>WP_016188065</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>2.15845e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GLEAARALDKYLRVRATHAHAHVSAVWIGPKGPLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSAAVA</Hsp_qseq>
+      <Hsp_hseq>SFEAARALDKYLRMRAKHAHAHVSAVWIGPKGPLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSAAVA</Hsp_hseq>
+      <Hsp_midline>  EAARALDKYLR+RA HAHAHVSAVWIGPKGPLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSAAVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_011290661.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase [Thermobifida fusca]</Hit_def>
+  <Hit_accession>WP_011290661</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>1.33258e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GLEAARALDKYLRVRATHAHAHVSAVWIGPKGPLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSAAVA</Hsp_qseq>
+      <Hsp_hseq>SFEAARALDKYLRMRAKHAHAHVSAVWIGPKGPLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSAAAA</Hsp_hseq>
+      <Hsp_midline>  EAARALDKYLR+RA HAHAHVSAVWIGPKGPLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSAA A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_121188119.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase [Nocardiopsis sp. Huas11]</Hit_def>
+  <Hit_accession>WP_121188119</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>5.53889e-44</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>200</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>EAARALDKYLRVRATHAHAHVSAVWIGPKGPLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYG</Hsp_qseq>
+      <Hsp_hseq>EAARALDRYLRKRASHRCADRQSLWISPKGTLTSDGIYQMVKRRAAQAGVTGVYPHRFRHHFAHTWLDNGGAEGDLMELNGWDSPQMLRRYG</Hsp_hseq>
+      <Hsp_midline>EAARALD+YLR RA+H  A   ++WI PKG LT  GIYQ+V+RRAAQAG+ GV+PHRFRHHF+HTWLD GGAEGDLMELNGW+SPQMLRRYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_165495555.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase, partial [Actinomadura roseirufa]</Hit_def>
+  <Hit_accession>WP_165495555</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>2.80171e-39</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GLEAARALDKYLRVRATHAHAHVSAVWIGPKG--PLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSAA</Hsp_qseq>
+      <Hsp_hseq>GHPSARAIDRYLRTRAKHTHATSRHLWLGTNNRPPMTANGIYQMVARRGHECGVT-VHPHKFRHHFSHTWLDKGGAEGDLMELNGWTSPQMLRRYGRSAA</Hsp_hseq>
+      <Hsp_midline>G  +ARA+D+YLR RA H HA    +W+G     P+T +GIYQ+V RR  + G+  VHPH+FRHHFSHTWLD+GGAEGDLMELNGW SPQMLRRYGRSAA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_089317067.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase [Actinomadura mexicana]</Hit_def>
+  <Hit_accession>WP_089317067</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>1.16252e-38</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>202</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GLEAARALDKYLRVRATHAHAHVSAVWIGPKG--PLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSAA</Hsp_qseq>
+      <Hsp_hseq>GHPSARAIDRYIRVRAKHTHASSRHLWLGTNNRPPMTANGIYQMVVRRGEECGV-AVHPHKFRHHFSHTWLDRGGAEGDLMELNGWSSPQMLRRYGRSAA</Hsp_hseq>
+      <Hsp_midline>G  +ARA+D+Y+RVRA H HA    +W+G     P+T +GIYQ+V RR  + G+  VHPH+FRHHFSHTWLDRGGAEGDLMELNGW+SPQMLRRYGRSAA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_082456667.1|</Hit_id>
+  <Hit_def>MULTISPECIES: tyrosine-type recombinase/integrase [Frankia]</Hit_def>
+  <Hit_accession>WP_082456667</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>2.25318e-38</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GLEAARALDKYLRVRATHAHAHVSAVWIG--PKGPLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSA</Hsp_qseq>
+      <Hsp_hseq>GYNAARAIDRYLRLRGKHSYAHSPKLWLGINNRQPMTANGIYQMISRRGDEAGVV-VHPHKFRHHFSHSWLDKGGNEGDLMELNGWTSPQMLRRYGASA</Hsp_hseq>
+      <Hsp_midline>G  AARA+D+YLR+R  H++AH   +W+G   + P+T +GIYQ++ RR  +AG+  VHPH+FRHHFSH+WLD+GG EGDLMELNGW SPQMLRRYG SA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_083282416.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase [Frankia sp. CgIM4]</Hit_def>
+  <Hit_accession>WP_083282416</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.76307e-37</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GLEAARALDKYLRVRATHAHAHVSAVWIG--PKGPLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYG</Hsp_qseq>
+      <Hsp_hseq>GYNAARAIDRYLRLRGKHSYAHSPKLWLGINNRQPMTANGIYQMISRRGDEAGVV-VHPHKFRHHFSHSWLDKGGNEGDLMELNGWTSPQMLRRYG</Hsp_hseq>
+      <Hsp_midline>G  AARA+D+YLR+R  H++AH   +W+G   + P+T +GIYQ++ RR  +AG+  VHPH+FRHHFSH+WLD+GG EGDLMELNGW SPQMLRRYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_083970043.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase [Frankia casuarinae]</Hit_def>
+  <Hit_accession>WP_083970043</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>2.26761e-37</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GLEAARALDKYLRVRATHAHAHVSAVWIG--PKGPLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSA</Hsp_qseq>
+      <Hsp_hseq>GYNAARAIDRYLRLRGKHSYAHSPKLWLGINNRQPMTANGIYQMISRRGDEAGVV-VHPHKFRHHFSHSWLDKXGNEGDLMELNGWTSPQMLRRYGASA</Hsp_hseq>
+      <Hsp_midline>G  AARA+D+YLR+R  H++AH   +W+G   + P+T +GIYQ++ RR  +AG+  VHPH+FRHHFSH+WLD+ G EGDLMELNGW SPQMLRRYG SA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_122192791.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase [Actinomadura sp. NEAU-Ht49]</Hit_def>
+  <Hit_accession>WP_122192791</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>2.94562e-37</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>AARALDKYLRVRATHAHAHVSAVWIGPKG--PLTDSGIYQLVQRRAAQAGLQGVHPHRFRHHFSHTWLDRGGAEGDLMELNGWNSPQMLRRYGRSAA</Hsp_qseq>
+      <Hsp_hseq>AARATDRYIRVRAKHTYASNRSLWLGTNNRPPMTANGIYQMVARRGEECGV-AVNPHKFRHHFSHTWLDRGGAEGDLMELNGWTSPQMLRRYGKSAA</Hsp_hseq>
+      <Hsp_midline>AARA D+Y+RVRA H +A   ++W+G     P+T +GIYQ+V RR  + G+  V+PH+FRHHFSHTWLDRGGAEGDLMELNGW SPQMLRRYG+SAA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>169813165</Statistics_db-num>
+      <Statistics_db-len>149509442</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>12</Iteration_iter-num>
+  <Iteration_query-ID>Query_22505</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:11385:2660_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_061783866.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase [Thermobifida fusca]</Hit_def>
+  <Hit_accession>WP_061783866</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>1.70483e-21</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>286</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>HIRGWLACLFARGYTDSYVNNQYRCLPQSFR*VDQAAEVPTIMLGMPPPPVPENHLPRSSHCADPPLATTVRARAL</Hsp_qseq>
+      <Hsp_hseq>HIRGWLACLFARGYTDSYVNNQYRCLQQFFRWFAEDEEVPNIMLGMTPPRVAEKPVPVFSDDEIRALFATVQGRDI</Hsp_hseq>
+      <Hsp_midline>HIRGWLACLFARGYTDSYVNNQYRCL Q FR   +  EVP IMLGM PP V E  +P  S      L  TV+ R +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000828961</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPERYTFDPVTDWADVTRATSEDGSLVCSPA</Hsp_qseq>
+      <Hsp_hseq>TPERYTFDPVTDWADVTRAHIR-GWLACLFA</Hsp_hseq>
+      <Hsp_midline>TPERYTFDPVTDWADVTRA    G L C  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_011290661.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase [Thermobifida fusca]</Hit_def>
+  <Hit_accession>WP_011290661</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>1.77852e-21</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>286</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>HIRGWLACLFARGYTDSYVNNQYRCLPQSFR*VDQAAEVPTIMLGMPPPPVPENHLPRSSHCADPPLATTVRARAL</Hsp_qseq>
+      <Hsp_hseq>HIRGWLACLFARGYTDSYVNNQYRCLQQFFRWFAEDEEVPNIMLGMTPPRVAEKPVPVFSDDEIRALFATVQGRDI</Hsp_hseq>
+      <Hsp_midline>HIRGWLACLFARGYTDSYVNNQYRCL Q FR   +  EVP IMLGM PP V E  +P  S      L  TV+ R +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000812813</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPERYTFDPVTDWADVTRATSEDGSLVCSPA</Hsp_qseq>
+      <Hsp_hseq>TPERYTFDPVTDWADVTRAHIR-GWLACLFA</Hsp_hseq>
+      <Hsp_midline>TPERYTFDPVTDWADVTRA    G L C  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_016188065.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase [Thermobifida fusca]</Hit_def>
+  <Hit_accession>WP_016188065</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.99798e-21</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>286</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>HIRGWLACLFARGYTDSYVNNQYRCLPQSFR*VDQAAEVPTIMLGMPPPPVPENHLPRSSHCADPPLATTVRARAL</Hsp_qseq>
+      <Hsp_hseq>HIRGWLACLFARGYTDSYVNNQYRCLQQFFRWFAEDEEVPNIMLGMTPPRVAEKPVPVFSDDEIRALFATVQGRDI</Hsp_hseq>
+      <Hsp_midline>HIRGWLACLFARGYTDSYVNNQYRCL Q FR   +  EVP IMLGM PP V E  +P  S      L  TV+ R +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000845429</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPERYTFDPVTDWADVTRATSEDGSLVCSPA</Hsp_qseq>
+      <Hsp_hseq>TPERYTFDPVTDWADVTRAHIR-GWLACLFA</Hsp_hseq>
+      <Hsp_midline>TPERYTFDPVTDWADVTRA    G L C  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_121188119.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase [Nocardiopsis sp. Huas11]</Hit_def>
+  <Hit_accession>WP_121188119</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>5.61448e-07</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>286</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>RHIRGWLACLFARGYTDSYVNNQYRCLPQSFR*VDQAAEVPTIMLGMPPPPVPENHLPRSSHCADPPLATTVRARAL</Hsp_qseq>
+      <Hsp_hseq>QHVQSWVVRLSRRKHCDGYVNNQYRCLQQFFKWFASEEEVPNPMTKLEPPSIADRPVPVFSQDEITRLFATVKGKDL</Hsp_hseq>
+      <Hsp_midline>+H++ W+  L  R + D YVNNQYRCL Q F+      EVP  M  + PP + +  +P  S      L  TV+ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_017601015.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase, partial [Nocardiopsis lucentensis]</Hit_def>
+  <Hit_accession>WP_017601015</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>4.79867e-06</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>HIRGWLACLFARGYTDSYVNNQYRCLPQSFR*VDQAAEVPTIM</Hsp_qseq>
+      <Hsp_hseq>HIRSWLVRLRRRGHKDSYLNNQFRCLQQFFKWLAEEEEIPNPM</Hsp_hseq>
+      <Hsp_midline>HIR WL  L  RG+ DSY+NNQ+RCL Q F+ + +  E+P  M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_116248485.1|</Hit_id>
+  <Hit_def>tyrosine-type recombinase/integrase [Nocardiopsis sp. FIRDI 009]</Hit_def>
+  <Hit_accession>WP_116248485</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.0752e-05</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>HIRGWLACLFARGYTDSYVNNQYRCLPQSFR*VDQAAEVPTIM</Hsp_qseq>
+      <Hsp_hseq>HIRSWLVRLRRRGHKDSYLNNQFRCLQQFFKWLADEEDVPNPM</Hsp_hseq>
+      <Hsp_midline>HIR WL  L  RG+ DSY+NNQ+RCL Q F+ +    +VP  M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>169813165</Statistics_db-num>
+      <Statistics_db-len>149509442</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

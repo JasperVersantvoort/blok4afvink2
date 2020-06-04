@@ -127,22 +127,40 @@ def biopython_use(
         from time import time, sleep, gmtime
         if result_loc[-1:] == '/':
             result_loc = result_loc[:-1]
-        result_loc += '/results5.xml'
+        result_loc += '/results13.xml'
         # https://www.ncbi.nlm.nih.gov/books/NBK25497/#chapter2.Usage_Guidelines_and_Requiremen
         sleep(0.4)  # post no more than three URL requests per second
         if large_job:  # Limit large jobs to either weekends or in between 9:00 PM to 5:00 AM (EST).
-            job_time = gmtime(time())
-            if not job_time[6] < 5 and not job_time[3] < 21:
-                # noinspection SpellCheckingInspection
-                bio_blaster(
-                    input_file=input_file, file_format=file_format,
-                    output_file=result_loc, index=index, program=program, database=database
-                )
-            del job_time
+            force: bool = False
+            retry: bool = True
+            while retry:
+                job_time = gmtime(time())
+                if not job_time[6] < 5 and not job_time[3] < 21 or force:
+                    # noinspection SpellCheckingInspection
+                    bio_blaster(
+                        input_file=input_file, file_format=file_format, output_file=result_loc,
+                        index=index, program=program, database=database
+                    )
+                else:   # When trying to run it at a incorrect time.
+                    user_input: str = input(
+                        "Large job's should be limited to either weekends or in between 9:00 PM to 5:00 AM (EST)\n"
+                        "Enter 'f' to ignore, 'y' to try again or 'n' to exit."
+                    ).replace(" ", "").lower()  # Removing exidental whitespaces.
+                    if user_input == 'f':
+                        force = True
+                    elif user_input == 'n':
+                        retry = False
+                    elif user_input == 'y':
+                        continue
+                    else:
+                        raise SyntaxWarning("Invalid user input.")
+                    del user_input
+                del job_time
+            del force, retry
         else:
             bio_blaster(
-                input_file=input_file, file_format=file_format, database=database,
-                output_file=result_loc, index=index, program=program
+                input_file=input_file, file_format=file_format, output_file=result_loc,
+                index=index, program=program, database=database
             )
     if print_results:
         # Bio = Biopython but Pycharm doesn't know.

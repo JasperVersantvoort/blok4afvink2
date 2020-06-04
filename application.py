@@ -20,7 +20,6 @@ def dna_naar_eiwit():
     return render_template("dnanaareiwit.html", seq=eiwit)
 
 
-
 def eiwitje(seq: str) -> str:
 
     """
