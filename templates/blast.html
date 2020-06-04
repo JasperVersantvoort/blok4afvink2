@@ -7,21 +7,22 @@
         de database. Vul je blast resultaten op de juiste plek in.
     </p>
     <table>
-    <form method="POST">
-        <p>
+    <form method="GET">
     <label>
         <tr>
             <td>Voer onderstaand in <br> in het input vak</td>
-            <td>Input vak</td></tr>
+        <td>Input vak</td><tr>
             <td>Blast versie:</td>
-            <td><input type="text" name=blast></td> </tr>
+            <td><input type="text" name=blast></td><tr>
             <td>Header van ingevoerde <br>sequentie: </td>
             <td><input type="text" name=header></td><tr>
             <td>hit id:</td>
             <td><input type="text" name=hit_id></td><tr>
             <td>accesie code:</td>
             <td> <input type="text" name=acc></td><tr>
-            <td>identie:</td>
+            <td>Het organisme:  </td>
+            <td><input type="text" name=organisme></td><tr>
+            <td>identitie:</td>
             <td> <input type="text" name=ident></td><tr>
             <td>evalue:</td>
             <td> <input type="text" name=evalue></td><tr>
@@ -29,11 +30,13 @@
             <td> <input type="text" name=defenitie></td><tr>
             <td>sequentie:</td>
             <td> <input type="text" name=qseq></td><tr>
+
+            <td><button type="submit">Zet in database</button></td>
     </tr>
-        <button type="submit">Zet in database</button>
+
     </label>
-    </p>
 
     </form>
     </table>
+    {{ reactie }}
 {% endblock %}
