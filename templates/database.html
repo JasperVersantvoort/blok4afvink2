@@ -1,3 +1,4 @@
+
 {% extends "project.html" %}
 {%  block title %}Database{% endblock %}
 {%  block content %}
@@ -11,32 +12,10 @@
         <br>
     </p>
 
-    <!-- Dit is/zijn de filter(s) -->
-{#        <form method="POST">#}
-{#            Filter op e-value:#}
-{#            <br>#}
-{#            <input type="radio" value="0" id="0" name="evalue">#}
-{#            <label for="0">0</label>#}
-{#            <br>#}
-{#            <input type="radio" value="1e-30" id="0-30" name="evalue">#}
-{#            <label for="0-30">1e-30 en lager</label>#}
-{#            <br>#}
-{#            <input type="radio" value="1e-20" id="0-20" name="evalue">#}
-{#            <label for="0-20">1e-20 en lager</label>#}
-{#            <br>#}
-{#            <input type="radio" value="1e-10" id="0-10" name="evalue">#}
-{#            <label for="0-10">1e-10 en lager</label>#}
-{#            <br>#}
-{#            <input type="radio" value="1" id="alles(1e-5)"#}
-{#                   name="evalue" checked="checked">#}
-{#            <label for="alles(1e-5)">Allemaal</label>#}
-{#            <br>#}
-{#        </form>#}
-
-    <!-- De zoekbalk en de zoeknop -->
+    <!-- De e-value filters -->
 
         <form method="POST">
-                    Filter op e-value:
+            Filter op e-value:
             <br>
             <input type="radio" value="0" id="0" name="evalue">
             <label for="0">0</label>
@@ -51,9 +30,11 @@
             <label for="0-10">1e-10 en lager</label>
             <br>
             <input type="radio" value="1" id="alles(1e-5)"
-                   name="evalue" checked="checked">
+                   name="evalue">
             <label for="alles(1e-5)">Allemaal</label>
             <br>
+
+            <!-- De zoekbalk en de zoekknop -->
             <p>
                 Voer een zoekwoord in:
                 <label>
@@ -63,6 +44,8 @@
             </p>
     <p>Je huidige zoekwoord is: {% print(zoek) %}
     <br>
+        Je huidige e-value filter is: {% print(evalue) %} en lager
+        <br>
     <button type="submit">Reset</button>
     </p>
         </form>

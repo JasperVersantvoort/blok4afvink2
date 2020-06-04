@@ -43,3 +43,7 @@ a:hover:not(.active) {
     display: table;
     clear: both;
 }
+
+.footer{
+    text-align: center;
+}
