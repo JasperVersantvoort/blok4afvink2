@@ -34,6 +34,14 @@ def resultaten():
     """
     return render_template("resultaten.html")
 
+@app.route('/blast.html')
+def blast():
+    """
+    Geeft een pagina weer waar je blast kunt toevoegen aan de database
+    :return: De html pagina met blast toevoegen aan de database
+    """
+    return render_template("blast.html")
+
 
 @app.route('/database.html', methods=["POST", "GET"])
 def site_database():
@@ -53,7 +61,7 @@ def site_database():
         print("if", e_value)
         rows = database(zoeken, e_value)
         return render_template("database.html", database=rows,
-                               zoek=zoeken)
+                               zoek=zoeken, evalue=e_value)
     else:
         e_value = str(request.form.get("evalue", '1'))
         # print(e_value)
@@ -63,13 +71,13 @@ def site_database():
         rows = database("None", e_value)
 
         return render_template("database.html", database=rows,
-                               zoek="None")
+                               zoek="None", evalue=e_value)
 
 
 def database(zoek, e_value):
     """
     Geeft de description van de database en kan deze filteren op een
-    zoekwoord
+    zoekwoord en filteren op de e-value.
     :param zoek: Het ingegeven zoekwoord
     :return: Een lijst met de juiste discriptions
     """
@@ -82,8 +90,6 @@ def database(zoek, e_value):
                                    password='chocolade45', db='mlfrg')
     cursor = conn.cursor()
 
-    print("zoek: ", zoek)
-
     if zoek == "None":
         print("Het zoekwoord is:", zoek)
         query = "select acc_code, name, " \
@@ -92,7 +98,7 @@ def database(zoek, e_value):
                        "organism_id = organism.id " \
                        "where e_value <= " + e_value + " order " \
                                                             "by name "
-        print (query)
+        # print (query)
         cursor.execute(query)
         rows = cursor.fetchall()
         cursor.close()
