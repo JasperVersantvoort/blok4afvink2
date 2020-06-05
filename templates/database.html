@@ -1,14 +1,20 @@
-
-{% extends "project.html" %}
+{%  extends "project.html" %}
 {%  block title %}Database{% endblock %}
 {%  block content %}
     <h2>De database</h2>
     <p>
-        Op deze pagina staat de database. Er is een filter voor de
-        e-value. Via de zoekbalk kan er gezocht worden op de
-        description en op het organisme naam.
+        Op deze pagina staat de database. Er is een  filter voor de
+        e-value. Er is keuze om alle e-values te zien of alleen de
+        nul te laten. Er kan ook gekozen worden voor de
+        tussenstappen, dat ligt aan hoe streng er op de e-value
+        gefilterd moet worden.
         <br>
-        Er is ook van A tot en met Z gefilterd op het organisme naam.
+        Via de zoekbalk kan er gezocht worden op de
+        description en op het organisme naam. Deze kan samen
+        gecombineerd worden met de e-value filterknoppen.
+        <br>
+        Tenslotte is er ook van A tot en met Z gefilterd op het
+        organisme naam.
         <br>
     </p>
 
@@ -42,12 +48,13 @@
                     <button type="submit">Zoek</button>
                 </label>
             </p>
-    <p>Je huidige zoekwoord is: {% print(zoek) %}
-    <br>
-        Je huidige e-value filter is: {% print(evalue) %} en lager
-        <br>
-    <button type="submit">Reset</button>
-    </p>
+            <p>
+                Je huidige zoekwoord is: {% print(zoek) %}
+                <br>
+                Je huidige e-value filter is: {% print(evalue) %} en lager
+                <br>
+                <button type="submit">Reset</button>
+            </p>
         </form>
 
     <!-- De database -->
@@ -60,7 +67,9 @@
         </tr>
         {% for rij in database %}
             <tr>
-                <td>{% print(rij[0]) %}</td>
+                <td><a href="https://www.ncbi.nlm.nih.gov/nuccore/{%
+                        print(rij[0]) %}/"> {% print(rij[0]) %}
+                </a></td>
                 <td>{% print(rij[1]) %}</td>
                 <td>{% print(rij[2]) %}</td>
                 <td>{% print(rij[3]) %}</td>

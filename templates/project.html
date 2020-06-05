@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--suppress ProblematicWhitespace -->
 <html lang="en">
 
 <head>
@@ -23,19 +24,24 @@
     </nav>
     {% endblock %}
 
-    <!-- Introductiestuje -->
+    <!-- Introductiestukje -->
     {% block content %}
-        <h2>Welkom bij deze pagina!</h2>
-        <p>Om de effecten van micro-organismen op de compostering te
-            achterhalen zijn de eiwitsequenties van in compost
-            gevonden micro-organismen getest en zijn naar
-            overeenkomstige sequenties gezocht in de NCBI GenBank.
+        <h1>Micro-organismen uit champignoncompost</h1>
+        <p>
+            Om de bepaalde effecten van micro-organismen op de
+            compostering van champignons te achterhalen zijn de
+            eiwitsequenties van in compost gevonden micro-organismen
+            getest. Er zijn naar overeenkomstige sequenties gezocht
+            in de NCBI GenBank. Deze data is verkregen door het HAN
+            Biocentre.
+            <br>
             De resultaten hiervan worden op deze site weergeven onder
             het kopje database.
         </p>
         <!-- poging tot een plaatje -->
-        <img src="templates/Champignon.jpg" alt="champignon" >
+        <img src="/static/champignon.jpg" alt="champignon">
     {% endblock %}
+
 
     <!-- Hier komt de footer te staan -->
         {% block footer %}

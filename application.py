@@ -26,13 +26,29 @@ def website_home():
     return render_template("project.html")
 
 
-@app.route('/resultaten.html')
+@app.route('/resultaten.html', methods=["POST", "GET"])
 def resultaten():
     """
-    Geeft een pagina weer met de belangrijkste resultaten
-    :return: De html pagina met resultaten
+
+    :return:
     """
-    return render_template("resultaten.html")
+    conn = mysql.connector.connect(host='hannl-hlo-bioinformatica'
+                                        '-mysqlsrv.mysql.database'
+                                        '.azure.com',
+                                   user='mlfrg@hannl-hlo'
+                                        '-bioinformatica-mysqlsrv',
+                                   password='chocolade45', db='mlfrg')
+    cursor = conn.cursor()
+
+    aantal = "select o.name, count(organism_id) as Occurence from  " \
+            "results join organism o on results.organism_id = o.id " \
+            "group by organism_id order by Occurence DESC limit 10;"
+    print(aantal)
+    cursor.execute(aantal)
+    rows = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    return rows
 
 
 @app.route('/blast.html', methods=["POST", "GET"])
@@ -53,12 +69,12 @@ def blast():
             ident = int(ident)
             if ident < 40:
                 return render_template("blast.html",
-                                       reactie="te lage ident")
+                                       reactie="Te lage identity")
             else:
                 ident = str(ident)
         except ValueError:
             return render_template("blast.html",
-                                   reactie="Geen geldige ident")
+                                   reactie="Geen geldige identity")
         # kijkt of de evalue aan de eisen voeldoet en of het een getal is
         evalue = request.args.get("evalue", "None")
         try:
@@ -66,13 +82,13 @@ def blast():
             if evalue >= 0.00001:
                 return render_template("blast.html",
                                        reactie=
-                                       "te hoge evalue")
+                                       "Te hoge e-value")
             else:
                 evalue = str(evalue)
         except ValueError:
             return render_template("blast.html",
                                    reactie=
-                                   "Geen geldige evalue")
+                                   "Geen geldige e-value")
 
         defen = request.args.get("defenitie", "None")
         qseq = request.args.get("qseq", "None")
@@ -80,12 +96,11 @@ def blast():
                 or acc == "None" or organisme == "None" or organisme == "None" \
                 or ident == "None" or evalue == "None" or defen == "None" \
                 or qseq == "None":
-            print("if dus minimaal een is None")
+            # print("if dus minimaal een is None")
             print(blast_version, header, hit_id)
             return render_template("blast.html",
                                    reactie=
                                    "Het invoeren is mislukt")
-
         else:
             print("Alles heeft een waarde")
             connector(blast_version, header, hit_id, acc, organisme, ident,
@@ -234,7 +249,7 @@ def connector(blast_version, header, hit_id, acc, organisme, ident,
                 organism = organisme.replace("'", "")
             check_organism_execute = "select id from organism " \
                                      "where name = '" + organisme + "';"
-            print("organisme: ", check_organism_execute)
+            print("Organisme: ", check_organism_execute)
             cursor.execute(check_organism_execute)
             check_organism = cursor.fetchall()
 
@@ -254,8 +269,6 @@ def connector(blast_version, header, hit_id, acc, organisme, ident,
             else:
                 org_id = check_organism[0][0]
 
-
-
         # Als er in defen een ' staat dan wordt die weg gehaald
         # Anders geeft dit fouten in de query
         if "'" in defen:
@@ -273,14 +286,13 @@ def connector(blast_version, header, hit_id, acc, organisme, ident,
                          + evalue + ",null,null," + str(
             res_seq_id[0][0]) + ",'" + defen + "'," + str(
             org_id) + ",'" + blast_version + "');"
-        print("results: ", execute_result)
+        print("Results: ", execute_result)
         cursor.execute(execute_result)
         conn.commit()
-
         cursor.close()
         conn.close()
     except IndexError:
-        print("index error")
+        print("Index Error")
         pass
 
 

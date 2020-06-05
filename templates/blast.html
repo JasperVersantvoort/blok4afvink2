@@ -1,42 +1,49 @@
 {% extends "project.html" %}
 {%  block title %}BLAST input{% endblock %}
 {%  block content %}
+
     <h2>BLAST resultaten toevoegen</h2>
     <p>
-    Op deze pagina kunnen er blast resultaten worden toegevoegd aan
-        de database. Vul je blast resultaten op de juiste plek in.
+        Op deze pagina kunnen er BLAST resultaten worden toegevoegd aan
+        de database. Vul je BLAST resultaten op de juiste plek in en
+        druk vervolgens op de knop om ze toe te voegen.
+        <br>
+        De e-value moet onder de 1e-5 zijn en de identity moet hoger
+        zijn dan 40%.
     </p>
+
+    <!-- De tabel om de gegevens in de database te zetten -->
     <table>
     <form method="GET">
     <label>
+        Vul de volgende gegevens is:
         <tr>
-            <td>Voer onderstaand in <br> in het input vak</td>
-        <td>Input vak</td><tr>
-            <td>Blast versie:</td>
+            <td></td>
+            <td><b><u>Input vak:</u></b></td><tr>
+            <td>BLAST versie:</td>
             <td><input type="text" name=blast></td><tr>
-            <td>Header van ingevoerde <br>sequentie: </td>
+            <td>Header van ingevoerde sequentie:</td>
             <td><input type="text" name=header></td><tr>
-            <td>hit id:</td>
+            <td>Hit id:</td>
             <td><input type="text" name=hit_id></td><tr>
-            <td>accesie code:</td>
+            <td>Accessiecode:</td>
             <td> <input type="text" name=acc></td><tr>
-            <td>Het organisme:  </td>
+            <td>Organisme naam:</td>
             <td><input type="text" name=organisme></td><tr>
-            <td>identitie:</td>
+            <td>Identity:</td>
             <td> <input type="text" name=ident></td><tr>
-            <td>evalue:</td>
+            <td>E-value:</td>
             <td> <input type="text" name=evalue></td><tr>
-            <td>defenitie:</td>
+            <td>Description:</td>
             <td> <input type="text" name=defenitie></td><tr>
-            <td>sequentie:</td>
-            <td> <input type="text" name=qseq></td><tr>
-
+            <td>Sequentie:</td>
+            <td><input type="text" name=qseq></td><tr>
             <td><button type="submit">Zet in database</button></td>
     </tr>
-
     </label>
-
     </form>
     </table>
+
     {{ reactie }}
+
 {% endblock %}
