@@ -1,4 +1,6 @@
-#!/home/s_k_tiger/PycharmProjects/blok4afvink2/venv/bin/python
+#!/bin/sh
+'''exec' "/home/christel/PycharmProjects/Blok 4/blok4afvink2_2/venv/bin/python" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys

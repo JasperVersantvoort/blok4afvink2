@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--suppress ProblematicWhitespace -->
+<html lang="en">
+
+<head>
+    {% block head %}
+    <meta charset="UTF-8" name="Projectgroep course 4">
+    <title>{% block title %}{% endblock %} Homepagina</title>
+    <link rel="stylesheet" href="static/project.css">
+    {% endblock %}
+</head>
+
+<!-- De navigatiebalk wordt bovenin gemaakt -->
+<body>
+    {% block body %}
+    <nav>
+		<ul class="navigatie">
+			<li class="nav_links"><a href='project.html'>Home</a></li>
+			<li class="nav_links"><a href='database.html'>Database</a></li>
+			<li class="nav_links"><a href='resultaten.html'>Resultaten</a></li>
+            <li class="nav_links"><a href='blast.html'>BLAST
+                input</a></li>
+		</ul>
+    </nav>
+    {% endblock %}
+
+    <!-- Introductiestukje -->
+    {% block content %}
+        <h1>Micro-organismen uit champignoncompost</h1>
+        <p>
+            Om de bepaalde effecten van micro-organismen op de
+            compostering van champignons te achterhalen zijn de
+            eiwitsequenties van in compost gevonden micro-organismen
+            getest. Er zijn naar overeenkomstige sequenties gezocht
+            in de NCBI GenBank. Deze data is verkregen door het HAN
+            Biocentre.
+            <br>
+            De resultaten hiervan worden op deze site weergeven onder
+            het kopje database.
+        </p>
+        <!-- poging tot een plaatje -->
+        <img src="/static/champignon.jpg" alt="champignon">
+    {% endblock %}
+
+
+    <!-- Hier komt de footer te staan -->
+        {% block footer %}
+        <p>&copy 2020 HAN Bio-informatica Course 4; Lars, Jasper,
+            Yuri & Christel</p>
+        {% endblock %}
+</body>
+
+</html>

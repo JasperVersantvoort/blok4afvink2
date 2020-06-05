@@ -1,0 +1,23 @@
+{% extends "project.html" %}
+{%  block title %}Resultaten{% endblock %}
+{%  block content %}
+    <h2>Resultaten</h2>
+    <p>
+    Op deze pagina wordt de top 10 van de meest voorkomende
+        organismen weergegeven.
+    </p>
+        <table>
+        <tr>
+            <th>Organisme naam</th>
+            <th>Occurence</th>
+        </tr>
+            {% for rij in resultaten %}
+            <tr>
+                <td>{% print(rij[0]) %}</td>
+                <td>{% print(rij[1]) %}</td>
+            </tr>
+        {% endfor %}
+        </table>
+
+
+{% endblock %}
