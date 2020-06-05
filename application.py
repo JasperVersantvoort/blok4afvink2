@@ -48,7 +48,7 @@ def resultaten():
     rows = cursor.fetchall()
     cursor.close()
     conn.close()
-    return rows
+    return render_template("resultaten.html", resultaten=rows)
 
 
 @app.route('/blast.html', methods=["POST", "GET"])

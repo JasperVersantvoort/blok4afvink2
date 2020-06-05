@@ -11,10 +11,12 @@
             <th>Organisme naam</th>
             <th>Occurence</th>
         </tr>
+            {% for rij in resultaten %}
             <tr>
-                <td></td>
-                <td></td>
+                <td>{% print(rij[0]) %}</td>
+                <td>{% print(rij[1]) %}</td>
             </tr>
+        {% endfor %}
         </table>
 
 

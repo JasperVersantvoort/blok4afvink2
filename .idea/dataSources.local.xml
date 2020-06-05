@@ -11,10 +11,7 @@
       <user-name>mlfrg@hannl-hlo-bioinformatica-mysqlsrv</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema">
-            <name qname="@" />
-            <name qname="mlfrg" />
-          </node>
+          <node kind="schema" qname="@" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
