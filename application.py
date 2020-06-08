@@ -41,9 +41,10 @@ def resultaten():
                                    password='chocolade45', db='mlfrg')
     cursor = conn.cursor()
 
-    aantal = "select o.name, count(organism_id) as Occurence from  " \
-            "results join organism o on results.organism_id = o.id " \
-            "group by organism_id order by Occurence DESC limit 10;"
+    aantal = "select substring_index(name, ' ',2) as organisme,  " \
+             "count(substring_index(name, ' ',2)) as aantal from " \
+             "organism group by organisme order by aantal DESC limit " \
+             "10;"
     print(aantal)
     cursor.execute(aantal)
     rows = cursor.fetchall()
