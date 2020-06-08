@@ -1,0 +1,3330 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>refseq_protein</BlastOutput_db>
+  <BlastOutput_query-ID>Query_62704</BlastOutput_query-ID>
+  <BlastOutput_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:24222:2689_1</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_62704</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:24222:2689_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_116304130.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Alkalilimnicola ehrlichii]</Hit_def>
+  <Hit_accession>WP_116304130</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>8.7122e-28</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>MAVRHFLTLRDLSTDELHALIKRAIELKRMRREGVPHEPPRGRVLGIIFEKSLTRTRVSFEAGMAHLSGPALSLSP</Hsp_qseq>
+      <Hsp_hseq>MAVRHFLTLLDLSSDELVMLIQRAIELKRIQREGIIHEPLRNRVLGMVFEKSSTRTRVSFEAGMIQLGGGAIFLSP</Hsp_hseq>
+      <Hsp_midline>MAVRHFLTL DLS+DEL  LI+RAIELKR++REG+ HEP R RVLG++FEKS TRTRVSFEAGM  L G A+ LSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_078085448.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Microbulbifer mangrovi]</Hit_def>
+  <Hit_accession>WP_078085448</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>1.03288e-26</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>MAVRHFLTLRDLSTDELHALIKRAIELKRMRREGVPHEPPRGRVLGIIFEKSLTRTRVSFEAGMAHLSGPALSLSP</Hsp_qseq>
+      <Hsp_hseq>MAVRHFLTLLDLSKEELHGIIERAIELKALRNQGVASEPFRNKVLGMIFEKSSTRTRVSFEAGMAQMGGSALFLSP</Hsp_hseq>
+      <Hsp_midline>MAVRHFLTL DLS +ELH +I+RAIELK +R +GV  EP R +VLG+IFEKS TRTRVSFEAGMA + G AL LSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_010133098.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Microbulbifer agarilyticus]</Hit_def>
+  <Hit_accession>WP_010133098</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.28678e-26</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>MAVRHFLTLRDLSTDELHALIKRAIELKRMRREGVPHEPPRGRVLGIIFEKSLTRTRVSFEAGMAHLSGPALSLSP</Hsp_qseq>
+      <Hsp_hseq>MAVRHFLTLLDLSQDELRAVIERAIELKALRNQGVASEPFRDKVLGMIFEKSSTRTRVSFEAGMAQMGGSALFLSP</Hsp_hseq>
+      <Hsp_midline>MAVRHFLTL DLS DEL A+I+RAIELK +R +GV  EP R +VLG+IFEKS TRTRVSFEAGMA + G AL LSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_160152926.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Microbulbifer sp. ALW1]</Hit_def>
+  <Hit_accession>WP_160152926</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.99424e-26</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>MAVRHFLTLRDLSTDELHALIKRAIELKRMRREGVPHEPPRGRVLGIIFEKSLTRTRVSFEAGMAHLSGPALSLSP</Hsp_qseq>
+      <Hsp_hseq>MAVRHFLTLLDLSKEELHGVIERAIELKALRNQGVATEPFRNKVLGMIFEKSSTRTRVSFEAGMAQMGGSALFLSP</Hsp_hseq>
+      <Hsp_midline>MAVRHFLTL DLS +ELH +I+RAIELK +R +GV  EP R +VLG+IFEKS TRTRVSFEAGMA + G AL LSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_133504739.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Marinomonas balearica]</Hit_def>
+  <Hit_accession>WP_133504739</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>5.01335e-26</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>MAVRHFLTLRDLSTDELHALIKRAIELKRMRREGVPHEPPRGRVLGIIFEKSLTRTRVSFEAGMAHLSGPALSLSP</Hsp_qseq>
+      <Hsp_hseq>MAPRHFLTLKDLTTEEFKQLISRAIELKKMRREGVIYEPLKNRVLAMIFEKSSTRTRVSFESGMAQFGGHALFLSP</Hsp_hseq>
+      <Hsp_midline>MA RHFLTL+DL+T+E   LI RAIELK+MRREGV +EP + RVL +IFEKS TRTRVSFE+GMA   G AL LSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_066965677.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Microbulbifer sp. Q7]</Hit_def>
+  <Hit_accession>WP_066965677</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>5.29054e-26</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>MAVRHFLTLRDLSTDELHALIKRAIELKRMRREGVPHEPPRGRVLGIIFEKSLTRTRVSFEAGMAHLSGPALSLSP</Hsp_qseq>
+      <Hsp_hseq>MAVRHFLTLMDLSKDELRNIVERAIELKALRNQGVASEPFRNKVLGMIFEKSSTRTRVSFEAGMAQMGGSALFLSP</Hsp_hseq>
+      <Hsp_midline>MAVRHFLTL DLS DEL  +++RAIELK +R +GV  EP R +VLG+IFEKS TRTRVSFEAGMA + G AL LSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_077405137.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Microbulbifer agarilyticus]</Hit_def>
+  <Hit_accession>WP_077405137</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>5.98765e-26</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>MAVRHFLTLRDLSTDELHALIKRAIELKRMRREGVPHEPPRGRVLGIIFEKSLTRTRVSFEAGMAHLSGPALSLSP</Hsp_qseq>
+      <Hsp_hseq>MAVRHFLTLLDLSRDELRAVIERAIEVKALRNQGVSSEPFRDKVLGMIFEKSSTRTRVSFEAGMAQMGGSALFLSP</Hsp_hseq>
+      <Hsp_midline>MAVRHFLTL DLS DEL A+I+RAIE+K +R +GV  EP R +VLG+IFEKS TRTRVSFEAGMA + G AL LSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_161858955.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Microbulbifer hydrolyticus]</Hit_def>
+  <Hit_accession>WP_161858955</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>6.53992e-26</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>MAVRHFLTLRDLSTDELHALIKRAIELKRMRREGVPHEPPRGRVLGIIFEKSLTRTRVSFEAGMAHLSGPALSLSP</Hsp_qseq>
+      <Hsp_hseq>MAVRHFLTLLDLSKDELRGIVERAIELKALRNQGVASEPFRNKVLGMIFEKSSTRTRVSFEAGMAQMGGSALFLSP</Hsp_hseq>
+      <Hsp_midline>MAVRHFLTL DLS DEL  +++RAIELK +R +GV  EP R +VLG+IFEKS TRTRVSFEAGMA + G AL LSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_077277944.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Thioalkalivibrio denitrificans]</Hit_def>
+  <Hit_accession>WP_077277944</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>1.758e-25</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>MAVRHFLTLRDLSTDELHALIKRAIELKRMRREGVPHEPPRGRVLGIIFEKSLTRTRVSFEAGMAHLSGPALSLSP</Hsp_qseq>
+      <Hsp_hseq>MTVRHFLSLLDFSADELRALINRAIELKRMQREGQEHLPLKGKVLGMIFEKSSTRTRVSFEVGMIQLGGQAIFLSP</Hsp_hseq>
+      <Hsp_midline>M VRHFL+L D S DEL ALI RAIELKRM+REG  H P +G+VLG+IFEKS TRTRVSFE GM  L G A+ LSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_013662116.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Marinomonas mediterranea]</Hit_def>
+  <Hit_accession>WP_013662116</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>1.78952e-25</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>MAVRHFLTLRDLSTDELHALIKRAIELKRMRREGVPHEPPRGRVLGIIFEKSLTRTRVSFEAGMAHLSGPALSLSP</Hsp_qseq>
+      <Hsp_hseq>MAPRHFLTLKDLTTEEFKQLISRAIELKKMQREGVIYEPLKNRVLAMIFEKSSTRTRVSFESGMAQFGGHALFLSP</Hsp_hseq>
+      <Hsp_midline>MA RHFLTL+DL+T+E   LI RAIELK+M+REGV +EP + RVL +IFEKS TRTRVSFE+GMA   G AL LSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>170471479</Statistics_db-num>
+      <Statistics_db-len>389654571</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_62705</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:24222:2689_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_088822546.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Acinetobacter apis]</Hit_def>
+  <Hit_accession>WP_088822546</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>6.89884e-20</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RGERGEGAGGGRWGRAGVALSRSCGHEIRGRYAAVSAVPVMNGLSESCRACQLVGDSQTCVEEGGAIRGRSVGGIGEGNSMCNSYIE</Hsp_qseq>
+      <Hsp_hseq>RGEPIEDSARIISSMLDIVMIRTFGHDIIERFAAHSSVPVINALTDDHHPCQLLADIQTFVEHRGSIRGKTVAWIGDGNNMCNSYIE</Hsp_hseq>
+      <Hsp_midline>RGE  E +         + + R+ GH+I  R+AA S+VPV+N L++    CQL+ D QT VE  G+IRG++V  IG+GN+MCNSYIE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_016137877.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Acinetobacter calcoaceticus]</Hit_def>
+  <Hit_accession>WP_016137877</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>1.4393e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RGERGEGAGGGRWGRAGVALSRSCGHEIRGRYAAVSAVPVMNGLSESCRACQLVGDSQTCVEEGGAIRGRSVGGIGEGNSMCNSYIE</Hsp_qseq>
+      <Hsp_hseq>RGEPIEDSARVISSMLDIVMIRTFGHDIVERFASYSKVPVINGLTDDHHPCQLLADLQTYIEHRGSIKGKTVAWIGDGNNMCNSYIE</Hsp_hseq>
+      <Hsp_midline>RGE  E +         + + R+ GH+I  R+A+ S VPV+NGL++    CQL+ D QT +E  G+I+G++V  IG+GN+MCNSYIE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_069123537.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Acinetobacter pittii]</Hit_def>
+  <Hit_accession>WP_069123537</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>1.49454e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RGERGEGAGGGRWGRAGVALSRSCGHEIRGRYAAVSAVPVMNGLSESCRACQLVGDSQTCVEEGGAIRGRSVGGIGEGNSMCNSYIE</Hsp_qseq>
+      <Hsp_hseq>RGEPIEDSARVISSMLDIVMIRTFGHDIVERFASYSKVPVINGLTDDHHPCQLLADLQTYIEHRGSIKGKTVAWIGDGNNMCNSYIE</Hsp_hseq>
+      <Hsp_midline>RGE  E +         + + R+ GH+I  R+A+ S VPV+NGL++    CQL+ D QT +E  G+I+G++V  IG+GN+MCNSYIE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_042894129.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ornithine carbamoyltransferase [Acinetobacter]</Hit_def>
+  <Hit_accession>WP_042894129</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.86886e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RGERGEGAGGGRWGRAGVALSRSCGHEIRGRYAAVSAVPVMNGLSESCRACQLVGDSQTCVEEGGAIRGRSVGGIGEGNSMCNSYIE</Hsp_qseq>
+      <Hsp_hseq>RGEPIEDSARVISSMLDIVMIRTFGHDIVERFASYSKVPVINGLTDDHHPCQLLADLQTYIEHRGSIKGKTVAWIGDGNNMCNSYIE</Hsp_hseq>
+      <Hsp_midline>RGE  E +         + + R+ GH+I  R+A+ S VPV+NGL++    CQL+ D QT +E  G+I+G++V  IG+GN+MCNSYIE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_088757612.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_088757612</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.46666e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RGERGEGAGGGRWGRAGVALSRSCGHEIRGRYAAVSAVPVMNGLSESCRACQLVGDSQTCVEEGGAIRGRSVGGIGEGNSMCNSYIE</Hsp_qseq>
+      <Hsp_hseq>RGEPIEDSARVISSMLDIVMIRTFGHDIVERFASYSKVPVINGLTDDHHPCQLLADLQTYIEHRGSIEGKTVAWIGDGNNMCNSYIE</Hsp_hseq>
+      <Hsp_midline>RGE  E +         + + R+ GH+I  R+A+ S VPV+NGL++    CQL+ D QT +E  G+I G++V  IG+GN+MCNSYIE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_032043319.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_032043319</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>2.57179e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RGERGEGAGGGRWGRAGVALSRSCGHEIRGRYAAVSAVPVMNGLSESCRACQLVGDSQTCVEEGGAIRGRSVGGIGEGNSMCNSYIE</Hsp_qseq>
+      <Hsp_hseq>RGEPIEDSARVISSMLDIVMIRSFGHDIVERFASYSKVPVINGLTDDHHPCQLLADLQTYIEHRGSIEGKTVAWIGDGNNMCNSYIE</Hsp_hseq>
+      <Hsp_midline>RGE  E +         + + RS GH+I  R+A+ S VPV+NGL++    CQL+ D QT +E  G+I G++V  IG+GN+MCNSYIE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_105919494.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_105919494</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>3.13141e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RGERGEGAGGGRWGRAGVALSRSCGHEIRGRYAAVSAVPVMNGLSESCRACQLVGDSQTCVEEGGAIRGRSVGGIGEGNSMCNSYIE</Hsp_qseq>
+      <Hsp_hseq>RGEPIEDSARVISSMLDIVMIRTFGHDIVERFASYSKVPVINGLTDDHHPCQLLADLQTYIEHRGSIEGKTVAWIGDGNNMCNSYIE</Hsp_hseq>
+      <Hsp_midline>RGE  E +         + + R+ GH+I  R+A+ S VPV+NGL++    CQL+ D QT +E  G+I G++V  IG+GN+MCNSYIE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_151828534.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase, partial [Acinetobacter nosocomialis]</Hit_def>
+  <Hit_accession>WP_151828534</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>4.18233e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RGERGEGAGGGRWGRAGVALSRSCGHEIRGRYAAVSAVPVMNGLSESCRACQLVGDSQTCVEEGGAIRGRSVGGIGEGNSMCNSYIE</Hsp_qseq>
+      <Hsp_hseq>RGEPIEDSARVISSMLDIVMIRTFGHDIVERFASYSKVPVINGLTDDHHPCQLLADLQTYIEHRGSIEGKTVAWIGDGNNMCNSYIE</Hsp_hseq>
+      <Hsp_midline>RGE  E +         + + R+ GH+I  R+A+ S VPV+NGL++    CQL+ D QT +E  G+I G++V  IG+GN+MCNSYIE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_064191356.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_064191356</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>4.23984e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RGERGEGAGGGRWGRAGVALSRSCGHEIRGRYAAVSAVPVMNGLSESCRACQLVGDSQTCVEEGGAIRGRSVGGIGEGNSMCNSYIE</Hsp_qseq>
+      <Hsp_hseq>RGEPIEDSARVISSMLDIVMIRTFGHDIVERFASYSKVPVINGLTDDHHPCQLLADLQTYIEHRGSIEGKTVAWIGDGNNMCNSYIE</Hsp_hseq>
+      <Hsp_midline>RGE  E +         + + R+ GH+I  R+A+ S VPV+NGL++    CQL+ D QT +E  G+I G++V  IG+GN+MCNSYIE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_001207984.1|</Hit_id>
+  <Hit_def>ornithine carbamoyltransferase, partial [Acinetobacter sp. NCTC 10304]</Hit_def>
+  <Hit_accession>WP_001207984</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>4.48338e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RGERGEGAGGGRWGRAGVALSRSCGHEIRGRYAAVSAVPVMNGLSESCRACQLVGDSQTCVEEGGAIRGRSVGGIGEGNSMCNSYIE</Hsp_qseq>
+      <Hsp_hseq>RGEPIEDSARVISSMLDIVMIRTFGHDIVERFASYSKVPVINGLTDDHHPCQLLADLQTYIEHRGSIEGKTVAWIGDGNNMCNSYIE</Hsp_hseq>
+      <Hsp_midline>RGE  E +         + + R+ GH+I  R+A+ S VPV+NGL++    CQL+ D QT +E  G+I G++V  IG+GN+MCNSYIE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>170471479</Statistics_db-num>
+      <Statistics_db-len>389654571</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_62706</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10142:2689_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_017602201.1|</Hit_id>
+  <Hit_def>phage portal protein [Nocardiopsis lucentensis]</Hit_def>
+  <Hit_accession>WP_017602201</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>4.08844e-34</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>ISQTPPHPPAGPRSTLAAASLVQVPEPTARKVAERKVMIGESHEQLLGQAGTLLG--IPVDPAARVRWKRLIHARAVQFVELLGLLAEKLGVPEEALWQET</Hsp_qseq>
+      <Hsp_hseq>ISQTPTHELLGTLSNLAATALLESRESTARKVAERKIIVGESHEQLLGQAGTLLSPAVEVDPAARVRWKPVVDTRTMQFVETLALLADKLGVPEEELWRET</Hsp_hseq>
+      <Hsp_midline>ISQTP H   G  S LAA +L++  E TARKVAERK+++GESHEQLLGQAGTLL   + VDPAARVRWK ++  R +QFVE L LLA+KLGVPEE LW+ET</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_165498695.1|</Hit_id>
+  <Hit_def>phage portal protein [Streptomonospora sp. M2]</Hit_def>
+  <Hit_accession>WP_165498695</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>3.48303e-29</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>ISQTPPHPPAGPRSTLAAASLVQVPEPTARKVAERKVMIGESHEQLLGQAGTLLGIPVDPAARVRWKRLIHARAVQFVELLGLLAEKLGVPEEALWQE</Hsp_qseq>
+      <Hsp_hseq>LSQTPTHELLGNLANISAEALVESKESNARKVRERQIIVGEGHEQLLGQAGRLVGVEVDPGARVRWKPTLDQRAMRFVELLGTIAGKLGVPKKALWHE</Hsp_hseq>
+      <Hsp_midline>+SQTP H   G  + ++A +LV+  E  ARKV ER++++GE HEQLLGQAG L+G+ VDP ARVRWK  +  RA++FVELLG +A KLGVP++ALW E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_142079194.1|</Hit_id>
+  <Hit_def>phage portal protein [Actinopolyspora sp. DSM 45965]</Hit_def>
+  <Hit_accession>WP_142079194</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>1.12423e-15</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>ISQTPPHPPAGPRSTLAAASLVQVPEPTARKVAERKVMIGESHEQLLGQAGTLLGIPVDPAARVRWKRLIHARAVQFVELLGLLAEKLGVPEEALWQ</Hsp_qseq>
+      <Hsp_hseq>VSQTPAHELLGQLVNLSAEALAAANDSHRSKVMERQTVMGESHEQSLSLAGELVGEDVDPTAYVRWKDTEPRSMAQMTDALGKLAQQLGVPERELWE</Hsp_hseq>
+      <Hsp_midline>+SQTP H   G    L+A +L    +    KV ER+ ++GESHEQ L  AG L+G  VDP A VRWK        Q  + LG LA++LGVPE  LW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_071060285.1|</Hit_id>
+  <Hit_def>phage portal protein [Frankia soli]</Hit_def>
+  <Hit_accession>WP_071060285</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>6.37709e-11</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>ISQTPPHPPAGPRSTLAAASLVQVPEPTARKVAERKVMIGESHEQLLGQAGTLLGIPVDPAARVRWKRLIHARAVQFVELLGLLAEKLGVPEEALWQ</Hsp_qseq>
+      <Hsp_hseq>ISQTPAHELLGELVNLSADALVAAEASHRRAVTENQTVMGEGWEQALALAGTLMGDEPDAAAEVRWRDTESRSMAQVADALGKMAQMLGVPPAELWE</Hsp_hseq>
+      <Hsp_midline>ISQTP H   G    L+A +LV       R V E + ++GE  EQ L  AGTL+G   D AA VRW+        Q  + LG +A+ LGVP   LW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_123605818.1|</Hit_id>
+  <Hit_def>phage portal protein [Micromonospora sp. Llam0]</Hit_def>
+  <Hit_accession>WP_123605818</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>4.37864e-10</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>ISQTPPHPPAGPRSTLAAASLVQVPEPTARKVAERKVMIGESHEQLLGQAGTLLGIPVDPAARVRWKRLIHARAVQFVELLGLLAEKLGVPEEALWQ</Hsp_qseq>
+      <Hsp_hseq>LSQTPVHELIGELVNLSAEALAAAEAGRDRKVDERKTGMGESHEQSFQVVGALMGVPVPDDAEVVWRDTSAAAFAAVVDGLGKLAQMLGVPAQELWD</Hsp_hseq>
+      <Hsp_midline>+SQTP H   G    L+A +L        RKV ERK  +GESHEQ     G L+G+PV   A V W+    A     V+ LG LA+ LGVP + LW </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_138708916.1|</Hit_id>
+  <Hit_def>phage portal protein [Nonomuraea sp. 160415]</Hit_def>
+  <Hit_accession>WP_138708916</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.40847e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>417</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>ISQTPPHPPAGPRSTLAAASLVQVPEPTARKVAERKVMIGESHEQLLGQAGTLLGIPV---DPAARVRWKRLIHARAVQFVELLGLLAEKLGVPEEALWQE</Hsp_qseq>
+      <Hsp_hseq>ISQTPPYYLLGQMANLSAESLVAARDGLDRKVEERKSSFGEAHEQTLRLAALASGDKDAWQDESAQVVWRDTSSRALAATVDALGKLSQMLGVPQQELWEK</Hsp_hseq>
+      <Hsp_midline>ISQTPP+   G  + L+A SLV   +   RKV ERK   GE+HEQ L  A    G      D +A+V W+          V+ LG L++ LGVP++ LW++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_147266547.1|</Hit_id>
+  <Hit_def>phage portal protein [Streptomyces sp. LHW50302]</Hit_def>
+  <Hit_accession>WP_147266547</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>4.6194e-09</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>ISQTPPHPPAGPRSTLAAASLVQVPEPTARKVAERKVMIGESHEQLLGQAGTLLGIPV---DPAARVRWKRLIHARAVQFVELLGLLAEKLGVPEEALWQ</Hsp_qseq>
+      <Hsp_hseq>IAQVPPHYLLGGMVNISADALTAAESGLARKVHERQTMFGEAWEQVLRLAAEIDGKSASVEDTSARIIWHDAEARSLSQTVDALGKLSQMLGVPAEALWE</Hsp_hseq>
+      <Hsp_midline>I+Q PPH   G    ++A +L       ARKV ER+ M GE+ EQ+L  A  + G      D +AR+ W         Q V+ LG L++ LGVP EALW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_065966618.1|</Hit_id>
+  <Hit_def>phage portal protein [Streptomyces sparsogenes]</Hit_def>
+  <Hit_accession>WP_065966618</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.80578e-08</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>ISQTPPHPPAGPRSTLAAASLVQVPEPTARKVAERKVMIGESHEQLL---GQAGTLLGIPVDPAARVRWKRLIHARAVQFVELLGLLAEKLGVPEEALWQ</Hsp_qseq>
+      <Hsp_hseq>ISQVPPYHLLGEMVNLSAEALAAARDGLDGKTDERESLCGESHEQLLRLVGLASNDLGAWEDTAAQVVWRDTSARSLAQTVDALGKLVTMLGVPPQELWE</Hsp_hseq>
+      <Hsp_midline>ISQ PP+   G    L+A +L    +    K  ER+ + GESHEQLL   G A   LG   D AA+V W+        Q V+ LG L   LGVP + LW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_066583995.1|</Hit_id>
+  <Hit_def>phage portal protein [Corynebacterium provencense]</Hit_def>
+  <Hit_accession>WP_066583995</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.3973e-08</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>319</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>ISQTPPHPPAGPRSTLAAASLVQVPEPTARKVAERKVMIGESHEQLLGQAGTLLG---IPVDPAARVRWKRLIHARAVQFVELLGLLAEKLGVPEEALWQ</Hsp_qseq>
+      <Hsp_hseq>VSQTPAHALTGQLVNLSADALASARAPLTKKVFERQVSASASYSRLLRAAATLAGWSDLAEDSLVRVTWQDMEIRSLAQAADALGKLATQLGIPAEGLWR</Hsp_hseq>
+      <Hsp_midline>+SQTP H   G    L+A +L     P  +KV ER+V    S+ +LL  A TL G   +  D   RV W+ +      Q  + LG LA +LG+P E LW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|YP_009592086.1|</Hit_id>
+  <Hit_def>hypothetical protein [Streptomyces phage phiCAM]</Hit_def>
+  <Hit_accession>YP_009592086</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>1.64561e-06</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>ISQTPPHPPAGPRSTLAAASLVQVPEPTARKVAERKVMIGESHEQLLGQAGTLLGIPV---DPAARVRWKRLIHARAVQFVELLGLLAEKLGVPEEALWQ</Hsp_qseq>
+      <Hsp_hseq>VSQTPPHHLLGQIANLSAEALLAAETALSRKIAEFRASFGESWERVMRLAGEMEGDVTSAEDFAGEVIWRDMEQRSLAQAADALGKLKEQLGIPARGLWK</Hsp_hseq>
+      <Hsp_midline>+SQTPPH   G  + L+A +L+      +RK+AE +   GES E+++  AG + G      D A  V W+ +      Q  + LG L E+LG+P   LW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>170471479</Statistics_db-num>
+      <Statistics_db-len>389654571</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_62707</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:10142:2689_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_017602201.1|</Hit_id>
+  <Hit_def>phage portal protein [Nocardiopsis lucentensis]</Hit_def>
+  <Hit_accession>WP_017602201</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>3.0864e-28</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>QMFVDGYQSADTEAADTIWREIWQSNRWDKKQIPLHKSTAAYGVAYGAILPAADDDAPPVSRPLSARRTTAAYGADDQRPD*PPEQHTQPTRWRQDDT</Hsp_qseq>
+      <Hsp_hseq>QMFVDGYTATDQDAADTIWTQVWQSNRWDRRQIALHKSAAAYGVSYGTILPADGDGAPPVIRAHSPRQMTAAYTSDDDWPDYALEQRQDGT-WRLYDS</Hsp_hseq>
+      <Hsp_midline>QMFVDGY + D +AADTIW ++WQSNRWD++QI LHKS AAYGV+YG ILPA  D APPV R  S R+ TAAY +DD  PD   EQ    T WR  D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_165498695.1|</Hit_id>
+  <Hit_def>phage portal protein [Streptomonospora sp. M2]</Hit_def>
+  <Hit_accession>WP_165498695</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>4.85021e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>QMFVDGYQSADTEAADTIWREIWQSNRWDKKQIPLHKSTAAYGVAYGAILPAADDDAPPVSRPLSARRTTAAYGADDQRPD*PPEQHTQPTRWRQDD</Hsp_qseq>
+      <Hsp_hseq>QMFVDGYTSENKAGASQVWRQ-WQSNRWDRKQIGVNRAIGGYGVAYGIALPSDSSDT-AVMRALSPRQITVAYGDDDDWPDYGLEMRPDKT-WRLVD</Hsp_hseq>
+      <Hsp_midline>QMFVDGY S +   A  +WR+ WQSNRWD+KQI ++++   YGVAYG  LP+   D   V R LS R+ T AYG DD  PD   E     T WR  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_016433463.1|</Hit_id>
+  <Hit_def>phage portal protein [Streptomyces sp. HGB0020]</Hit_def>
+  <Hit_accession>WP_016433463</Hit_accession>
+  <Hit_len>533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>8.33411e-11</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MFVDGYQSADTEAADTIWREIWQSNRWDKKQIPLHKSTAAYGVAYGAILPAADDDAPPVSRPLSARRTTAAY</Hsp_qseq>
+      <Hsp_hseq>LFIDGYRPADATDNSPVWDQVWQANRMDARQSGLYRASLEYGLSYALVLPGDDPQPPAVITPYSPRRMTALY</Hsp_hseq>
+      <Hsp_midline>+F+DGY+ AD      +W ++WQ+NR D +Q  L++++  YG++Y  +LP  D   P V  P S RR TA Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_071060285.1|</Hit_id>
+  <Hit_def>phage portal protein [Frankia soli]</Hit_def>
+  <Hit_accession>WP_071060285</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.07339e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MFVDGYQSADTEAADTI--WREIWQSNRWDKKQIPLHKSTAAYGVAYGAILPAADDDAPPVSRPLSARRTTAAYGADDQRP</Hsp_qseq>
+      <Hsp_hseq>MYVDGYR--EPRAADNVAAW-DVWQRNRCDARQIGVHRAALAYGAAYVTVLPGT---PVPVLRGVSPRRMTAAYGDDDDWP</Hsp_hseq>
+      <Hsp_midline>M+VDGY+  +  AAD +  W ++WQ NR D +QI +H++  AYG AY  +LP       PV R +S RR TAAYG DD  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_142079194.1|</Hit_id>
+  <Hit_def>phage portal protein [Actinopolyspora sp. DSM 45965]</Hit_def>
+  <Hit_accession>WP_142079194</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.57113e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MFVDGYQSADTEAADTIWREIWQSNRWDKKQIPLHKSTAAYGVAYGAILPAADDDAPPVSRPLSARRTTAAYGADDQRPD*PPEQHTQPTRWRQDDT</Hsp_qseq>
+      <Hsp_hseq>MYVDGFRAPRMVEDDPVWN-IWQRNRMDSRQIGIHRAAATYGAAYMTVLPG---EPVPVMRGASPRLMTVVYGDDDDWPAYALEERRDGTYRLLDDT</Hsp_hseq>
+      <Hsp_midline>M+VDG+++      D +W  IWQ NR D +QI +H++ A YG AY  +LP    +  PV R  S R  T  YG DD  P    E+    T    DDT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_123605818.1|</Hit_id>
+  <Hit_def>phage portal protein [Micromonospora sp. Llam0]</Hit_def>
+  <Hit_accession>WP_123605818</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>3.95733e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MFVDGYQSADTEAADTIWREIWQS---NRWDKKQIPLHKSTAAYGVAYGAILPAADDDAPPVSRPLSARRTTAAYGADDQRPD*PPEQHTQPTRWRQ-DDT</Hsp_qseq>
+      <Hsp_hseq>LFVDGLRARDPQSGDDVTLPVWSAWLANRMNKHQAGLHRATVAYGTGYLVITPG---DPYPVMRPRSPRQVTAMYGEDPDWAEIALEKLPVPGRWRLYDDT</Hsp_hseq>
+      <Hsp_midline>+FVDG ++ D ++ D +   +W +   NR +K Q  LH++T AYG  Y  I P    D  PV RP S R+ TA YG D    +   E+   P RWR  DDT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_131888796.1|</Hit_id>
+  <Hit_def>phage portal protein [Actinomadura sp. H3C3]</Hit_def>
+  <Hit_accession>WP_131888796</Hit_accession>
+  <Hit_len>911</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>8.66204e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MFVDGYQSADTEAADTIWREIWQSNRWDKKQIPLHKSTAAYGVAYGAILPAADDDAP-PVSRPLSARRTTAAY</Hsp_qseq>
+      <Hsp_hseq>LFVDGYRPERTDKNARAW-EYWQANRMDGRQHGLHRATLKYGVAYTLVLPGQLAEQPMPVITPKSPRRLTAFY</Hsp_hseq>
+      <Hsp_midline>+FVDGY+   T+     W E WQ+NR D +Q  LH++T  YGVAY  +LP    + P PV  P S RR TA Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_130457959.1|</Hit_id>
+  <Hit_def>phage portal protein [Streptomyces sp. CNZ288]</Hit_def>
+  <Hit_accession>WP_130457959</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.62831e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MFVDGYQSADTEAADTIWREIWQSNRWDKKQIPLHKSTAAYGVAYGAILPA-ADDDAPPVSRPLSARRTTAAY</Hsp_qseq>
+      <Hsp_hseq>LFVDGYRPADTTDNSPVWDAVWQPNRMDARQAGLYRSALQYGVSYATVLPGRLGEKDTAVITPYSPRRMTALY</Hsp_hseq>
+      <Hsp_midline>+FVDGY+ ADT     +W  +WQ NR D +Q  L++S   YGV+Y  +LP    +    V  P S RR TA Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_053751938.1|</Hit_id>
+  <Hit_def>phage portal protein [Streptomyces sp. MMG1533]</Hit_def>
+  <Hit_accession>WP_053751938</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>2.19473e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>QMFVDGYQSADTEAADTIWREIWQSNRWDKKQIPLHKSTAAYGVAYGAILPAADDDAPPVSRPLSARRTTAAY</Hsp_qseq>
+      <Hsp_hseq>NMYVDGYRPAGSDTNAAPW-EIWQANRMDARQHGIHRSVLSYGAAYAVVMPGK---PVPVITPFSPRRMTALY</Hsp_hseq>
+      <Hsp_midline> M+VDGY+ A ++     W EIWQ+NR D +Q  +H+S  +YG AY  ++P       PV  P S RR TA Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_006545515.1|</Hit_id>
+  <Hit_def>phage portal protein [Frankia sp. EUN1f]</Hit_def>
+  <Hit_accession>WP_006545515</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>4.03171e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>MFVDGYQSADTEAADTI--WREIWQSNRWDKKQIPLHKSTAAYGVAYGAILPAADDDAP-PVSRPLSARRTTAAYGADD</Hsp_qseq>
+      <Hsp_hseq>MFVDGLRLP--RQADNVPAW-QVWQANRMDARQIGVHRAAVAYGAAFVTVLPGKRAGEPMPVLRGVSPRQLTAAYASDD</Hsp_hseq>
+      <Hsp_midline>MFVDG +      AD +  W ++WQ+NR D +QI +H++  AYG A+  +LP      P PV R +S R+ TAAY +DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>170471479</Statistics_db-num>
+      <Statistics_db-len>389654571</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_62708</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18798:2692_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_142795862.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG, partial [Xanthomonas perforans]</Hit_def>
+  <Hit_accession>WP_142795862</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>2.03903e-30</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ARAAADGRHGFRVPRGLALRVQGRSGGVVPRQPVMTATPLPRTLAMAAYADLGVAVLDGLPPGRTPVQTVVLSAERRPELIERIRAAC</Hsp_qseq>
+      <Hsp_hseq>ALAIVDEQHRFGVHQRLALRDKGAAAGSVPHQLVMTATPIPRTLAMSAYADLDVSAIDELPPGRTPVQTIVLSAERRPELVERIRAAC</Hsp_hseq>
+      <Hsp_midline>A A  D +H F V + LALR +G + G VP Q VMTATP+PRTLAM+AYADL V+ +D LPPGRTPVQT+VLSAERRPEL+ERIRAAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_137851314.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ATP-dependent DNA helicase RecG [unclassified Xanthomonadaceae (miscellaneous)]</Hit_def>
+  <Hit_accession>WP_137851314</Hit_accession>
+  <Hit_len>707</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>3.95209e-30</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>407</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ARAAADGRHGFRVPRGLALRVQGRSGGVVPRQPVMTATPLPRTLAMAAYADLGVAVLDGLPPGRTPVQTVVLSAERRPELIERIRAAC</Hsp_qseq>
+      <Hsp_hseq>ALAIVDEQHRFGVHQRLALRDKGSSGDSVPHQLVMTATPIPRTLAMAAYADLDVSAIDELPPGRTPVQTVVLSAERRPELIERIRAAC</Hsp_hseq>
+      <Hsp_midline>A A  D +H F V + LALR +G SG  VP Q VMTATP+PRTLAMAAYADL V+ +D LPPGRTPVQTVVLSAERRPELIERIRAAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_133322251.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG [Luteimonas aestuarii]</Hit_def>
+  <Hit_accession>WP_133322251</Hit_accession>
+  <Hit_len>699</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>9.17065e-30</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>399</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ARAAADGRHGFRVPRGLALRVQGRSGGVVPRQPVMTATPLPRTLAMAAYADLGVAVLDGLPPGRTPVQTVVLSAERRPELIERIRAAC</Hsp_qseq>
+      <Hsp_hseq>ALAIVDEQHRFGVHQRLALRDKGAAEGIVPHQLVMTATPIPRTLAMAAYADLDVSAIDELPPGRTPVQTVVLSAERRPELVERIRAAC</Hsp_hseq>
+      <Hsp_midline>A A  D +H F V + LALR +G + G+VP Q VMTATP+PRTLAMAAYADL V+ +D LPPGRTPVQTVVLSAERRPEL+ERIRAAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_137267167.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG [Luteimonas sp. H23]</Hit_def>
+  <Hit_accession>WP_137267167</Hit_accession>
+  <Hit_len>701</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>1.17405e-29</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>401</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ARAAADGRHGFRVPRGLALRVQGRSGGVVPRQPVMTATPLPRTLAMAAYADLGVAVLDGLPPGRTPVQTVVLSAERRPELIERIRAAC</Hsp_qseq>
+      <Hsp_hseq>ALAIVDEQHRFGVHQRLALRDKGAGGNVVPHQLVMTATPIPRTLAMAAYADLDVSAIDELPPGRTPVQTVVLSAERRPELIERIRNAC</Hsp_hseq>
+      <Hsp_midline>A A  D +H F V + LALR +G  G VVP Q VMTATP+PRTLAMAAYADL V+ +D LPPGRTPVQTVVLSAERRPELIERIR AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_155616574.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_155616574</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>1.54199e-29</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ARAAADGRHGFRVPRGLALRVQGRSGGVVPRQPVMTATPLPRTLAMAAYADLGVAVLDGLPPGRTPVQTVVLSAERRPELIERIRAAC</Hsp_qseq>
+      <Hsp_hseq>ALAIVDEQHRFGVHQRLALRDKGASGAGVPHQLVMTATPIPRTLAMAAYADLDVSAIDELPPGRTPVQTIVLSAERRPELVQRIRVAC</Hsp_hseq>
+      <Hsp_midline>A A  D +H F V + LALR +G SG  VP Q VMTATP+PRTLAMAAYADL V+ +D LPPGRTPVQT+VLSAERRPEL++RIR AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_065613837.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG, partial [Xanthomonas euvesicatoria]</Hit_def>
+  <Hit_accession>WP_065613837</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>1.66128e-29</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ARAAADGRHGFRVPRGLALRVQGRSGGVVPRQPVMTATPLPRTLAMAAYADLGVAVLDGLPPGRTPVQTVVLSAERRPELIERIRAAC</Hsp_qseq>
+      <Hsp_hseq>ALAIIDEQHRFGVHQRLALRDKGAAAGSVPHQLVMTATPIPRTLAMSAYADLDVSAIDELPPGRTPVQTIVLSAERRPELVERIRAAC</Hsp_hseq>
+      <Hsp_midline>A A  D +H F V + LALR +G + G VP Q VMTATP+PRTLAM+AYADL V+ +D LPPGRTPVQT+VLSAERRPEL+ERIRAAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_057632882.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG [Stenotrophomonas humi]</Hit_def>
+  <Hit_accession>WP_057632882</Hit_accession>
+  <Hit_len>701</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.85935e-29</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>401</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ARAAADGRHGFRVPRGLALRVQGRSGGVVPRQPVMTATPLPRTLAMAAYADLGVAVLDGLPPGRTPVQTVVLSAERRPELIERIRAAC</Hsp_qseq>
+      <Hsp_hseq>ALAIVDEQHRFGVHQRLALRDKGASAGIVPHQLVMTATPIPRTLAMAAYSDLDVSAIDELPPGRTPVQTIVISAERRPELVERIRVAC</Hsp_hseq>
+      <Hsp_midline>A A  D +H F V + LALR +G S G+VP Q VMTATP+PRTLAMAAY+DL V+ +D LPPGRTPVQT+V+SAERRPEL+ERIR AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_132865462.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG [Stenotrophomonas sp. ATCM1_4]</Hit_def>
+  <Hit_accession>WP_132865462</Hit_accession>
+  <Hit_len>701</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>2.56757e-29</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>401</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ARAAADGRHGFRVPRGLALRVQGRSGGVVPRQPVMTATPLPRTLAMAAYADLGVAVLDGLPPGRTPVQTVVLSAERRPELIERIRAAC</Hsp_qseq>
+      <Hsp_hseq>ALAIVDEQHRFGVHQRLALRDKGASAGVVPHQLVMTATPIPRTLAMAAYSDLDVSAIDELPPGRTPVQTIVISAERRPELVERIRVAC</Hsp_hseq>
+      <Hsp_midline>A A  D +H F V + LALR +G S GVVP Q VMTATP+PRTLAMAAY+DL V+ +D LPPGRTPVQT+V+SAERRPEL+ERIR AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_134672714.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG [Luteimonas yindakuii]</Hit_def>
+  <Hit_accession>WP_134672714</Hit_accession>
+  <Hit_len>696</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>3.45777e-29</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>AAADGRHGFRVPRGLALRVQGRSGGVVPRQPVMTATPLPRTLAMAAYADLGVAVLDGLPPGRTPVQTVVLSAERRPELIERIRAAC</Hsp_qseq>
+      <Hsp_hseq>AIVDEQHRFGVHQRLALRDKGGDGGLVPHQLVMTATPIPRTLAMSAYADLDVSAIDELPPGRTPVQTVVLSGERRPELVERIRAAC</Hsp_hseq>
+      <Hsp_midline>A  D +H F V + LALR +G  GG+VP Q VMTATP+PRTLAM+AYADL V+ +D LPPGRTPVQTVVLS ERRPEL+ERIRAAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_136411847.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG [Luteimonas yindakuii]</Hit_def>
+  <Hit_accession>WP_136411847</Hit_accession>
+  <Hit_len>696</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>3.56074e-29</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>AAADGRHGFRVPRGLALRVQGRSGGVVPRQPVMTATPLPRTLAMAAYADLGVAVLDGLPPGRTPVQTVVLSAERRPELIERIRAAC</Hsp_qseq>
+      <Hsp_hseq>AIVDEQHRFGVHQRLALRDKGGDGGLVPHQLVMTATPIPRTLAMSAYADLDVSAIDELPPGRTPVQTVVLSGERRPELVERIRAAC</Hsp_hseq>
+      <Hsp_midline>A  D +H F V + LALR +G  GG+VP Q VMTATP+PRTLAM+AYADL V+ +D LPPGRTPVQTVVLS ERRPEL+ERIRAAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>170471479</Statistics_db-num>
+      <Statistics_db-len>389654571</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_62709</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18798:2692_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_162008952.1|</Hit_id>
+  <Hit_def>DEAD/DEAH box helicase, partial [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_162008952</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>1.73564e-42</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>LEPLGVRVGWLAGKLAGRARASALAEVAGGEMQVVVGTHALMQEGVVFHDLALAIVDEQHRFGVHQRLALRDKGPAGGGVPPQLVTPATPLPPPLA</Hsp_qseq>
+      <Hsp_hseq>LEPLGVRIAWLAGKVTGKARARVMEQVANGEAQVVVGTHALMQEAVVFQDLALAIVDEQHRFGVHQRLALRDKGAGGNSVPHQLVMTATPIPRTLA</Hsp_hseq>
+      <Hsp_midline>LEPLGVR+ WLAGK+ G+ARA  + +VA GE QVVVGTHALMQE VVF DLALAIVDEQHRFGVHQRLALRDKG  G  VP QLV  ATP+P  LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_150411458.1|</Hit_id>
+  <Hit_def>DEAD/DEAH box helicase, partial [Xanthomonas sacchari]</Hit_def>
+  <Hit_accession>WP_150411458</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>7.20037e-42</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LEPLGVRVGWLAGKLAGRARASALAEVAGGEMQVVVGTHALMQEGVVFHDLALAIVDEQHRFGVHQRLALRDKGPAGGGVPPQLVTPATPLPPPLARA</Hsp_qseq>
+      <Hsp_hseq>LEPLGVRVAWLAGKVTGKARSATLAQIASGEAQVVVGTHALMQEAVRFHDLALAIVDEQHRFGVHQRLALRDKGASGAGVPHQLVMTATPIPRTLAMA</Hsp_hseq>
+      <Hsp_midline>LEPLGVRV WLAGK+ G+AR++ LA++A GE QVVVGTHALMQE V FHDLALAIVDEQHRFGVHQRLALRDKG +G GVP QLV  ATP+P  LA A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_155616574.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_155616574</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>1.33249e-41</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LEPLGVRVGWLAGKLAGRARASALAEVAGGEMQVVVGTHALMQEGVVFHDLALAIVDEQHRFGVHQRLALRDKGPAGGGVPPQLVTPATPLPPPLARA</Hsp_qseq>
+      <Hsp_hseq>LEPLGIRVAWLAGKVTGKARAAVLAQIASGEAQVVVGTHALMQAAVAFHDLALAIVDEQHRFGVHQRLALRDKGASGAGVPHQLVMTATPIPRTLAMA</Hsp_hseq>
+      <Hsp_midline>LEPLG+RV WLAGK+ G+ARA+ LA++A GE QVVVGTHALMQ  V FHDLALAIVDEQHRFGVHQRLALRDKG +G GVP QLV  ATP+P  LA A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_017914113.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG, partial [Xanthomonas sp. SHU 166]</Hit_def>
+  <Hit_accession>WP_017914113</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>3.62455e-41</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LEPLGVRVGWLAGKLAGRARASALAEVAGGEMQVVVGTHALMQEGVVFHDLALAIVDEQHRFGVHQRLALRDKGPAGGGVPPQLVTPATPLPPPLARA</Hsp_qseq>
+      <Hsp_hseq>LEPLGVRVAWLAGKVTGKARSATLAQIASGEAQVVVGTHALMQEAVRFHDLALAIVDEQHRFGVHQRLALRDKGASGAGVPHQLVMTATPIPRTLAMA</Hsp_hseq>
+      <Hsp_midline>LEPLGVRV WLAGK+ G+AR++ LA++A GE QVVVGTHALMQE V FHDLALAIVDEQHRFGVHQRLALRDKG +G GVP QLV  ATP+P  LA A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_017122036.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG, partial [Xanthomonas vasicola]</Hit_def>
+  <Hit_accession>WP_017122036</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>5.71127e-41</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>LEPLGVRVGWLAGKLAGRARASALAEVAGGEMQVVVGTHALMQEGVVFHDLALAIVDEQHRFGVHQRLALRDKGPAGGGVPPQLVTPATPLPPPLA</Hsp_qseq>
+      <Hsp_hseq>LEPLGVRIVWLAGKVTGKARVAAMAEVASGQAQLVVGTHALMQEAVVFHDLALAIIDEQHRFGVHQRLALRDKGAAAGSVPHQLVMTATPIPRTLA</Hsp_hseq>
+      <Hsp_midline>LEPLGVR+ WLAGK+ G+AR +A+AEVA G+ Q+VVGTHALMQE VVFHDLALAI+DEQHRFGVHQRLALRDKG A G VP QLV  ATP+P  LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_065613837.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG, partial [Xanthomonas euvesicatoria]</Hit_def>
+  <Hit_accession>WP_065613837</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>7.00685e-41</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>LEPLGVRVGWLAGKLAGRARASALAEVAGGEMQVVVGTHALMQEGVVFHDLALAIVDEQHRFGVHQRLALRDKGPAGGGVPPQLVTPATPLPPPLA</Hsp_qseq>
+      <Hsp_hseq>LEPLGIRIVWLAGKVTGKARAAVMAEVASGQAQVVVGTHALMQEAVVFHDLALAIIDEQHRFGVHQRLALRDKGAAAGSVPHQLVMTATPIPRTLA</Hsp_hseq>
+      <Hsp_midline>LEPLG+R+ WLAGK+ G+ARA+ +AEVA G+ QVVVGTHALMQE VVFHDLALAI+DEQHRFGVHQRLALRDKG A G VP QLV  ATP+P  LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_148830002.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG, partial [Xanthomonas sacchari]</Hit_def>
+  <Hit_accession>WP_148830002</Hit_accession>
+  <Hit_len>567</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>1.06345e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LEPLGVRVGWLAGKLAGRARASALAEVAGGEMQVVVGTHALMQEGVVFHDLALAIVDEQHRFGVHQRLALRDKGPAGGGVPPQLVTPATPLPPPLARA</Hsp_qseq>
+      <Hsp_hseq>LEPLGVRVAWLAGKVTGKARSATLAQIASGEAQVVVGTHALMQEAVRFHDLALAIVDEQHRFGVHQRLALRDKGASGAGVPHQLVMTATPIPRTLAMA</Hsp_hseq>
+      <Hsp_midline>LEPLGVRV WLAGK+ G+AR++ LA++A GE QVVVGTHALMQE V FHDLALAIVDEQHRFGVHQRLALRDKG +G GVP QLV  ATP+P  LA A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_037082704.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG [Pseudoxanthomonas sp. J35]</Hit_def>
+  <Hit_accession>WP_037082704</Hit_accession>
+  <Hit_len>711</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>3.50681e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>LEPLGVRVGWLAGKLAGRARASALAEVAGGEMQVVVGTHALMQEGVVFHDLALAIVDEQHRFGVHQRLALRDKGPAGGGVPPQLVTPATPLPPPLA</Hsp_qseq>
+      <Hsp_hseq>LEPLGIRVAWLAGKVTGRARAKALAEVASGEAQVVVGTHALMQEGVAFHDLALVIVDEQHRFGVQQRLALRDKGPAHGYVPHQLVMTATPIPRTLA</Hsp_hseq>
+      <Hsp_midline>LEPLG+RV WLAGK+ GRARA ALAEVA GE QVVVGTHALMQEGV FHDLAL IVDEQHRFGV QRLALRDKGPA G VP QLV  ATP+P  LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_133322251.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG [Luteimonas aestuarii]</Hit_def>
+  <Hit_accession>WP_133322251</Hit_accession>
+  <Hit_len>699</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>6.78622e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>348</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LEPLGVRVGWLAGKLAGRARASALAEVAGGEMQVVVGTHALMQEGVVFHDLALAIVDEQHRFGVHQRLALRDKGPAGGGVPPQLVTPATPLPPPLARA</Hsp_qseq>
+      <Hsp_hseq>LEPLGVRVGWLAGKISGKARAAALVDVASGAMQVVVGTHALMQEGVAFHGLALAIVDEQHRFGVHQRLALRDKGAAEGIVPHQLVMTATPIPRTLAMA</Hsp_hseq>
+      <Hsp_midline>LEPLGVRVGWLAGK++G+ARA+AL +VA G MQVVVGTHALMQEGV FH LALAIVDEQHRFGVHQRLALRDKG A G VP QLV  ATP+P  LA A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_024869500.1|</Hit_id>
+  <Hit_def>ATP-dependent DNA helicase RecG [Pseudoxanthomonas suwonensis]</Hit_def>
+  <Hit_accession>WP_024869500</Hit_accession>
+  <Hit_len>711</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>9.42851e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>LEPLGVRVGWLAGKLAGRARASALAEVAGGEMQVVVGTHALMQEGVVFHDLALAIVDEQHRFGVHQRLALRDKGPAGGGVPPQLVTPATPLPPPLA</Hsp_qseq>
+      <Hsp_hseq>LEPLGIRVAWLAGKVTGKARARALAEVASGEAQVVVGTHALMQEGVAFHDLALVIVDEQHRFGVQQRLALRDKGPAHGYVPHQLVMTATPIPRTLA</Hsp_hseq>
+      <Hsp_midline>LEPLG+RV WLAGK+ G+ARA ALAEVA GE QVVVGTHALMQEGV FHDLAL IVDEQHRFGV QRLALRDKGPA G VP QLV  ATP+P  LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>170471479</Statistics_db-num>
+      <Statistics_db-len>389654571</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_62710</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:8476:2692_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_123520819.1|</Hit_id>
+  <Hit_def>IS3 family transposase [Pseudofulvimonas gallinarii]</Hit_def>
+  <Hit_accession>WP_123520819</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>1.49601e-61</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SWLESGSVYGYRKVARDLHDLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDPVAAKRAWVTDITYIRTHAGWLYLAAVMDLF</Hsp_qseq>
+      <Hsp_hseq>SWLESGSVYGYRKVARDLRDLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDPVAANRAWVTDITYIRTHEGWLYLAAVMDLF</Hsp_hseq>
+      <Hsp_midline>SWLESGSVYGYRKVARDL DLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDPVAA RAWVTDITYIRTH GWLYLAAVMDLF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_156810416.1|</Hit_id>
+  <Hit_def>IS3 family transposase [Pseudoxanthomonas sp. GW2]</Hit_def>
+  <Hit_accession>WP_156810416</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.904</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>4.55844e-61</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SWLESGSVYGYRKVARDLHDLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDPVAAKRAWVTDITYIRTHAGWLYLAAVMDLF</Hsp_qseq>
+      <Hsp_hseq>SWLESGSVYGYRKVARDLRDLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPVVVADNHLARQFDPVAANRAWVTDITYIRTHEGWLYLAAVMDLF</Hsp_hseq>
+      <Hsp_midline>SWLESGSVYGYRKVARDL DLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKP VVADNHLARQFDPVAA RAWVTDITYIRTH GWLYLAAVMDLF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_095207328.1|</Hit_id>
+  <Hit_def>IS3 family transposase [Luteimonas sp. JM171]</Hit_def>
+  <Hit_accession>WP_095207328</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>4.95334e-60</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SWLESGSVYGYRKVARDLHDLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDPVAAKRAWVTDITYIRTHAGWLYLAAVMDLF</Hsp_qseq>
+      <Hsp_hseq>SWLESGSVYGYRKVTRDLRDLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDPDAANRAWVTDITYIRTHEGWLYLAAVMDLF</Hsp_hseq>
+      <Hsp_midline>SWLESGSVYGYRKV RDL DLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDP AA RAWVTDITYIRTH GWLYLAAVMDLF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_095208375.1|</Hit_id>
+  <Hit_def>IS3 family transposase [Luteimonas sp. JM171]</Hit_def>
+  <Hit_accession>WP_095208375</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>1.25256e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SWLESGSVYGYRKVARDLHDLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDPVAAKRAWVTDITYIRTHAGWLYLAAVMDLF</Hsp_qseq>
+      <Hsp_hseq>SWLESGSVYGYRKVTRDLRDLGERCGKHRVARLMRDEGLRAQVGYGRRPGMRGGKPAVVADNHLARQFDPDAANRAWVTDITYIRTHEGWLYLAAVLDLF</Hsp_hseq>
+      <Hsp_midline>SWLESGSVYGYRKV RDL DLGERCGKHRVARLMR EGLRAQVGY RRPGMRGGKPAVVADNHLARQFDP AA RAWVTDITYIRTH GWLYLAAV+DLF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_058195768.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_058195768</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>1.75461e-52</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SWLESGSVYGYRKVARDLHDLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDPVAAKRAWVTDITYIRTHAGWLYLAAVMDLF</Hsp_qseq>
+      <Hsp_hseq>SWLESGGVYGYRKITRDLRDLGESCGKHRTARLMRHEGLRAQVGYHRRPGMHGGKPAIVANNELARQFDPGTANQAWVTDITYIRTHEGWLYLAVVLDLF</Hsp_hseq>
+      <Hsp_midline>SWLESG VYGYRK+ RDL DLGE CGKHR ARLMR EGLRAQVGY RRPGM GGKPA+VA+N LARQFDP  A +AWVTDITYIRTH GWLYLA V+DLF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_161993373.1|</Hit_id>
+  <Hit_def>IS3 family transposase [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_161993373</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>4.364e-52</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SWLESGSVYGYRKVARDLHDLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDPVAAKRAWVTDITYIRTHAGWLYLAAVMDLF</Hsp_qseq>
+      <Hsp_hseq>SWLESGGVYGYRKISRDLRDLGESCGKHRTARLMRHEGLRAQVGYHRRPGMHGGKPAIVANNELARQFDPGTANQAWVTDITYIRTHEGWLYLAVVLDLF</Hsp_hseq>
+      <Hsp_midline>SWLESG VYGYRK++RDL DLGE CGKHR ARLMR EGLRAQVGY RRPGM GGKPA+VA+N LARQFDP  A +AWVTDITYIRTH GWLYLA V+DLF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_141134435.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_141134435</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>7.10188e-52</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SWLESGSVYGYRKVARDLHDLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDPVAAKRAWVTDITYIRTHAGWLYLAAVMDLF</Hsp_qseq>
+      <Hsp_hseq>SWLESGGVYGYRKITRDLRDLGESCGKHRTARLMRQEGLRAQVGYHRRPGMHGGKPAIVANNELARQFDPGIANQAWVTDITYIRTHEGWLYLAVVLDLF</Hsp_hseq>
+      <Hsp_midline>SWLESG VYGYRK+ RDL DLGE CGKHR ARLMR EGLRAQVGY RRPGM GGKPA+VA+N LARQFDP  A +AWVTDITYIRTH GWLYLA V+DLF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_155616090.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_155616090</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>1.03718e-51</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SWLESGSVYGYRKVARDLHDLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDPVAAKRAWVTDITYIRTHAGWLYLAAVMDLF</Hsp_qseq>
+      <Hsp_hseq>SWLESGGVYGYRKITRDLRDLGESCGKHRTARLMRHEGLRAQVGYHRRPGMHGGTPAIVANNELARQFDPGIANQAWVTDITYIRTHEGWLYLAVVLDLF</Hsp_hseq>
+      <Hsp_midline>SWLESG VYGYRK+ RDL DLGE CGKHR ARLMR EGLRAQVGY RRPGM GG PA+VA+N LARQFDP  A +AWVTDITYIRTH GWLYLA V+DLF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_058195771.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_058195771</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.014</Hsp_bit-score>
+      <Hsp_score>432</Hsp_score>
+      <Hsp_evalue>1.08484e-51</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SWLESGSVYGYRKVARDLHDLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDPVAAKRAWVTDITYIRTHAGWLYLAAVMDLF</Hsp_qseq>
+      <Hsp_hseq>SWLESGGVYGYRKITRDLRDLGESCGKHRTARLMRHEGLRAQVGYHRRPGMHGGTPAIVANNELARQFDPGIANQAWVTDITYIRTHEGWLYLAVVLDLF</Hsp_hseq>
+      <Hsp_midline>SWLESG VYGYRK+ RDL DLGE CGKHR ARLMR EGLRAQVGY RRPGM GG PA+VA+N LARQFDP  A +AWVTDITYIRTH GWLYLA V+DLF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_155601559.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_155601559</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>1.15802e-51</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SWLESGSVYGYRKVARDLHDLGERCGKHRVARLMRGEGLRAQVGYRRRPGMRGGKPAVVADNHLARQFDPVAAKRAWVTDITYIRTHAGWLYLAAVMDLF</Hsp_qseq>
+      <Hsp_hseq>SWLESGGVYGYRKITRDLRDLGESCGKHRTARLMRHEGLRAQVGYHRRPGMHGGKPAIVANNELALQFDPGIANQAWVTDITYIRTHEGWLYLAVVLDLF</Hsp_hseq>
+      <Hsp_midline>SWLESG VYGYRK+ RDL DLGE CGKHR ARLMR EGLRAQVGY RRPGM GGKPA+VA+N LA QFDP  A +AWVTDITYIRTH GWLYLA V+DLF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>170471479</Statistics_db-num>
+      <Statistics_db-len>389654571</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>8</Iteration_iter-num>
+  <Iteration_query-ID>Query_62711</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:8476:2692_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_125112053.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Pseudoxanthomonas sp. SGNA-20]</Hit_def>
+  <Hit_accession>WP_125112053</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>3.00189e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GWLCVEGVVGLLRVKVVGGAMGSTRPTAVVLQSLMMAVWRRKPPDGLLIHSDQGTQYSGRDWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_qseq>
+      <Hsp_hseq>GWLYLAAVMDLFSRKIVGWAMGSTLHTDLMLQALMMAVWRRKPPAGLLIHSDQGTQYTGHDWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_hseq>
+      <Hsp_midline>GWL +  V+ L   K+VG AMGST  T ++LQ+LMMAVWRRKPP GLLIHSDQGTQY+G DWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_141696217.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_141696217</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>4.98235e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GWLCVEGVVGLLRVKVVGGAMGSTRPTAVVLQSLMMAVWRRKPPDGLLIHSDQGTQYSGRDWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_qseq>
+      <Hsp_hseq>GWLYLAVVLDLFSRKIVGWAMHSTMHTDVVLQALMMAVWRRKPPAGLLVHSDQGTQFTGHDWQDFLKAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_hseq>
+      <Hsp_midline>GWL +  V+ L   K+VG AM ST  T VVLQ+LMMAVWRRKPP GLL+HSDQGTQ++G DWQDFL AHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_128809051.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_128809051</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>6.92516e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GWLCVEGVVGLLRVKVVGGAMGSTRPTAVVLQSLMMAVWRRKPPDGLLIHSDQGTQYSGRDWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_qseq>
+      <Hsp_hseq>GWLYLAVVLDLFSRKIVGWAMHSTMHTDVVLQALMMAVWRRKPPAGLLVHSDQGTQFTGHDWQDFLKAHGLISSMSRRGNCHDNAVAESFFQLLK</Hsp_hseq>
+      <Hsp_midline>GWL +  V+ L   K+VG AM ST  T VVLQ+LMMAVWRRKPP GLL+HSDQGTQ++G DWQDFL AHGL+SSMSRRGNCHDNAVAESFFQLLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_141697142.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_141697142</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>6.95427e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GWLCVEGVVGLLRVKVVGGAMGSTRPTAVVLQSLMMAVWRRKPPDGLLIHSDQGTQYSGRDWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_qseq>
+      <Hsp_hseq>GWLYLAVVLDLFSRKIVGWAMQSTMHTDVVLQALMMAVWRRKPPAGLLVHSDQGTQFTGHDWQDFLKAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_hseq>
+      <Hsp_midline>GWL +  V+ L   K+VG AM ST  T VVLQ+LMMAVWRRKPP GLL+HSDQGTQ++G DWQDFL AHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_139120076.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_139120076</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>8.05697e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GWLCVEGVVGLLRVKVVGGAMGSTRPTAVVLQSLMMAVWRRKPPDGLLIHSDQGTQYSGRDWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_qseq>
+      <Hsp_hseq>GWLYLAVVLDLFSRKIVGWAMHSTMHTDVVLQALMMAVWRRKPPAGLLVHSDQGTQFTGHDWQDFLKAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_hseq>
+      <Hsp_midline>GWL +  V+ L   K+VG AM ST  T VVLQ+LMMAVWRRKPP GLL+HSDQGTQ++G DWQDFL AHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_155604509.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_155604509</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>9.25549e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>RGWLCVEGVVGLLRVKVVGGAMGSTRPTAVVLQSLMMAVWRRKPPDGLLIHSDQGTQYSGRDWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_qseq>
+      <Hsp_hseq>EGWLYLAVVLDLFSRKIVGWAMHSTMHTDVVLQALMMAVWRRKPPAGLLVHSDQGTQFTGHDWQDFLKAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_hseq>
+      <Hsp_midline> GWL +  V+ L   K+VG AM ST  T VVLQ+LMMAVWRRKPP GLL+HSDQGTQ++G DWQDFL AHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_003472368.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_003472368</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.07117e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>RGWLCVEGVVGLLRVKVVGGAMGSTRPTAVVLQSLMMAVWRRKPPDGLLIHSDQGTQYSGRDWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_qseq>
+      <Hsp_hseq>EGWLYLAVVLDLFSRKIVGWAMHSTMHTDVVLQALMMAVWRRKPPAGLLVHSDQGTQFTGHDWQDFLKAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_hseq>
+      <Hsp_midline> GWL +  V+ L   K+VG AM ST  T VVLQ+LMMAVWRRKPP GLL+HSDQGTQ++G DWQDFL AHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_155616197.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_155616197</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.88768e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GWLCVEGVVGLLRVKVVGGAMGSTRPTAVVLQSLMMAVWRRKPPDGLLIHSDQGTQYSGRDWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_qseq>
+      <Hsp_hseq>GWLYLAVVLDLFSRKIVGWAMHSTMHTDVVLQALMMAVWRRKPPAGLLVHSDQGTQFTGHDWQDFLKAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_hseq>
+      <Hsp_midline>GWL +  V+ L   K+VG AM ST  T VVLQ+LMMAVWRRKPP GLL+HSDQGTQ++G DWQDFL AHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_156810416.1|</Hit_id>
+  <Hit_def>IS3 family transposase [Pseudoxanthomonas sp. GW2]</Hit_def>
+  <Hit_accession>WP_156810416</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>7.49512e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GWLCVEGVVGLLRVKVVGGAMGSTRPTAVVLQSLMMAVWRRKPPDGLLIHSDQGTQYSGRDWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_qseq>
+      <Hsp_hseq>GWLYLAAVMDLFSRKIVGWAMGSTLHTDLMLQALMMAVWRRKPPAGLLIHSDQGTQYTGHDWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_hseq>
+      <Hsp_midline>GWL +  V+ L   K+VG AMGST  T ++LQ+LMMAVWRRKPP GLLIHSDQGTQY+G DWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_060744502.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_060744502</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>2.07104e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GWLCVEGVVGLLRVKVVGGAMGSTRPTAVVLQSLMMAVWRRKPPDGLLIHSDQGTQYSGRDWQDFLTAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_qseq>
+      <Hsp_hseq>GWLYLAVLLDLFSRKIVGWAMHSTMHTDVVLQALMMAVWRRKPPAGLLVHSDQGTQFTGHDWQDFLKAHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_hseq>
+      <Hsp_midline>GWL +  ++ L   K+VG AM ST  T VVLQ+LMMAVWRRKPP GLL+HSDQGTQ++G DWQDFL AHGLVSSMSRRGNCHDNAVAESFFQLLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>170471479</Statistics_db-num>
+      <Statistics_db-len>389654571</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>9</Iteration_iter-num>
+  <Iteration_query-ID>Query_62712</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:7523:2693_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_087258926.1|</Hit_id>
+  <Hit_def>hypothetical protein [Flavonifractor sp. An92]</Hit_def>
+  <Hit_accession>WP_087258926</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>2.90346e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VVDMDINEYDKIVVEILKWSSPRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIKVRYG</Hsp_qseq>
+      <Hsp_hseq>VVSADIQNYDKIVVEVLKWSLPQHWARIEQITLGIVQVYNKTDLMS-YQHTMTVDPLSAELPTTEISFEVSNLNGQYNPDNPQGVEKYLMERQEITTRYG</Hsp_hseq>
+      <Hsp_midline>VV  DI  YDKIVVE+LKWS P+  ARI +I LG    Y K DL +   H+  VDPLSA+LP   + F VSN++  YNP N  G+ KYL+ERQEI  RYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_087380162.1|</Hit_id>
+  <Hit_def>hypothetical protein [Flavonifractor sp. An135]</Hit_def>
+  <Hit_accession>WP_087380162</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>4.33815e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VVDMDINEYDKIVVEILKWSSPRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIKVRYG</Hsp_qseq>
+      <Hsp_hseq>VVSADIQNYDKIVVEVLKWSLPQHWARIEQITLGIVQVYNKTDLMS-YQHTMTVDPLSAELPTTEISFEVSNLNGQYNPDNPQGVEKYLMERQEITTRYG</Hsp_hseq>
+      <Hsp_midline>VV  DI  YDKIVVE+LKWS P+  ARI +I LG    Y K DL +   H+  VDPLSA+LP   + F VSN++  YNP N  G+ KYL+ERQEI  RYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_148492203.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eubacteriaceae bacterium]</Hit_def>
+  <Hit_accession>WP_148492203</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>1.71385e-24</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDINEYDKIVVEILKWSSPRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIKVRYG</Hsp_qseq>
+      <Hsp_hseq>IDIQNYDRIEIEVLKWCLPRRRARMEKVFVGIVNTYTKSDLM-NYSHEDSVDILSGELPKDSITFSLDNVESQWNPLNTEGVSKYLMERQTLHVRYG</Hsp_hseq>
+      <Hsp_midline>+DI  YD+I +E+LKW  PRRRAR+ ++ +G   TY K DL  N +H   VD LS +LPK S+ FS+ NV+  +NP N  G+SKYL+ERQ + VRYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_087233610.1|</Hit_id>
+  <Hit_def>hypothetical protein [Anaeromassilibacillus sp. An250]</Hit_def>
+  <Hit_accession>WP_087233610</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>2.29574e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VVDMDINEYDKIVVEILKWSSPRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIKVRYG</Hsp_qseq>
+      <Hsp_hseq>VVEGDIQGYNRIVIEVLEWCKPSRRARIERIIVGVEKTYGKSELMS-YGHDMFVDPMSAELPKSEITFEIVNLNGEYNPDNPQGAEKYLMERQSITARYG</Hsp_hseq>
+      <Hsp_midline>VV+ DI  Y++IV+E+L+W  P RRARI RI +G   TYGK +L +   H   VDP+SA+LPK  + F + N++  YNP N  G  KYL+ERQ I  RYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_160665127.1|</Hit_id>
+  <Hit_def>hypothetical protein [Colidextribacter sp. OB.20]</Hit_def>
+  <Hit_accession>WP_160665127</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>2.82187e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VVDMDINEYDKIVVEILKWSSPRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIKVRYG</Hsp_qseq>
+      <Hsp_hseq>ILEGDIGGYDKLTIEVLKWSTPRRRARIESVFLGIESTYTKKDII-QYSVSMFADPLSAALPKSEITFELDNRDGRFNLDNLKGEGRYLMERQEVNVRYG</Hsp_hseq>
+      <Hsp_midline>+++ DI  YDK+ +E+LKWS+PRRRARI  + LG   TY K D+    + S   DPLSA LPK  + F + N D  +N  N  G  +YL+ERQE+ VRYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_087295435.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gemmiger sp. An194]</Hit_def>
+  <Hit_accession>WP_087295435</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.80049e-11</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MDINEYDKIVVEILKWSSPRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVD-------DSYNPYNQAGISKYLVERQEIKVRYG</Hsp_qseq>
+      <Hsp_hseq>VQIDRFDRLEIRFEATSQPFRRARLTRLMFGMELVFGQAEL-TEAAQTMEVDPIGRRLPTGEFSFSAVNVNLLTGSQNGLYDPDNPQGIWKYFEQRNPITVRYG</Hsp_hseq>
+      <Hsp_midline>+ I+ +D++ +     S P RRAR+ R+  G  + +G+ +L T    + EVDP+  +LP     FS  NV+         Y+P N  GI KY  +R  I VRYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_087183819.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gemmiger sp. An87]</Hit_def>
+  <Hit_accession>WP_087183819</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>2.25218e-11</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MDINEYDKIVVEILKWSSPRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVD-------DSYNPYNQAGISKYLVERQEIKVRYG</Hsp_qseq>
+      <Hsp_hseq>VQIDRFDRLEIRFEATSQPFRRARLTRLMFGMELIFGQAEL-TEAAQTMEVDPIGRRLPTGEFSFSAVNVNLLTGSQNGLYDPDNPQGIWKYFEQRNPITVRYG</Hsp_hseq>
+      <Hsp_midline>+ I+ +D++ +     S P RRAR+ R+  G  + +G+ +L T    + EVDP+  +LP     FS  NV+         Y+P N  GI KY  +R  I VRYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_058965670.1|</Hit_id>
+  <Hit_def>hypothetical protein [Fournierella massiliensis]</Hit_def>
+  <Hit_accession>WP_058965670</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>2.25218e-11</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MDINEYDKIVVEILKWSSPRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVD-------DSYNPYNQAGISKYLVERQEIKVRYG</Hsp_qseq>
+      <Hsp_hseq>VQIDRFDRLEIRFEATSQPFRRARLTRLMFGMELIFGQAEL-TEAAQTMEVDPIGRRLPTGEFSFSAVNVNLLTGSQNGLYDPDNPQGIWKYFEQRNPITVRYG</Hsp_hseq>
+      <Hsp_midline>+ I+ +D++ +     S P RRAR+ R+  G  + +G+ +L T    + EVDP+  +LP     FS  NV+         Y+P N  GI KY  +R  I VRYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_058964230.1|</Hit_id>
+  <Hit_def>hypothetical protein [Fournierella massiliensis]</Hit_def>
+  <Hit_accession>WP_058964230</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>3.6284e-11</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MDINEYDKIVVEILKWSSPRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVD-------DSYNPYNQAGISKYLVERQEIKVRYG</Hsp_qseq>
+      <Hsp_hseq>VQIDRFDRLEIRFEATSRPFRRARLTRLMFGMELVFGQAEL-TEAAQTMEVDPIGRRLPTGEFSFSAVNVNLLTGSQNGLYDPDNPRGIWKYFEQRNPITVRYG</Hsp_hseq>
+      <Hsp_midline>+ I+ +D++ +     S P RRAR+ R+  G  + +G+ +L T    + EVDP+  +LP     FS  NV+         Y+P N  GI KY  +R  I VRYG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_090758554.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacillus sp. OK048]</Hit_def>
+  <Hit_accession>WP_090758554</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>4.1194e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>VVDMDINEYDKIVVEILKWSSPRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEI</Hsp_qseq>
+      <Hsp_hseq>IVDGAFDNYNRVAVKILKWSKARRRARVTEIALGSLLVYDDSRLI-RMSLVEDYDMTSGTVPAPQFQFTIDNSNREFNILNPTGVYKYLQERQKI</Hsp_hseq>
+      <Hsp_midline>+VD   + Y+++ V+ILKWS  RRRAR+  I LG  + Y    L   ++  ++ D  S  +P    +F++ N +  +N  N  G+ KYL ERQ+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>170471479</Statistics_db-num>
+      <Statistics_db-len>389654571</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>10</Iteration_iter-num>
+  <Iteration_query-ID>Query_62713</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:7523:2693_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_087258926.1|</Hit_id>
+  <Hit_def>hypothetical protein [Flavonifractor sp. An92]</Hit_def>
+  <Hit_accession>WP_087258926</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>8.46421e-22</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>DKIVVEILKWGSTRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIQVRYGY</Hsp_qseq>
+      <Hsp_hseq>DKIVVEVLKWSLPQHWARIEQITLGIVQVYNKTDLMS-YQHTMTVDPLSAELPTTEISFEVSNLNGQYNPDNPQGVEKYLMERQEITTRYGY</Hsp_hseq>
+      <Hsp_midline>DKIVVE+LKW   +  ARI +I LG    Y K DL +   H+  VDPLSA+LP   + F VSN++  YNP N  G+ KYL+ERQEI  RYGY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_087380162.1|</Hit_id>
+  <Hit_def>hypothetical protein [Flavonifractor sp. An135]</Hit_def>
+  <Hit_accession>WP_087380162</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.15042e-21</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>DKIVVEILKWGSTRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIQVRYGY</Hsp_qseq>
+      <Hsp_hseq>DKIVVEVLKWSLPQHWARIEQITLGIVQVYNKTDLMS-YQHTMTVDPLSAELPTTEISFEVSNLNGQYNPDNPQGVEKYLMERQEITTRYGY</Hsp_hseq>
+      <Hsp_midline>DKIVVE+LKW   +  ARI +I LG    Y K DL +   H+  VDPLSA+LP   + F VSN++  YNP N  G+ KYL+ERQEI  RYGY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_148492203.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eubacteriaceae bacterium]</Hit_def>
+  <Hit_accession>WP_148492203</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>3.04254e-21</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>DKIVVEILKWGSTRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIQVRYGYRI</Hsp_qseq>
+      <Hsp_hseq>DRIEIEVLKWCLPRRRARMEKVFVGIVNTYTKSDLM-NYSHEDSVDILSGELPKDSITFSLDNVESQWNPLNTEGVSKYLMERQTLHVRYGMDI</Hsp_hseq>
+      <Hsp_midline>D+I +E+LKW   RRRAR+ ++ +G   TY K DL  N +H   VD LS +LPK S+ FS+ NV+  +NP N  G+SKYL+ERQ + VRYG  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_087233610.1|</Hit_id>
+  <Hit_def>hypothetical protein [Anaeromassilibacillus sp. An250]</Hit_def>
+  <Hit_accession>WP_087233610</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.80693e-20</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>DKIVVEILKWGSTRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIQVRYGYRI</Hsp_qseq>
+      <Hsp_hseq>NRIVIEVLEWCKPSRRARIERIIVGVEKTYGKSELMS-YGHDMFVDPMSAELPKSEITFEIVNLNGEYNPDNPQGAEKYLMERQSITARYGYKL</Hsp_hseq>
+      <Hsp_midline>++IV+E+L+W    RRARI RI +G   TYGK +L +   H   VDP+SA+LPK  + F + N++  YNP N  G  KYL+ERQ I  RYGY++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_160665127.1|</Hit_id>
+  <Hit_def>hypothetical protein [Colidextribacter sp. OB.20]</Hit_def>
+  <Hit_accession>WP_160665127</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>3.50394e-18</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>DKIVVEILKWGSTRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIQVRYGYRI</Hsp_qseq>
+      <Hsp_hseq>DKLTIEVLKWSTPRRRARIESVFLGIESTYTKKDII-QYSVSMFADPLSAALPKSEITFELDNRDGRFNLDNLKGEGRYLMERQEVNVRYGYKL</Hsp_hseq>
+      <Hsp_midline>DK+ +E+LKW + RRRARI  + LG   TY K D+    + S   DPLSA LPK  + F + N D  +N  N  G  +YL+ERQE+ VRYGY++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_065385499.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacillus sp. FJAT-26390]</Hit_def>
+  <Hit_accession>WP_065385499</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>7.60136e-10</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>176</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>KIVVEILKWGSTRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIQVRYGYRIG</Hsp_qseq>
+      <Hsp_hseq>KIIVTINKWSVGNRRARVLEVDFGYVRLYTDNEII-RLNMVEEMDMTSGALPSPEFRFSVDNSDRVFNILNPAGYVKYLQQRQEVVAEIGFEVA</Hsp_hseq>
+      <Hsp_midline>KI+V I KW    RRAR+  +  G    Y   ++   L   +E+D  S  LP    RFSV N D  +N  N AG  KYL +RQE+    G+ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_135553232.1|</Hit_id>
+  <Hit_def>hypothetical protein [Paenibacillus sp. R196]</Hit_def>
+  <Hit_accession>WP_135553232</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.07946e-09</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>KIVVEILKWGSTRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIQVRYGYRIG</Hsp_qseq>
+      <Hsp_hseq>KIVVEIVKWSVGDRRARVLEIDFGIVEVYTDDNLIS-MGLIEEMDMSGSKLPSPEFDFTVDNSDRAFNILNPTGFYKYLQQRQQVIAELGVDIG</Hsp_hseq>
+      <Hsp_midline>KIVVEI+KW    RRAR+  I  G    Y   +L + +   +E+D   +KLP     F+V N D ++N  N  G  KYL +RQ++    G  IG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_028609737.1|</Hit_id>
+  <Hit_def>hypothetical protein [Paenibacillus harenae]</Hit_def>
+  <Hit_accession>WP_028609737</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>3.0891e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>KIVVEILKWGSTRRRARIARIHLGRSITYGKGDLFT-NLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIQVRYGYRIGN</Hsp_qseq>
+      <Hsp_hseq>KIVVTINKWSVGNRRARVLEIDFGYVEVYTDETLISCNLI--EEMDMISGQLPSPEFRFAVDNSDRAFNILNPNGVYNYLQQRQQVKAELGVEISS</Hsp_hseq>
+      <Hsp_midline>KIVV I KW    RRAR+  I  G    Y    L + NL   +E+D +S +LP    RF+V N D ++N  N  G+  YL +RQ+++   G  I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_013623593.1|</Hit_id>
+  <Hit_def>hypothetical protein [Syntrophobotulus glycolicus]</Hit_def>
+  <Hit_accession>WP_013623593</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.01684e-08</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>KIVVEILKWGSTRRRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVDDSYNPYNQAGISKYLVERQEIQVRYGYRI</Hsp_qseq>
+      <Hsp_hseq>KIVITIKKWTNPYRRARITEIDFGVIKNY-EGDKLISLNLIEEMAVIGDTIPINELRFTVDNSDKEFNILNPEGFYRFFKERQEISLSLGVEI</Hsp_hseq>
+      <Hsp_midline>KIV+ I KW +  RRARI  I  G    Y +GD   +L   +E+  +   +P   LRF+V N D  +N  N  G  ++  ERQEI +  G  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_087295435.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gemmiger sp. An194]</Hit_def>
+  <Hit_accession>WP_087295435</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.13571e-08</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>RRARIARIHLGRSITYGKGDLFTNLTHSQEVDPLSAKLPKMSLRFSVSNVD-------DSYNPYNQAGISKYLVERQEIQVRYGYRI</Hsp_qseq>
+      <Hsp_hseq>RRARLTRLMFGMELVFGQAEL-TEAAQTMEVDPIGRRLPTGEFSFSAVNVNLLTGSQNGLYDPDNPQGIWKYFEQRNPITVRYGQQL</Hsp_hseq>
+      <Hsp_midline>RRAR+ R+  G  + +G+ +L T    + EVDP+  +LP     FS  NV+         Y+P N  GI KY  +R  I VRYG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>170471479</Statistics_db-num>
+      <Statistics_db-len>389654571</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>11</Iteration_iter-num>
+  <Iteration_query-ID>Query_62714</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18140:2696_1</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_053235348.1|</Hit_id>
+  <Hit_def>peptide MFS transporter [Sandaracinus amylolyticus]</Hit_def>
+  <Hit_accession>WP_053235348</Hit_accession>
+  <Hit_len>634</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.62782e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>511</Hsp_hit-from>
+      <Hsp_hit-to>612</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>MSWLLLGYLLHTTGELCLSPVGLSMVVRLSPPRIVSTTMGAWFLATAFSSYLAAIIATFTGVGHGEEGGG---IPVPAETVHVYGDVFGQIGVAAVASAVVV</Hsp_qseq>
+      <Hsp_hseq>MTWLVLAYLLHTTGELCLSPVGLSMVSKMAPARMVATMMGAWYLATAFSQYLAGLIAMLTGVSHEEGAEGAQVIPPPSETLHVYGDVFVKIAIASFVAAAIL</Hsp_hseq>
+      <Hsp_midline>M+WL+L YLLHTTGELCLSPVGLSMV +++P R+V+T MGAW+LATAFS YLA +IA  TGV H E   G   IP P+ET+HVYGDVF +I +A+  +A ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_146453153.1|</Hit_id>
+  <Hit_def>hypothetical protein [Planctomycetes bacterium Pla144]</Hit_def>
+  <Hit_accession>WP_146453153</Hit_accession>
+  <Hit_len>660</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.32965e-31</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>543</Hsp_hit-from>
+      <Hsp_hit-to>629</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>SWLLLGYLLHTTGELCLSPVGLSMVVRLSPPRIVSTTMGAWFLATAFSSYLAAIIATFTGVGHGEEGGG-IPVPAETVHVYGDVFGQ</Hsp_qseq>
+      <Hsp_hseq>SWLLLGYMLQTTGELCISPVGLSMITKLSPKVLVSTVMGGWFLATAFSQYLAAIISQFTGVSEGENGEQLIPAPIETVQIYGDVFQK</Hsp_hseq>
+      <Hsp_midline>SWLLLGY+L TTGELC+SPVGLSM+ +LSP  +VST MG WFLATAFS YLAAII+ FTGV  GE G   IP P ETV +YGDVF +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_145350822.1|</Hit_id>
+  <Hit_def>MFS transporter [Planctomycetes bacterium FF011L]</Hit_def>
+  <Hit_accession>WP_145350822</Hit_accession>
+  <Hit_len>688</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.37944e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>569</Hsp_hit-from>
+      <Hsp_hit-to>666</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MSWLLLGYLLHTTGELCLSPVGLSMVVRLSPPRIVSTTMGAWFLATAFSSYLAAIIATFTGV-GHGEEGGGIPVPAETVHVYGDVFGQIGVAAVASAV</Hsp_qseq>
+      <Hsp_hseq>ISWLVLGYLLHTTGELCLSPVGLSTMTKLSPKHLVSTVMGGWFLATAFSQYLAGIISQFTGVTNEGGDESGIPIPLTSVMIYGDVFYKIAIAAVISGI</Hsp_hseq>
+      <Hsp_midline>+SWL+LGYLLHTTGELCLSPVGLS + +LSP  +VST MG WFLATAFS YLA II+ FTGV   G +  GIP+P  +V +YGDVF +I +AAV S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_146595589.1|</Hit_id>
+  <Hit_def>MFS transporter [Planctomycetes bacterium Pla52o]</Hit_def>
+  <Hit_accession>WP_146595589</Hit_accession>
+  <Hit_len>673</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>4.26922e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>557</Hsp_hit-from>
+      <Hsp_hit-to>654</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MSWLLLGYLLHTTGELCLSPVGLSMVVRLSPPRIVSTTMGAWFLATAFSSYLAAIIATFTGVGHGEEGGG-IPVPAETVHVYGDVFGQIGVAAVASAV</Hsp_qseq>
+      <Hsp_hseq>ISWLLLGYMLQTMGELCLSPVGLSTMTKLSPRHLVSTVMGGWFLATAFSQYLAAIISQLTGVSEGGDTGNVIPLPTETVHVYGGVFGTIAITAILSGL</Hsp_hseq>
+      <Hsp_midline>+SWLLLGY+L T GELCLSPVGLS + +LSP  +VST MG WFLATAFS YLAAII+  TGV  G + G  IP+P ETVHVYG VFG I + A+ S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_154196918.1|</Hit_id>
+  <Hit_def>MFS transporter [Planctomycetes bacterium]</Hit_def>
+  <Hit_accession>WP_154196918</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>7.15856e-30</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>547</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>WLLLGYLLHTTGELCLSPVGLSMVVRLSPPRIVSTTMGAWFLATAFSSYLAAIIATFTGVGHGEEGGGIPVPAETVHVYGDVFGQIGVAAVASAVV</Hsp_qseq>
+      <Hsp_hseq>WLLLSYMLQTTGELCLSPVGLSMVTRLAPARIVSTVMGAWFLGTALSHDLAGLIAKLTAIEPTDGDAGVPVPLETVDIYAGVFGQIGVAALVVSVI</Hsp_hseq>
+      <Hsp_midline>WLLL Y+L TTGELCLSPVGLSMV RL+P RIVST MGAWFL TA S  LA +IA  T +   +   G+PVP ETV +Y  VFGQIGVAA+  +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_145421920.1|</Hit_id>
+  <Hit_def>MFS transporter [Planctomycetes bacterium K23_9]</Hit_def>
+  <Hit_accession>WP_145421920</Hit_accession>
+  <Hit_len>718</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>1.0731e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>588</Hsp_hit-from>
+      <Hsp_hit-to>686</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>MSWLLLGYLLHTTGELCLSPVGLSMVVRLSPPRIVSTTMGAWFLATAFSSYLAAIIATFTGV-GHGEEGGGIPVPAETVHVYGDVFGQIGVAAVASAVV</Hsp_qseq>
+      <Hsp_hseq>ISWLTLGILLQTTGELCLSPVGLSTMTKLSPKILVSTLMGAWFLATAFSQYLAAIISQFTSVGGHGGGGADLPAPKDTVHIYGDVFGSIAMTAIASGIL</Hsp_hseq>
+      <Hsp_midline>+SWL LG LL TTGELCLSPVGLS + +LSP  +VST MGAWFLATAFS YLAAII+ FT V GHG  G  +P P +TVH+YGDVFG I + A+AS ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_146398634.1|</Hit_id>
+  <Hit_def>MFS transporter [Planctomycetes bacterium CA13]</Hit_def>
+  <Hit_accession>WP_146398634</Hit_accession>
+  <Hit_len>672</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>8.92643e-29</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>556</Hsp_hit-from>
+      <Hsp_hit-to>652</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>WLLLGYLLHTTGELCLSPVGLSMVVRLSPPRIVSTTMGAWFLATAFSSYLAAIIATFTGVGHGEEGGG-IPVPAETVHVYGDVFGQIGVAAVASAVV</Hsp_qseq>
+      <Hsp_hseq>WLLLGYLFQTMGELCLSPVGLSTMTKLSPRHLVSTVMGGWFLATAFSQYLAAIISQLTGVSEGGDAGSVIPPPTETVSVYGGVFGTIAITAILSGAV</Hsp_hseq>
+      <Hsp_midline>WLLLGYL  T GELCLSPVGLS + +LSP  +VST MG WFLATAFS YLAAII+  TGV  G + G  IP P ETV VYG VFG I + A+ S  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_146454722.1|</Hit_id>
+  <Hit_def>MFS transporter [Rubripirellula tenax]</Hit_def>
+  <Hit_accession>WP_146454722</Hit_accession>
+  <Hit_len>712</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>2.72886e-28</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>592</Hsp_hit-from>
+      <Hsp_hit-to>691</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MSWLLLGYLLHTTGELCLSPVGLSMVVRLSPPRIVSTTMGAWFLATAFSSYLAAIIATFTGV--GHGEEGGGIPVPAETVHVYGDVFGQIGVAAVASAVV</Hsp_qseq>
+      <Hsp_hseq>IAWLTLGILLQTTGELCLSPVGLSTMTKLSPKVLVSTLMGAWFLATAFSQYLAAIISQFTSVGGHGGGSEGDFPSPLETVNVYGDVFKQIAFTAIASGVV</Hsp_hseq>
+      <Hsp_midline>++WL LG LL TTGELCLSPVGLS + +LSP  +VST MGAWFLATAFS YLAAII+ FT V    G   G  P P ETV+VYGDVF QI   A+AS VV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_146519554.1|</Hit_id>
+  <Hit_def>MFS transporter [Planctomycetes bacterium Pla52n]</Hit_def>
+  <Hit_accession>WP_146519554</Hit_accession>
+  <Hit_len>728</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>8.32995e-27</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>613</Hsp_hit-from>
+      <Hsp_hit-to>708</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MSWLLLGYLLHTTGELCLSPVGLSMVVRLSPPRIVSTTMGAWFLATAFSSYLAAIIATFTGVGHGEEGGGIPVPAETVHVYGDVFGQIGVAAVASAVV</Hsp_qseq>
+      <Hsp_hseq>MVWLLLMYLLLTTGELCLSPVGLSMITKLSPARLVSTVMGAWFLATAFSQFLAAIIAQFAAVNDG--GNFVPVPSKTVNIYGDVYFLVALMAIGSGVV</Hsp_hseq>
+      <Hsp_midline>M WLLL YLL TTGELCLSPVGLSM+ +LSP R+VST MGAWFLATAFS +LAAIIA F  V  G  G  +PVP++TV++YGDV+  + + A+ S VV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_145078152.1|</Hit_id>
+  <Hit_def>hypothetical protein [Planctomycetes bacterium Q31a]</Hit_def>
+  <Hit_accession>WP_145078152</Hit_accession>
+  <Hit_len>720</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>5.21365e-23</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>605</Hsp_hit-from>
+      <Hsp_hit-to>692</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>WLLLGYLLHTTGELCLSPVGLSMVVRLSPPRIVSTTMGAWFLATAFSSYLAAIIATFTGVGHGEEGGGIPVPAETVHVYGDVFGQIGVAA</Hsp_qseq>
+      <Hsp_hseq>WLLLMYLLLTTGELCLSPVGLSMVTKLTPAHLVSTVMGSWFLATAFAQFLAAIIAQYAVVNDG--GNVVPIPAETVNVYGDVYWLVAVMA</Hsp_hseq>
+      <Hsp_midline>WLLL YLL TTGELCLSPVGLSMV +L+P  +VST MG+WFLATAF+ +LAAIIA +  V  G  G  +P+PAETV+VYGDV+  + V A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>170471479</Statistics_db-num>
+      <Statistics_db-len>389654571</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>12</Iteration_iter-num>
+  <Iteration_query-ID>Query_62715</Iteration_query-ID>
+  <Iteration_query-def>HWI-M02942:21:000000000-ACNW4:1:1101:18140:2696_2</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>170471479</Statistics_db-num>
+      <Statistics_db-len>389654571</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

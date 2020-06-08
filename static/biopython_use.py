@@ -44,7 +44,7 @@ def data_printer(blast_record: Generator, e_value_thresh: Union[float, int] = 0.
 
 def bio_blaster(
         input_file: str, file_format: str, output_file: str, index: Optional[str] = None,
-        program: str = 'blastn', database: str = 'nr', gi_format: bool = True, size: int = 10
+        program: str = 'blastn', database: str = 'nr', matrix: str = 'BLOSUM45', gi_format: bool = True, size: int = 10
 ) -> None:
     """Blasting sort of automated.
     :param input_file: The file path which file contains a/the sequence that is to be blasted.
@@ -53,6 +53,7 @@ def bio_blaster(
     :param index: If the file contains multiple seqs and you want to analise 1 place its ref code here.
     :param program: What blast program to use.
     :param database: Which database to use.
+    :param matrix: What matrix to use.
     :param gi_format: Whether to request the gi_format.
     :param size: The amount of results to request.
     :return: None.
@@ -77,6 +78,7 @@ def bio_blaster(
             'nr', 'nt', 'refseq_rna', 'refseq_representative_genomes', 'refseq_genomes', 'wgs', 'est', 'SRA', 'TSA',
             'HTGS', 'pat', 'pdb', 'RefSeq_Gene', 'gss', 'dbsts'
         )
+    assert matrix in ("PAM30", "PAM70", "BLOSUM80", "BLOSUM45")
     assert size > 0
     if output_file[-4:] == '.xml':
         output_file = output_file[:-4]
@@ -95,7 +97,8 @@ def bio_blaster(
             record += record_dict[seq].format("fasta") + '\n'
     del record_dict
     result_handle = qblast(     # The actual blasting see print(help(qblast))
-        program=program, database=database, sequence=record, ncbi_gi=gi_format, hitlist_size=size, megablast=False
+        program=program, database=database, sequence=record, hitlist_size=size, matrix_name=matrix,
+        ncbi_gi=gi_format, megablast=False  # , results_file='/home/s_k_tiger/Downloads/testing.xml' what does this do?
     )
     with open(output_file + '.xml', "w") as out_handle:  # Saving the results
         out_handle.write(result_handle.read())
@@ -105,7 +108,7 @@ def bio_blaster(
 
 def biopython_use(
         result_loc: str, large_job: bool = True, input_file: Optional[str] = None, program: str = 'blastn',
-        database: str = 'nr', file_format: Optional[str] = None, index: Optional[str] = None,
+        database: str = 'nr', file_format: Optional[str] = None, index: Optional[str] = None, matrix: str = 'BLOSUM45',
         print_results: bool = False, e_value_thresh: Union[float, int] = 0.04
 ) -> None:
     """Getting and/or printing results.
@@ -116,6 +119,7 @@ def biopython_use(
     :param database: The database to use.
     :param file_format: The format of the input_file.
     :param index: If the file contains multiple seqs and you want to analise 1 place its ref code here.
+    :param matrix: What matrix to use.
     :param print_results: Whether to print the results.
     :param e_value_thresh: if print_results is True; Threshold of e_value above which the results are not printed.
     :return: None.
@@ -127,7 +131,7 @@ def biopython_use(
         from time import time, sleep, gmtime
         if result_loc[-1:] == '/':
             result_loc = result_loc[:-1]
-        result_loc += '/results13.xml'
+        result_loc += '/results.xml'
         # https://www.ncbi.nlm.nih.gov/books/NBK25497/#chapter2.Usage_Guidelines_and_Requiremen
         sleep(0.4)  # post no more than three URL requests per second
         if large_job:  # Limit large jobs to either weekends or in between 9:00 PM to 5:00 AM (EST).
@@ -160,7 +164,7 @@ def biopython_use(
         else:
             bio_blaster(
                 input_file=input_file, file_format=file_format, output_file=result_loc,
-                index=index, program=program, database=database
+                index=index, program=program, database=database, matrix=matrix
             )
     if print_results:
         # Bio = Biopython but Pycharm doesn't know.
