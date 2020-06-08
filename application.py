@@ -29,8 +29,9 @@ def website_home():
 @app.route('/resultaten.html', methods=["POST", "GET"])
 def resultaten():
     """
-
-    :return:
+    De resultaten pagina met de top 10 resultaten van de meest 
+    voorkomende organismen. 
+    :return: de resultaten pagina 
     """
     conn = mysql.connector.connect(host='hannl-hlo-bioinformatica'
                                         '-mysqlsrv.mysql.database'
